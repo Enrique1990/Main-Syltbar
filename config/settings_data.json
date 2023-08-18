@@ -251,7 +251,7 @@
       "page-header-tips": {
         "type": "page-header-tips",
         "custom_css": [
-
+          ".col-auto {left: 60px !important;}"
         ],
         "settings": {
           "image": "shopify:\/\/shop_images\/test_Compare_page_2.jpg",
