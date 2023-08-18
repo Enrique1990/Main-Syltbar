@@ -1,0 +1,94 @@
+<div class="page_header landing-mr-banner">
+  <div class="container  height_100 pb68">
+    <div class="row height_100 justify-content-start  align-items-center landing-mr-banner-row pb16">
+      <div class="col-12">
+           <div class="landing-mr-banner-wrap">
+        {% if section.settings.heading != blank %}
+          <h1 class="color-white ">{{ section.settings.heading }}
+          </h1>
+        {% endif %}
+        {% if section.settings.subheading != blank %}
+          <div class="color-white landing-mr-banner-subheading">{{ section.settings.subheading }}
+          </div>
+        {% endif %}
+   <div class="p26 landing-mr-banner-reviews">     
+{% assign card_product=section.settings.show_product_reviews %}
+
+              <a href="{{card_product.url}}" style="display:block;">
+                <span class="stamped-product-reviews-badge stamped-main-badge" data-id="{{ card_product.id }}" data-product-sku="{{ card_product.handle }}" data-product-type="{{card_product.type}}" data-product-title="{{card_product.title}}" style="display: inline-block; font-family: 'Montserrat'">{{ card_product.metafields.stamped.badge }}</span>
+              </a>
+             
+                    {% render 'card-product',
+                      show_product_reviews: section.settings.show_product_reviews
+                    %}
+   </div>
+             {% if section.settings.button_link != blank %}
+          <div class="pt26">
+            <a href="{{ section.settings.button_link }}" class="button_arrow_border btn button_arrow_border_white landing-mr-banner-button">{% include "button_arrow", title: section.settings.button_label %}
+            </a>
+          </div>
+        {% endif %}     
+        </div>
+      </div>
+    </div>
+  </div>
+  {% if section.settings.image != blank %}
+    <img src="{{ section.settings.image | img_url: "master" }}" class="desctop">
+  {% endif %}
+  {% assign image= section.settings.image %}
+  {% if section.settings.image_mob != blank %}
+    {% assign image= section.settings.image_mob %}
+  {% endif %}
+  <img src="{{ image | img_url: "master" }}" class="mobile">
+</div>
+
+
+{% schema %}
+  {
+    "name": "Landing-mr header",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mob",
+        "label": "Image mobile"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading"
+      },
+      {
+        "type": "product",
+        "id": "show_product_reviews",
+        "label": "t:sections.section-product-grid.settings.product.label"
+      },
+      {
+        "type": "text",
+        "id": "button_label",
+        "label": "t:sections.rich-text.blocks.button.settings.button_label.label"
+      }, 
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "t:sections.rich-text.blocks.button.settings.button_link.label"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Landing-mr header"
+      }
+    ]
+  }
+{% endschema %}

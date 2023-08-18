@@ -1,0 +1,117 @@
+.landing-reviews .container {
+  max-width: 1650px;
+}
+
+.landing-reviews-slider {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.landing-reviews-slider .swiper-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+    align-items: center;
+  height: auto!important;
+}
+.landing-reviews-slider .swiper-slide {
+  height: 100% !important;
+}
+
+
+.landing-reviews-slider .item_wrapper {
+  text-align: center;
+}
+.landing-reviews-slider .item_wrapper .h2 {
+  margin: 0;
+  padding-bottom: 6px;
+  color: #1F1704;
+}
+.landing-reviews-slider .item_wrapper .h3 {
+  margin: 0 auto;
+  max-width: 500px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #1F1704;
+  font-family: 'FuturaPT-Book', sans-serif;
+}
+.landing-reviews-slider .item_wrapper .h3 p {
+  margin: 0;
+    max-width: 500px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #1F1704;
+   font-family: 'FuturaPT-Book', sans-serif;
+}
+.landing-reviews-slider .item_wrapper .h6 {
+  color: #a4915c;
+  margin: 10px 0 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.landing-reviews-slider .item_wrapper .star {
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none;
+}
+.landing-reviews-slider .item_wrapper .star li {
+  display: inline-block;
+  color: #a4915c;
+  font-size: 14px;
+}
+
+.landing-reviews-heading {
+ font-family: CANELA-LIGHT,sans-serif;
+  font-weight: 300;
+  font-size: 58px;
+  line-height: 150%;
+  text-align: center;
+  color: #A4915C;
+}
+
+@media (max-width: 991px) {
+  .landing-reviews-heading {
+    font-size: 50px;
+  }
+}
+@media (max-width: 767px) {
+    .landing-reviews-slider .item_wrapper {
+    padding: 0;
+  }
+  .landing-reviews-slider {
+    padding-bottom: 28px;
+  }
+  .landing-reviews-slider .swiper-slider-button {
+    top: auto;
+    bottom: 0;
+  }
+  .landing-reviews-heading {
+    font-size: 45px;
+    line-height: 75%;
+  }
+}
+
+@media (max-width: 576px) {
+  .landing-reviews-slider .swiper.swiper-initialized {
+     height: 350px; 
+  }
+  .landing-reviews  {
+    padding: 0px;
+  }
+  .item.swiper-slide .item_wrapper p {
+    font-size: 22px;
+  }
+  .landing-reviews-slider .item_wrapper .h3 {
+    font-size: 22px;
+  }
+  .landing-reviews-heading {
+    font-size: 40px;
+  }
+}

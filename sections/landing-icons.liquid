@@ -1,0 +1,98 @@
+<div class="landing-icons center p110">
+    <div class="container">
+        {% if section.settings.heading != blank %}
+          <h2 class="landing-icons-heading pb16">{{ section.settings.heading }}
+          </h2>
+        {% endif %}
+        {% if section.settings.subheading != blank %}
+          <div class="landing-icons-subheading pb16">{{ section.settings.subheading }}
+          </div>
+        {% endif %}
+        <div class="landing-icons-wrap row pt26 pb42">
+          {% for block in section.blocks %}
+            <div class="col-12 col-lg-4">
+              <div class="item">
+                {% if block.settings.icon != blank %}
+                  <div class="item-icons pb10">
+                    <img src="{{  block.settings.icon | img_url: "medium" }}">
+                  </div>  
+                {% endif %}
+                {% if block.settings.title != blank %}
+                  <div class="item-title pb6">
+                   {{ block.settings.title }}
+                  </div>  
+                {% endif %}
+                {% if block.settings.subtitle != blank %}
+                  <div class="item-subtitle">
+                   {{ block.settings.subtitle }}
+                  </div>  
+                {% endif %}
+              </div>  
+            </div>  
+          {% endfor %}  
+        </div>  
+        {% if section.settings.logo != blank %}
+          <div class="landing-icons-logo pt10 pb10">
+            <img src="{{ section.settings.logo | img_url: "medium" }}">
+          </div>  
+        {% endif %}
+    </div>
+</div>  
+
+{% schema %}
+  {
+    "name": "Landing icons",
+    "settings": [
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo"
+      }
+    ],
+    "max_blocks": 3,
+    "blocks": [
+    {
+      "type": "item",
+      "name": "Item", 
+      "settings": [
+      {
+        "type": "image_picker",
+        "id": "icon",
+        "label": "Icon"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle"
+      }
+     ]
+     }
+    ],
+    "presets": [
+      {
+        "name": "Landing icons"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

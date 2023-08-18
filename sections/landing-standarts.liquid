@@ -1,0 +1,116 @@
+{{ 'landing-standards.css' | asset_url | stylesheet_tag }}
+<div class="landing_standards pb68 pt42">
+  {% if section.settings.section-title != blank %}
+    <p class="landing-blocks-text center pt16">{{ section.settings.section-title }}</p>
+  {% endif %}
+  <div class="container p16">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12 landing_standards_image">
+        {% if section.settings.imagebanner != blank %}
+          <img src="{{ section.settings.imagebanner | img_url: "master" }}">
+        {% endif %}
+    {% if section.settings.video != blank %}
+            <div class="landing_standards-video">
+              <video loop="loop" autoplay="autoplay" muted playsinline>
+                <source src="{{ section.settings.video }}">
+              </video>
+            </div>
+          {% endif %}
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 landing_standards_dann order-md-first p68">
+        <div class="landing_standards_dann_wrapper">
+        {% if section.settings.subtitle != blank %}<div class="subtitle h6">{{ section.settings.subtitle }}</div>{% endif %}
+        {% if section.settings.title != blank %}<h2>{{ section.settings.title }}</h2>{% endif %}
+        {% if section.blocks.size > 0 %} 
+        <div class="landing_standards_items">
+        {% for block in section.blocks %}
+            <div class="item">
+                <div class="item_title">
+                    {{ block.settings.title }}
+                    <i class="fal fa-plus"></i>
+                </div>
+                <div class="item_text">
+                    {{ block.settings.text }}
+          {% if block.settings.link-btn-st %}
+              <a href="{{ block.settings.link-btn-st }}" class="item-btn" style="text-decoration: underline;">
+                {{ block.settings.text-btn-st }}
+              </a>
+              {% endif %}
+                </div>             
+            </div>
+        {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Landing  Standards",
+  "tag": "section",
+  "class": "section",
+  "settings": [ 
+    {
+      "type": "text",
+      "id": "section-title",
+      "label": "Section title"
+    },
+  {
+    "type": "image_picker",
+    "id": "imagebanner",
+    "label": "Image"
+  }, 
+  {
+      "type": "html",
+      "id": "video",
+      "label": "Video"
+  },
+  {
+    "type": "text",
+    "id": "title", 
+    "label": "Title"
+  },
+  {
+    "type": "text",
+    "id": "subtitle", 
+    "label": "SubTitle"
+  }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item", 
+      "settings": [
+      {
+        "type": "text",
+        "id": "title", 
+        "label": "Title"
+      },
+      {
+        "type": "html",
+        "id": "text", 
+        "label": "Text"
+      },
+        {
+        "type": "text",
+        "id": "text-btn-st", 
+        "label": "Link title",
+        "default": "Learn more"
+      },
+        {
+        "type": "url",
+        "id": "link-btn-st", 
+        "label": "Link"
+      }
+      ]
+    } 
+  ],
+  "presets": [
+    {
+      "name": "Landing Standards"
+    }
+  ]
+}
+{% endschema %}
