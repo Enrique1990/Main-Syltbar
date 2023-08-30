@@ -1,1 +1,453 @@
-{"sections":{"52de9d57-5c78-4ce3-84d9-b6c63cfee766":{"type":"landing-mr-banner","settings":{"image":"shopify:\/\/shop_images\/image.jpg","image_mob":"shopify:\/\/shop_images\/mobile.jpg","heading":"Be smarter and enjoy life with less calories, sugar and sulfites","subheading":"Free Shipping on your first order!","show_product_reviews":"mr-syltbar-premium-prosecco","button_label":"Try it now","button_link":"https:\/\/syltbar.com\/products\/mr-syltbar-premium-prosecco"}},"57e88e33-ca5d-44f7-838f-8f639e254e84":{"type":"landing-icons","blocks":{"5dc7b3da-da7a-46f9-bc2d-af8b84efa9ad":{"type":"item","settings":{"icon":"shopify:\/\/shop_images\/Group_12555_e46c53ff-328f-4d17-bedc-706132773433.png","title":"Less calories","subtitle":"Sugar is lab-tested by the University of Miami Diabetes Research Institute."}},"03392d72-326a-4a03-ad05-f2d26a07a8a6":{"type":"item","settings":{"icon":"shopify:\/\/shop_images\/icon_co2_99167a3d-6eaf-453c-a502-0d7e56e1db77.png","title":"Full Transparency","subtitle":"Our bottles are sealed with their filling date on the back label."}},"f8285fae-e270-4b7c-aa92-49fe948390e1":{"type":"item","settings":{"icon":"shopify:\/\/shop_images\/icon3_a280536e-efb0-4636-aa20-0899d434e632.png","title":"No Additives","subtitle":"We are a family-owned vineyard and certified by the green project."}}},"block_order":["5dc7b3da-da7a-46f9-bc2d-af8b84efa9ad","03392d72-326a-4a03-ad05-f2d26a07a8a6","f8285fae-e270-4b7c-aa92-49fe948390e1"],"settings":{"heading":"SYLTBAR has been lab-tested by The University of Miami Diabetes Research Institute","subheading":"Mr and Mrs are proven to have the lowest sugar content when compared to many other name brands. That's only 2 Smart Points for WW (Weight Watchers), and absolutely Keto-friendly.","logo":"shopify:\/\/shop_images\/logo.png"}},"b844a322-ffbf-4510-a1b9-0771cd27c78c":{"type":"compare-sugar-1","blocks":{"d8fac9d3-9dfc-41d8-bb81-8104dbe74f8e":{"type":"bottle","settings":{"name":"Syltbar","image":"shopify:\/\/shop_images\/red01.png","glucose":166}},"215eeff5-c2a3-4c17-aafd-de3784ac5f69":{"type":"bottle","settings":{"name":"Zardetto","image":"shopify:\/\/shop_images\/red02.png","glucose":263}},"00e6cf1a-1383-44ee-950f-6af228368b06":{"type":"bottle","settings":{"name":"Chandon","image":"shopify:\/\/shop_images\/red03.png","glucose":375}},"a68d5544-f21d-47de-ba3a-d576eac27f94":{"type":"bottle","settings":{"name":"Santa   Margherita","image":"shopify:\/\/shop_images\/red04.png","glucose":381}},"fee594c0-02ba-4571-973f-84ce9e0f1bba":{"type":"bottle","settings":{"name":"Veuve Cliquot","image":"shopify:\/\/shop_images\/red05.png","glucose":410}},"75adda4f-9df1-4fbe-874d-c32b59d675df":{"type":"bottle","settings":{"name":"Mionetto","image":"shopify:\/\/shop_images\/red06.png","glucose":419}},"b3cbabc6-ed16-4a91-9200-b93711e2e6c0":{"type":"bottle","settings":{"name":"Moet & Chandon","image":"shopify:\/\/shop_images\/red07.png","glucose":426}},"a71d4375-9075-49bd-8eda-92e23d50259c":{"type":"bottle","settings":{"name":"La marca","image":"shopify:\/\/shop_images\/red08.png","glucose":661}},"a63631b1-ff5d-4368-b8bc-8e3b0e61a56d":{"type":"bottle","settings":{"name":"Ruffino","image":"shopify:\/\/shop_images\/red09.png","glucose":703}}},"block_order":["d8fac9d3-9dfc-41d8-bb81-8104dbe74f8e","215eeff5-c2a3-4c17-aafd-de3784ac5f69","00e6cf1a-1383-44ee-950f-6af228368b06","a68d5544-f21d-47de-ba3a-d576eac27f94","fee594c0-02ba-4571-973f-84ce9e0f1bba","75adda4f-9df1-4fbe-874d-c32b59d675df","b3cbabc6-ed16-4a91-9200-b93711e2e6c0","a71d4375-9075-49bd-8eda-92e23d50259c","a63631b1-ff5d-4368-b8bc-8e3b0e61a56d"],"settings":{"title":"Sparkling  Wine Sugar Comparison"}},"f8c4fe8a-5a08-4e25-9e57-ccead33aa436":{"type":"compare-sugar-2","blocks":{"1a60b86c-beb8-472b-9296-a6c09d72ed2d":{"type":"bottle","settings":{"name":"Syltbar","image":"shopify:\/\/shop_images\/rose01.png","glucose":186}},"974f42ea-7d7a-48ea-8a69-f7ccb8c34813":{"type":"bottle","settings":{"name":"Zonin","image":"shopify:\/\/shop_images\/rose02.png","glucose":345}},"af8a8752-267e-4c0e-83d8-88245f9194cd":{"type":"bottle","settings":{"name":"Graham<br>Beck","image":"shopify:\/\/shop_images\/rose03.png","glucose":398}},"caaffac6-47e8-47de-b704-9271ea6f0dd4":{"type":"bottle","settings":{"name":"Chandon","image":"shopify:\/\/shop_images\/red04_e94c6247-0364-4767-b4f8-06eccbd1b2c4.png","glucose":491}},"d4da9532-35bb-48d3-8318-2de41078cbb7":{"type":"bottle","settings":{"name":"Veuve<br>Cliquot","image":"shopify:\/\/shop_images\/rose05.png","glucose":510}},"7cbcba5d-2b79-45ae-a30e-48a89f3fa9c7":{"type":"bottle","settings":{"name":"Mionetto","image":"shopify:\/\/shop_images\/rose06.png","glucose":573}},"1238f4fc-f7d1-41f2-9026-47a80c938871":{"type":"bottle","settings":{"name":"Moet &<br>Chandon","image":"shopify:\/\/shop_images\/rose07.png","glucose":597}},"f35799ae-c58d-4e77-9d92-765bba3b31dd":{"type":"bottle","settings":{"name":"Anna Rose","image":"shopify:\/\/shop_images\/rose08.png","glucose":701}},"06dea945-177f-4ccb-a19f-c3354e56a032":{"type":"bottle","settings":{"name":"Ruffino","image":"shopify:\/\/shop_images\/rose09.png","glucose":702}}},"block_order":["1a60b86c-beb8-472b-9296-a6c09d72ed2d","974f42ea-7d7a-48ea-8a69-f7ccb8c34813","af8a8752-267e-4c0e-83d8-88245f9194cd","caaffac6-47e8-47de-b704-9271ea6f0dd4","d4da9532-35bb-48d3-8318-2de41078cbb7","7cbcba5d-2b79-45ae-a30e-48a89f3fa9c7","1238f4fc-f7d1-41f2-9026-47a80c938871","f35799ae-c58d-4e77-9d92-765bba3b31dd","06dea945-177f-4ccb-a19f-c3354e56a032"],"settings":{"title":"Sparkling Rose Wine Sugar Comparison"}},"ff7ec29b-5d1d-44dc-bc72-a79571d82749":{"type":"landing-image","blocks":{"3d819568-5f40-448c-804d-6e8167693442":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Wines.jpg"}}},"block_order":["3d819568-5f40-448c-804d-6e8167693442"],"settings":{}},"6a77dba6-5c8a-432c-ac4e-8d83d905ba8d":{"type":"landing-reviews","blocks":{"16a344f6-7316-408b-b01d-a895e1df552f":{"type":"item","settings":{"star":"5","title":"The Best!!!!","text":"We have thoroughly enjoyed drinking SYLTBAR, over the past 5 years. A Very Refreshing, low Sugar beverage that we enjoy year around Great Product, Great Company !!!! Thank You SYLTBAR","name":"DAVID H."}},"01644664-220e-43fc-81cc-6d0eb057927d":{"type":"item","settings":{"star":"5","title":"First Time Consumer","text":"Great - simple ordering and delivery process and enjoyed my first bottles of bubbles with friends. We discussed the next day that we felt good, not the typical headache and slow start and after drinking sparkling wine.","name":"jill w."}},"1c98a246-e8c0-4831-9a2d-ac3a77a806ce":{"type":"item","settings":{"star":"5","title":"Obsessed!","text":"I order this wine by the case. It's absolutely delicious - crisp, not too sweet. I have a bottle in my fridge at all times. I's just a plus that this is lower calories and less sugar than all other Prosecco's!","name":"Nicole W."}}},"block_order":["16a344f6-7316-408b-b01d-a895e1df552f","01644664-220e-43fc-81cc-6d0eb057927d","1c98a246-e8c0-4831-9a2d-ac3a77a806ce"],"settings":{"heading":"Reviews"}},"f7451605-3ccc-411a-bd24-88822d20c777":{"type":"landing-blocks","blocks":{"01d0f299-3c57-4495-8480-2c7bc759669b":{"type":"Blocks","settings":{"type":"right","small_image":"shopify:\/\/shop_images\/Frame_12700.png","image":"shopify:\/\/shop_images\/Frame_12701.png","title":"Less Sugar","text":"You’ll notice that the main benefit of our brand, and what we all attribute most, is its low sugar content. This is because of the four-month double fermentation process that our winemaker uses during production. That double fermentation is the secret to the low calories. There is no need to add anything more to the wine because the grapes have been fully developed."}},"540d4f2e-3533-4cf5-adc3-9e1883b4cc7d":{"type":"Blocks","settings":{"type":"left","small_image":"shopify:\/\/shop_images\/Frame_12703.png","image":"shopify:\/\/shop_images\/Frame_12702.png","title":"No Additives","text":"You may have noticed that our wine bottles carry the winery name. Most brands often skip the vineyard in order to save costs, and instead, the wines are produced by three main large corporations. We know that in order to maintain consistent quality, you need a family-owned-and-controlled vineyard with a commitment to nature. There are zero chemicals or preservatives added to our wine. It’s worth the extra effort."}},"556fd1ba-0ce7-4085-9903-76b26ecaaa84":{"type":"Blocks","settings":{"type":"right","small_image":"shopify:\/\/shop_images\/Frame_12705.png","image":"shopify:\/\/shop_images\/Frame_12704.png","title":"Full Transparency","text":"The Green Project certification, which you will find on each of our bottles, is a step above organic. It refers to a system of farming that works with the life force of Mother Nature to heal the earth by growing with nutrients and using clean water. Our wines stay in the tank long enough to self-stabilize. Most wine producers leave out this step in order to save time, which means that animal byproduct is then used for filtration. We never use any animal byproduct because we believe that wine should always be vegan."}}},"block_order":["01d0f299-3c57-4495-8480-2c7bc759669b","540d4f2e-3533-4cf5-adc3-9e1883b4cc7d","556fd1ba-0ce7-4085-9903-76b26ecaaa84"],"settings":{"heading":"3 Reasons Why Our Customers Are In Love With Mr. and Ms.","text":"Purity Makes The Best Wine","button_label":"shop now","button_link":"https:\/\/syltbar.com\/products\/mr-syltbar-premium-prosecco","image":"shopify:\/\/shop_images\/Purity_Wakes_The_Best_Wine.png"}},"967d364d-7366-41ad-b524-d20e7fd43fc4":{"type":"landing-standarts","blocks":{"9e330e1c-9f12-4f21-ba25-c2bd92a5524f":{"type":"item","settings":{"title":"What does our Lab Test stands for?","text":"The University of Miami Diabetes Research Institute actually conducted a test to compare the glucose levels with 80 sparkling wine brands, \nChampagne, Cavas and Prosecco and SYLTBAR was the winner to have the lowest sugar content because of the double fermentation process.","text-btn-st":"Learn more","link-btn-st":""}},"6be36857-840b-4236-b547-105a20814b8a":{"type":"item","settings":{"title":"How do you come up with the calories amount? ","text":"Not only is Mr and Mrs significantly lower in sugar content than other well known \nsparkling brands, but its calories is also largely different too. \nBy using the average alcohol and residual sugar levels with the formula (Volume (mL) * ABV * 8 * 7 calories\/gram) \/ 1000 <br><br>\n<div class=\"center\">\nHere is the broke down for Mr SYLTBAR<br><br>\n\n*Alcohol By Volume<br>\n*8 calories\/1 gram\/Sugar<br>\n*7 calories\/ 1 gram\/ <br>Alcohol\n166 :1000ml =0.166 x 7.5 = 1.25 x 4 = 4.98 : 4.24 = 1.18<br>\n661 :1000ml =0.661 x 7.5 = 4.96 x 4 = 19.84 : 4.24 = 4.68<br>\n4.68-1.18 = 3.5<br>\n177 x 11.5 x 7 x 3.5 = 49 calories<br>\nCalories in a 6 oz. ( 177 ml ) glass of wine<br><br>\n\n\nHere’s how they broke it down for Mrs SYLTBAR:<br><br>\n*Alcohol By Volume<br>\n*8 calories\/1 gram\/Sugar<br>\n*7 calories\/ 1 gram\/ Alcohol<br>\n186 :1000ml =0.186 x 7.5 = 1.40 x 4 = 5.58 : 4.24 = 1.32<br>\n812 :1000ml =0.812 x 7.5 = 6.09 x 4 = 24.36 : 4.24 = 5.75<br>\n5.75-1.32 = 4.4<br>\n177 x 11.5 x 7 x 4.4 = 63 calories<br>\nCalories in a 6 oz. ( 177 ml ) glass of wine. <\/div>","text-btn-st":"Learn more","link-btn-st":""}},"858ea37d-d49d-42c8-8c99-3c94ee5110aa":{"type":"item","settings":{"title":"DO YOU PRODUCE IN YOUR OWN VINEYARD? ","text":"Yes our winery San Simone founded in 1915 is located in Friuli\/ Italy very close to Venice. \nYou see the Name of our winery on each SYLTBAR bottle, what you don’t usually is not the case \nby many other Brands, you will only find the Brand name because this wines are mass produce by \nlarge wine manufactures with many additives.","text-btn-st":"Learn more","link-btn-st":""}},"46966ca0-c394-4223-b290-ce39403e4ca5":{"type":"item","settings":{"title":"DOES SYLTBAR WINES CONTAINS SULFITES? ","text":"Sulfites are a natural byproduct because of the soil, but we don’t add sulfites to extend the shelf life time. \nOur Mr and Mrs even carry the filing date on the back label to guarantee to have the freshest \njuice in the market, we don’t produce in bulks to reduce cost to comprise on quality. \nWine can legally have up to 350ppm of sulfites, our wines rank from 25-43ppm depending on the harvest.","text-btn-st":"Learn more","link-btn-st":""}},"e9b90220-2e6f-4e37-a64e-3a9d5d3897ce":{"type":"item","settings":{"title":"IS SYLTBAR VEGAN? ","text":"Yes, our wines stay in the tank long enough to self-stabilize with the slow \nsedimentation of these particles. We don’t use any egg white, gelatin and fish \nbladder.","text-btn-st":"Learn more","link-btn-st":""}},"bf864220-782b-4e99-90d9-b43b788fb99e":{"type":"item","settings":{"title":"IS SYLTBAR GLUTEN-FREE? ","text":"Yes, all SYLTBAR wines are gluten free. Our own harvest grape are gluten-free and \nwith our 100% natural winemaking process there is not need introduction of gluten.","text-btn-st":"Learn more","link-btn-st":""}},"e4876901-a381-4675-a23d-99958c83063b":{"type":"item","settings":{"title":"IS SYLTBAR ORGANIC? ","text":"On each SYLTBAR bottle you will find on the back label the green project one step above Organic. \nThis is a set of actions, behaviors and procedures that have been put forward to contribute to \nenvironmental sustainability of our business, what starts with the soil ! Our water doesn’t include any \nmetals, for example copper or lead.","text-btn-st":"Learn more","link-btn-st":""}},"c4fbc8f7-d0c9-40ac-9f4b-2f8765c73ec4":{"type":"item","settings":{"title":"HOW MUCH ALCOHOL CONTENT IN SYLTBAR WINES? ","text":"Most Proseccos will have around 11% ABV. \nSYLTBAR has 11.5% because our winery is using a much longer fermentation time in compare to mass produced Prosecco’s or Sparkling Rose to \navoid to add the sugar. Our still wines contain 13% ABV because they are Vintage wines.","text-btn-st":"Learn more","link-btn-st":""}},"13b4c725-c06b-4640-b411-e1df77a176eb":{"type":"item","settings":{"title":"CANI DRINK SYLTBAR WHILE I’M ON A KETOGENIC OR LOW-CARB DIET?","text":"You absolutely can! The Keto diet is a very low-carb, high-fat diet and is restricted to be under 20 grams of carbs a day. \nWeight Watchers gave SYLTBAR only 2 Smart Points!","text-btn-st":"Learn more","link-btn-st":""}}},"block_order":["9e330e1c-9f12-4f21-ba25-c2bd92a5524f","6be36857-840b-4236-b547-105a20814b8a","858ea37d-d49d-42c8-8c99-3c94ee5110aa","46966ca0-c394-4223-b290-ce39403e4ca5","e9b90220-2e6f-4e37-a64e-3a9d5d3897ce","bf864220-782b-4e99-90d9-b43b788fb99e","e4876901-a381-4675-a23d-99958c83063b","c4fbc8f7-d0c9-40ac-9f4b-2f8765c73ec4","13b4c725-c06b-4640-b411-e1df77a176eb"],"settings":{"section-title":"Your Happy Healthy Daily Juice","video":"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/251e307e25254be2a9112aeb27060474.mov","title":"FAQ","subtitle":""}}},"order":["52de9d57-5c78-4ce3-84d9-b6c63cfee766","57e88e33-ca5d-44f7-838f-8f639e254e84","b844a322-ffbf-4510-a1b9-0771cd27c78c","f8c4fe8a-5a08-4e25-9e57-ccead33aa436","ff7ec29b-5d1d-44dc-bc72-a79571d82749","6a77dba6-5c8a-432c-ac4e-8d83d905ba8d","f7451605-3ccc-411a-bd24-88822d20c777","967d364d-7366-41ad-b524-d20e7fd43fc4"]}
+{
+  "sections": {
+    "52de9d57-5c78-4ce3-84d9-b6c63cfee766": {
+      "type": "landing-mr-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image.jpg",
+        "image_mob": "shopify:\/\/shop_images\/mobile.jpg",
+        "heading": "Be smarter and enjoy life with less calories, sugar and sulfites",
+        "subheading": "Free Shipping on your first order!",
+        "show_product_reviews": "mr-syltbar-premium-prosecco",
+        "button_label": "Try it now",
+        "button_link": "shopify:\/\/collections"
+      }
+    },
+    "57e88e33-ca5d-44f7-838f-8f639e254e84": {
+      "type": "landing-icons",
+      "blocks": {
+        "5dc7b3da-da7a-46f9-bc2d-af8b84efa9ad": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_12555_e46c53ff-328f-4d17-bedc-706132773433.png",
+            "title": "Less calories",
+            "subtitle": "Sugar is lab-tested by the University of Miami Diabetes Research Institute."
+          }
+        },
+        "03392d72-326a-4a03-ad05-f2d26a07a8a6": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon_co2_99167a3d-6eaf-453c-a502-0d7e56e1db77.png",
+            "title": "Full Transparency",
+            "subtitle": "Our bottles are sealed with their filling date on the back label."
+          }
+        },
+        "f8285fae-e270-4b7c-aa92-49fe948390e1": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon3_a280536e-efb0-4636-aa20-0899d434e632.png",
+            "title": "No Additives",
+            "subtitle": "We are a family-owned vineyard and certified by the green project."
+          }
+        }
+      },
+      "block_order": [
+        "5dc7b3da-da7a-46f9-bc2d-af8b84efa9ad",
+        "03392d72-326a-4a03-ad05-f2d26a07a8a6",
+        "f8285fae-e270-4b7c-aa92-49fe948390e1"
+      ],
+      "settings": {
+        "heading": "SYLTBAR has been lab-tested by The University of Miami Diabetes Research Institute",
+        "subheading": "Mr and Mrs are proven to have the lowest sugar content when compared to many other name brands. That's only 2 Smart Points for WW (Weight Watchers), and absolutely Keto-friendly.",
+        "logo": "shopify:\/\/shop_images\/logo.png"
+      }
+    },
+    "b844a322-ffbf-4510-a1b9-0771cd27c78c": {
+      "type": "compare-sugar-1",
+      "blocks": {
+        "d8fac9d3-9dfc-41d8-bb81-8104dbe74f8e": {
+          "type": "bottle",
+          "settings": {
+            "name": "Syltbar",
+            "image": "shopify:\/\/shop_images\/red01.png",
+            "glucose": 166
+          }
+        },
+        "215eeff5-c2a3-4c17-aafd-de3784ac5f69": {
+          "type": "bottle",
+          "settings": {
+            "name": "Zardetto",
+            "image": "shopify:\/\/shop_images\/red02.png",
+            "glucose": 263
+          }
+        },
+        "00e6cf1a-1383-44ee-950f-6af228368b06": {
+          "type": "bottle",
+          "settings": {
+            "name": "Chandon",
+            "image": "shopify:\/\/shop_images\/red03.png",
+            "glucose": 375
+          }
+        },
+        "a68d5544-f21d-47de-ba3a-d576eac27f94": {
+          "type": "bottle",
+          "settings": {
+            "name": "Santa   Margherita",
+            "image": "shopify:\/\/shop_images\/red04.png",
+            "glucose": 381
+          }
+        },
+        "fee594c0-02ba-4571-973f-84ce9e0f1bba": {
+          "type": "bottle",
+          "settings": {
+            "name": "Veuve Cliquot",
+            "image": "shopify:\/\/shop_images\/red05.png",
+            "glucose": 410
+          }
+        },
+        "75adda4f-9df1-4fbe-874d-c32b59d675df": {
+          "type": "bottle",
+          "settings": {
+            "name": "Mionetto",
+            "image": "shopify:\/\/shop_images\/red06.png",
+            "glucose": 419
+          }
+        },
+        "b3cbabc6-ed16-4a91-9200-b93711e2e6c0": {
+          "type": "bottle",
+          "settings": {
+            "name": "Moet & Chandon",
+            "image": "shopify:\/\/shop_images\/red07.png",
+            "glucose": 426
+          }
+        },
+        "a71d4375-9075-49bd-8eda-92e23d50259c": {
+          "type": "bottle",
+          "settings": {
+            "name": "La marca",
+            "image": "shopify:\/\/shop_images\/red08.png",
+            "glucose": 661
+          }
+        },
+        "a63631b1-ff5d-4368-b8bc-8e3b0e61a56d": {
+          "type": "bottle",
+          "settings": {
+            "name": "Ruffino",
+            "image": "shopify:\/\/shop_images\/red09.png",
+            "glucose": 703
+          }
+        }
+      },
+      "block_order": [
+        "d8fac9d3-9dfc-41d8-bb81-8104dbe74f8e",
+        "215eeff5-c2a3-4c17-aafd-de3784ac5f69",
+        "00e6cf1a-1383-44ee-950f-6af228368b06",
+        "a68d5544-f21d-47de-ba3a-d576eac27f94",
+        "fee594c0-02ba-4571-973f-84ce9e0f1bba",
+        "75adda4f-9df1-4fbe-874d-c32b59d675df",
+        "b3cbabc6-ed16-4a91-9200-b93711e2e6c0",
+        "a71d4375-9075-49bd-8eda-92e23d50259c",
+        "a63631b1-ff5d-4368-b8bc-8e3b0e61a56d"
+      ],
+      "settings": {
+        "title": "Sparkling  Wine Sugar Comparison"
+      }
+    },
+    "f8c4fe8a-5a08-4e25-9e57-ccead33aa436": {
+      "type": "compare-sugar-2",
+      "blocks": {
+        "1a60b86c-beb8-472b-9296-a6c09d72ed2d": {
+          "type": "bottle",
+          "settings": {
+            "name": "Syltbar",
+            "image": "shopify:\/\/shop_images\/rose01.png",
+            "glucose": 186
+          }
+        },
+        "974f42ea-7d7a-48ea-8a69-f7ccb8c34813": {
+          "type": "bottle",
+          "settings": {
+            "name": "Zonin",
+            "image": "shopify:\/\/shop_images\/rose02.png",
+            "glucose": 345
+          }
+        },
+        "af8a8752-267e-4c0e-83d8-88245f9194cd": {
+          "type": "bottle",
+          "settings": {
+            "name": "Graham<br>Beck",
+            "image": "shopify:\/\/shop_images\/rose03.png",
+            "glucose": 398
+          }
+        },
+        "caaffac6-47e8-47de-b704-9271ea6f0dd4": {
+          "type": "bottle",
+          "settings": {
+            "name": "Chandon",
+            "image": "shopify:\/\/shop_images\/red04_e94c6247-0364-4767-b4f8-06eccbd1b2c4.png",
+            "glucose": 491
+          }
+        },
+        "d4da9532-35bb-48d3-8318-2de41078cbb7": {
+          "type": "bottle",
+          "settings": {
+            "name": "Veuve<br>Cliquot",
+            "image": "shopify:\/\/shop_images\/rose05.png",
+            "glucose": 510
+          }
+        },
+        "7cbcba5d-2b79-45ae-a30e-48a89f3fa9c7": {
+          "type": "bottle",
+          "settings": {
+            "name": "Mionetto",
+            "image": "shopify:\/\/shop_images\/rose06.png",
+            "glucose": 573
+          }
+        },
+        "1238f4fc-f7d1-41f2-9026-47a80c938871": {
+          "type": "bottle",
+          "settings": {
+            "name": "Moet &<br>Chandon",
+            "image": "shopify:\/\/shop_images\/rose07.png",
+            "glucose": 597
+          }
+        },
+        "f35799ae-c58d-4e77-9d92-765bba3b31dd": {
+          "type": "bottle",
+          "settings": {
+            "name": "Anna Rose",
+            "image": "shopify:\/\/shop_images\/rose08.png",
+            "glucose": 701
+          }
+        },
+        "06dea945-177f-4ccb-a19f-c3354e56a032": {
+          "type": "bottle",
+          "settings": {
+            "name": "Ruffino",
+            "image": "shopify:\/\/shop_images\/rose09.png",
+            "glucose": 702
+          }
+        }
+      },
+      "block_order": [
+        "1a60b86c-beb8-472b-9296-a6c09d72ed2d",
+        "974f42ea-7d7a-48ea-8a69-f7ccb8c34813",
+        "af8a8752-267e-4c0e-83d8-88245f9194cd",
+        "caaffac6-47e8-47de-b704-9271ea6f0dd4",
+        "d4da9532-35bb-48d3-8318-2de41078cbb7",
+        "7cbcba5d-2b79-45ae-a30e-48a89f3fa9c7",
+        "1238f4fc-f7d1-41f2-9026-47a80c938871",
+        "f35799ae-c58d-4e77-9d92-765bba3b31dd",
+        "06dea945-177f-4ccb-a19f-c3354e56a032"
+      ],
+      "settings": {
+        "title": "Sparkling Rose Wine Sugar Comparison"
+      }
+    },
+    "ff7ec29b-5d1d-44dc-bc72-a79571d82749": {
+      "type": "landing-image",
+      "blocks": {
+        "3d819568-5f40-448c-804d-6e8167693442": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wines.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "3d819568-5f40-448c-804d-6e8167693442"
+      ],
+      "settings": {
+      }
+    },
+    "6a77dba6-5c8a-432c-ac4e-8d83d905ba8d": {
+      "type": "landing-reviews",
+      "blocks": {
+        "16a344f6-7316-408b-b01d-a895e1df552f": {
+          "type": "item",
+          "settings": {
+            "star": "5",
+            "title": "The Best!!!!",
+            "text": "We have thoroughly enjoyed drinking SYLTBAR, over the past 5 years. A Very Refreshing, low Sugar beverage that we enjoy year around Great Product, Great Company !!!! Thank You SYLTBAR",
+            "name": "DAVID H."
+          }
+        },
+        "01644664-220e-43fc-81cc-6d0eb057927d": {
+          "type": "item",
+          "settings": {
+            "star": "5",
+            "title": "First Time Consumer",
+            "text": "Great - simple ordering and delivery process and enjoyed my first bottles of bubbles with friends. We discussed the next day that we felt good, not the typical headache and slow start and after drinking sparkling wine.",
+            "name": "jill w."
+          }
+        },
+        "1c98a246-e8c0-4831-9a2d-ac3a77a806ce": {
+          "type": "item",
+          "settings": {
+            "star": "5",
+            "title": "Obsessed!",
+            "text": "I order this wine by the case. It's absolutely delicious - crisp, not too sweet. I have a bottle in my fridge at all times. I's just a plus that this is lower calories and less sugar than all other Prosecco's!",
+            "name": "Nicole W."
+          }
+        }
+      },
+      "block_order": [
+        "16a344f6-7316-408b-b01d-a895e1df552f",
+        "01644664-220e-43fc-81cc-6d0eb057927d",
+        "1c98a246-e8c0-4831-9a2d-ac3a77a806ce"
+      ],
+      "settings": {
+        "heading": "Reviews"
+      }
+    },
+    "f7451605-3ccc-411a-bd24-88822d20c777": {
+      "type": "landing-blocks",
+      "blocks": {
+        "01d0f299-3c57-4495-8480-2c7bc759669b": {
+          "type": "Blocks",
+          "settings": {
+            "type": "right",
+            "small_image": "shopify:\/\/shop_images\/Frame_12700.png",
+            "image": "shopify:\/\/shop_images\/Frame_12701.png",
+            "title": "Less Sugar",
+            "text": "You’ll notice that the main benefit of our brand, and what we all attribute most, is its low sugar content. This is because of the four-month double fermentation process that our winemaker uses during production. That double fermentation is the secret to the low calories. There is no need to add anything more to the wine because the grapes have been fully developed."
+          }
+        },
+        "540d4f2e-3533-4cf5-adc3-9e1883b4cc7d": {
+          "type": "Blocks",
+          "settings": {
+            "type": "left",
+            "small_image": "shopify:\/\/shop_images\/Frame_12703.png",
+            "image": "shopify:\/\/shop_images\/Frame_12702.png",
+            "title": "No Additives",
+            "text": "You may have noticed that our wine bottles carry the winery name. Most brands often skip the vineyard in order to save costs, and instead, the wines are produced by three main large corporations. We know that in order to maintain consistent quality, you need a family-owned-and-controlled vineyard with a commitment to nature. There are zero chemicals or preservatives added to our wine. It’s worth the extra effort."
+          }
+        },
+        "556fd1ba-0ce7-4085-9903-76b26ecaaa84": {
+          "type": "Blocks",
+          "settings": {
+            "type": "right",
+            "small_image": "shopify:\/\/shop_images\/Frame_12705.png",
+            "image": "shopify:\/\/shop_images\/Frame_12704.png",
+            "title": "Full Transparency",
+            "text": "The Green Project certification, which you will find on each of our bottles, is a step above organic. It refers to a system of farming that works with the life force of Mother Nature to heal the earth by growing with nutrients and using clean water. Our wines stay in the tank long enough to self-stabilize. Most wine producers leave out this step in order to save time, which means that animal byproduct is then used for filtration. We never use any animal byproduct because we believe that wine should always be vegan."
+          }
+        }
+      },
+      "block_order": [
+        "01d0f299-3c57-4495-8480-2c7bc759669b",
+        "540d4f2e-3533-4cf5-adc3-9e1883b4cc7d",
+        "556fd1ba-0ce7-4085-9903-76b26ecaaa84"
+      ],
+      "settings": {
+        "heading": "3 Reasons Why Our Customers Are In Love With Mr. and Ms.",
+        "text": "Purity Makes The Best Wine",
+        "button_label": "shop now",
+        "button_link": "https:\/\/syltbar.com\/products\/mr-syltbar-premium-prosecco",
+        "image": "shopify:\/\/shop_images\/Purity_Wakes_The_Best_Wine.png"
+      }
+    },
+    "967d364d-7366-41ad-b524-d20e7fd43fc4": {
+      "type": "landing-standarts",
+      "blocks": {
+        "9e330e1c-9f12-4f21-ba25-c2bd92a5524f": {
+          "type": "item",
+          "settings": {
+            "title": "What does our Lab Test stands for?",
+            "text": "The University of Miami Diabetes Research Institute actually conducted a test to compare the glucose levels with 80 sparkling wine brands, \nChampagne, Cavas and Prosecco and SYLTBAR was the winner to have the lowest sugar content because of the double fermentation process.",
+            "text-btn-st": "Learn more",
+            "link-btn-st": ""
+          }
+        },
+        "6be36857-840b-4236-b547-105a20814b8a": {
+          "type": "item",
+          "settings": {
+            "title": "How do you come up with the calories amount? ",
+            "text": "Not only is Mr and Mrs significantly lower in sugar content than other well known \nsparkling brands, but its calories is also largely different too. \nBy using the average alcohol and residual sugar levels with the formula (Volume (mL) * ABV * 8 * 7 calories\/gram) \/ 1000 <br><br>\n<div class=\"center\">\nHere is the broke down for Mr SYLTBAR<br><br>\n\n*Alcohol By Volume<br>\n*8 calories\/1 gram\/Sugar<br>\n*7 calories\/ 1 gram\/ <br>Alcohol\n166 :1000ml =0.166 x 7.5 = 1.25 x 4 = 4.98 : 4.24 = 1.18<br>\n661 :1000ml =0.661 x 7.5 = 4.96 x 4 = 19.84 : 4.24 = 4.68<br>\n4.68-1.18 = 3.5<br>\n177 x 11.5 x 7 x 3.5 = 49 calories<br>\nCalories in a 6 oz. ( 177 ml ) glass of wine<br><br>\n\n\nHere’s how they broke it down for Mrs SYLTBAR:<br><br>\n*Alcohol By Volume<br>\n*8 calories\/1 gram\/Sugar<br>\n*7 calories\/ 1 gram\/ Alcohol<br>\n186 :1000ml =0.186 x 7.5 = 1.40 x 4 = 5.58 : 4.24 = 1.32<br>\n812 :1000ml =0.812 x 7.5 = 6.09 x 4 = 24.36 : 4.24 = 5.75<br>\n5.75-1.32 = 4.4<br>\n177 x 11.5 x 7 x 4.4 = 63 calories<br>\nCalories in a 6 oz. ( 177 ml ) glass of wine. <\/div>",
+            "text-btn-st": "Learn more",
+            "link-btn-st": ""
+          }
+        },
+        "858ea37d-d49d-42c8-8c99-3c94ee5110aa": {
+          "type": "item",
+          "settings": {
+            "title": "DO YOU PRODUCE IN YOUR OWN VINEYARD? ",
+            "text": "Yes our winery San Simone founded in 1915 is located in Friuli\/ Italy very close to Venice. \nYou see the Name of our winery on each SYLTBAR bottle, what you don’t usually is not the case \nby many other Brands, you will only find the Brand name because this wines are mass produce by \nlarge wine manufactures with many additives.",
+            "text-btn-st": "Learn more",
+            "link-btn-st": ""
+          }
+        },
+        "46966ca0-c394-4223-b290-ce39403e4ca5": {
+          "type": "item",
+          "settings": {
+            "title": "DOES SYLTBAR WINES CONTAINS SULFITES? ",
+            "text": "Sulfites are a natural byproduct because of the soil, but we don’t add sulfites to extend the shelf life time. \nOur Mr and Mrs even carry the filing date on the back label to guarantee to have the freshest \njuice in the market, we don’t produce in bulks to reduce cost to comprise on quality. \nWine can legally have up to 350ppm of sulfites, our wines rank from 25-43ppm depending on the harvest.",
+            "text-btn-st": "Learn more",
+            "link-btn-st": ""
+          }
+        },
+        "e9b90220-2e6f-4e37-a64e-3a9d5d3897ce": {
+          "type": "item",
+          "settings": {
+            "title": "IS SYLTBAR VEGAN? ",
+            "text": "Yes, our wines stay in the tank long enough to self-stabilize with the slow \nsedimentation of these particles. We don’t use any egg white, gelatin and fish \nbladder.",
+            "text-btn-st": "Learn more",
+            "link-btn-st": ""
+          }
+        },
+        "bf864220-782b-4e99-90d9-b43b788fb99e": {
+          "type": "item",
+          "settings": {
+            "title": "IS SYLTBAR GLUTEN-FREE? ",
+            "text": "Yes, all SYLTBAR wines are gluten free. Our own harvest grape are gluten-free and \nwith our 100% natural winemaking process there is not need introduction of gluten.",
+            "text-btn-st": "Learn more",
+            "link-btn-st": ""
+          }
+        },
+        "e4876901-a381-4675-a23d-99958c83063b": {
+          "type": "item",
+          "settings": {
+            "title": "IS SYLTBAR ORGANIC? ",
+            "text": "On each SYLTBAR bottle you will find on the back label the green project one step above Organic. \nThis is a set of actions, behaviors and procedures that have been put forward to contribute to \nenvironmental sustainability of our business, what starts with the soil ! Our water doesn’t include any \nmetals, for example copper or lead.",
+            "text-btn-st": "Learn more",
+            "link-btn-st": ""
+          }
+        },
+        "c4fbc8f7-d0c9-40ac-9f4b-2f8765c73ec4": {
+          "type": "item",
+          "settings": {
+            "title": "HOW MUCH ALCOHOL CONTENT IN SYLTBAR WINES? ",
+            "text": "Most Proseccos will have around 11% ABV. \nSYLTBAR has 11.5% because our winery is using a much longer fermentation time in compare to mass produced Prosecco’s or Sparkling Rose to \navoid to add the sugar. Our still wines contain 13% ABV because they are Vintage wines.",
+            "text-btn-st": "Learn more",
+            "link-btn-st": ""
+          }
+        },
+        "13b4c725-c06b-4640-b411-e1df77a176eb": {
+          "type": "item",
+          "settings": {
+            "title": "CANI DRINK SYLTBAR WHILE I’M ON A KETOGENIC OR LOW-CARB DIET?",
+            "text": "You absolutely can! The Keto diet is a very low-carb, high-fat diet and is restricted to be under 20 grams of carbs a day. \nWeight Watchers gave SYLTBAR only 2 Smart Points!",
+            "text-btn-st": "Learn more",
+            "link-btn-st": ""
+          }
+        }
+      },
+      "block_order": [
+        "9e330e1c-9f12-4f21-ba25-c2bd92a5524f",
+        "6be36857-840b-4236-b547-105a20814b8a",
+        "858ea37d-d49d-42c8-8c99-3c94ee5110aa",
+        "46966ca0-c394-4223-b290-ce39403e4ca5",
+        "e9b90220-2e6f-4e37-a64e-3a9d5d3897ce",
+        "bf864220-782b-4e99-90d9-b43b788fb99e",
+        "e4876901-a381-4675-a23d-99958c83063b",
+        "c4fbc8f7-d0c9-40ac-9f4b-2f8765c73ec4",
+        "13b4c725-c06b-4640-b411-e1df77a176eb"
+      ],
+      "settings": {
+        "section-title": "Your Happy Healthy Daily Juice",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/251e307e25254be2a9112aeb27060474.mov",
+        "title": "FAQ",
+        "subtitle": ""
+      }
+    }
+  },
+  "order": [
+    "52de9d57-5c78-4ce3-84d9-b6c63cfee766",
+    "57e88e33-ca5d-44f7-838f-8f639e254e84",
+    "b844a322-ffbf-4510-a1b9-0771cd27c78c",
+    "f8c4fe8a-5a08-4e25-9e57-ccead33aa436",
+    "ff7ec29b-5d1d-44dc-bc72-a79571d82749",
+    "6a77dba6-5c8a-432c-ac4e-8d83d905ba8d",
+    "f7451605-3ccc-411a-bd24-88822d20c777",
+    "967d364d-7366-41ad-b524-d20e7fd43fc4"
+  ]
+}
