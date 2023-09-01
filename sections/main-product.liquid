@@ -463,20 +463,21 @@
                               {{ 'products.product.sold_out' | t }}
                             {%- endif -%}
                           </button>
-                          <p>
+
+                          {% if product.metafields.custom.preorder_confirmation %}
+                            <p class="pdp-date-text">{{ product.metafields.product.preorder_text }}</p>
+                          {% endif %}
+                          <p style="max-width: 300px; margin: 0 auto;">
                             Need it to fast ?
                             <a
                               style="
-                                                              text-decoration: underline; font-weight: bold; transition: all 0.3s ease; max-width: 300px; text-align: center;
+                                                              text-decoration: underline; font-weight: bold; transition: all 0.3s ease;
                               "
                               href="https://syltbar.com/pages/where-to-find-syltbar-retailers"
                               >Find SYLTBAR</a
                             >
                             in store.
                           </p>
-                          {% if product.metafields.custom.preorder_confirmation %}
-                            <p class="pdp-date-text">{{ product.metafields.product.preorder_text }}</p>
-                          {% endif %}
                         </div>
                       </div>
                       {% if product.metafields.custom.gift_code_text != blank %}
