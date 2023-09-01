@@ -1,3 +1,15 @@
+<style>
+  .p-text {
+    margin-left: -14%;
+  }
+
+  @media (max-width: 768px) {
+    .p-text {
+      margin-left: -28%;
+    }
+  }
+</style>
+
 {{ 'product.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
@@ -467,14 +479,14 @@
                           {% if product.metafields.custom.preorder_confirmation %}
                             <p class="pdp-date-text">{{ product.metafields.product.preorder_text }}</p>
                           {% endif %}
-                          <p style="max-width: 300px;">
-                            Need it today ?
+                          <p class="p-text">
+                            Do you need your SYLTBAR today ?,
                             <a
                               style="text-decoration: underline; font-weight: bold; transition: all 0.3s ease;"
                               href="https://syltbar.com/pages/where-to-find-syltbar-retailers"
-                              >Find SYLTBAR</a
+                              >Click</a
                             >
-                            in store.
+                            where to find it.
                           </p>
                         </div>
                       </div>
