@@ -12,16 +12,36 @@
     },
     "c0b33aed-d534-4b29-b540-f113dd6fefeb": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"klaviyo-form-SmDkDE\"><\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "acdfb624-0136-4e46-90ee-707fe18b3a77": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Subscribe",
+        "collection": "single-bottles",
+        "products_to_show": 6,
+        "card_format": "4",
+        "card_format_mob": "6",
+        "show_view_all": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_rating": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "bg_color": "",
+        "sect_class": ""
+      }
     }
   },
   "order": [
     "main",
-    "c0b33aed-d534-4b29-b540-f113dd6fefeb"
+    "c0b33aed-d534-4b29-b540-f113dd6fefeb",
+    "acdfb624-0136-4e46-90ee-707fe18b3a77"
   ]
 }
