@@ -25,7 +25,7 @@
       "settings": {
         "title": "Subscribe",
         "collection": "wine-club-singles",
-        "products_to_show": 6,
+        "products_to_show": 8,
         "card_format": "4",
         "card_format_mob": "6",
         "show_view_all": true,
