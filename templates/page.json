@@ -22,6 +22,7 @@
     },
     "acdfb624-0136-4e46-90ee-707fe18b3a77": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Subscribe",
         "collection": "wine-club-singles",
