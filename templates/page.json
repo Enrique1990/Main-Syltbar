@@ -24,7 +24,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Subscribe",
-        "collection": "single-bottles",
+        "collection": "wine-club-singles",
         "products_to_show": 6,
         "card_format": "4",
         "card_format_mob": "6",
