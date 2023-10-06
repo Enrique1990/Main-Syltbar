@@ -401,6 +401,15 @@
       "settings": {
         "title": "Sparkling Rose Wine Sugar Comparison"
       }
+    },
+    "ca15a112-cfc2-42d2-a93c-e2816c301a32": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "All Essentials",
+        "url": "shopify:\/\/collections\/shop-all",
+        "urltitle": "shop All",
+        "show_secondary_image": true
+      }
     }
   },
   "order": [
@@ -414,6 +423,7 @@
     "0e32cc5d-1235-424f-97f7-ea637cf7fc14",
     "16df4f05-9ccb-4a17-b989-093974616835",
     "09e05d45-a589-4c77-a176-3cdf1281ce08",
-    "1ca0fb1c-0dcc-4b30-a701-2ed9ebf63c7b"
+    "1ca0fb1c-0dcc-4b30-a701-2ed9ebf63c7b",
+    "ca15a112-cfc2-42d2-a93c-e2816c301a32"
   ]
 }
