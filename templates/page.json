@@ -453,6 +453,40 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "80c5c2a9-cb51-47de-971f-b6d52688d614": {
+      "type": "section-products-grid",
+      "blocks": {
+        "b79382a5-0502-4ca2-88bd-2d21ade5c857": {
+          "type": "product",
+          "settings": {
+            "addproduct": "syltbar-original-pinot-grigio-ramato-2019-junior-white-wine"
+          }
+        },
+        "2ff05454-9942-4c2b-81da-6468f89a4632": {
+          "type": "product",
+          "settings": {
+            "addproduct": "syltbar-cabernet-franc-2019-cashmere-red-wine"
+          }
+        },
+        "0dd7dbac-a109-42a2-8b80-be929b77e933": {
+          "type": "product",
+          "settings": {
+            "addproduct": "mr-syltbar-premium-prosecco"
+          }
+        }
+      },
+      "block_order": [
+        "b79382a5-0502-4ca2-88bd-2d21ade5c857",
+        "2ff05454-9942-4c2b-81da-6468f89a4632",
+        "0dd7dbac-a109-42a2-8b80-be929b77e933"
+      ],
+      "settings": {
+        "title": "",
+        "show_secondary_image": false,
+        "urlbanner": "",
+        "btnname": ""
+      }
     }
   },
   "order": [
@@ -469,6 +503,7 @@
     "09e05d45-a589-4c77-a176-3cdf1281ce08",
     "1ca0fb1c-0dcc-4b30-a701-2ed9ebf63c7b",
     "ca15a112-cfc2-42d2-a93c-e2816c301a32",
-    "16966192843c287e5f"
+    "16966192843c287e5f",
+    "80c5c2a9-cb51-47de-971f-b6d52688d614"
   ]
 }
