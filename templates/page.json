@@ -407,9 +407,9 @@
       "type": "product-recommendations",
       "settings": {
         "heading": "All Essentials",
-        "url": "shopify:\/\/collections\/all",
+        "url": "shopify:\/\/collections\/shop-all",
         "urltitle": "shop All",
-        "show_secondary_image": true
+        "show_secondary_image": false
       }
     },
     "16966192843c287e5f": {
