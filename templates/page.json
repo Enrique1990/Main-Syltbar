@@ -18,10 +18,29 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "ce053750-86f6-4702-8c8a-b505cfa89371": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "wine-club-singles",
+        "products_to_show": 6,
+        "card_format": "4",
+        "card_format_mob": "6",
+        "show_view_all": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_rating": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "bg_color": "",
+        "sect_class": ""
+      }
     }
   },
   "order": [
     "main",
-    "c0b33aed-d534-4b29-b540-f113dd6fefeb"
+    "c0b33aed-d534-4b29-b540-f113dd6fefeb",
+    "ce053750-86f6-4702-8c8a-b505cfa89371"
   ]
 }
