@@ -67,12 +67,72 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "907cbdae-63b1-4274-8c98-54b4d6f0947c": {
+      "type": "text-image",
+      "blocks": {
+        "b14e9760-88f4-4974-92f0-b36b6ccf310d": {
+          "type": "block",
+          "settings": {
+            "title": "Inventory assurance",
+            "text": "We guarantee delivery with your subscription, because we produce 100% natural to avoid additives and that is why you don’t find our Brand everywhere. We produce only in small batches to assure our standard. "
+          }
+        },
+        "125d6355-be6e-440e-b423-0a84f4eaeb7e": {
+          "type": "block",
+          "settings": {
+            "title": "Personal customer service",
+            "text": "Get personalized customer service from our team, Yanelis Redero, Giselle Arana\nand Louise Hudson, who really care about you and you know you're talking to a real person."
+          }
+        },
+        "4259ebda-4963-4264-8caf-251ebb2b93ed": {
+          "type": "block",
+          "settings": {
+            "title": "Member pricing",
+            "text": "Receive the highest amount of savings with 10% off and complimentary shipping. We never offer deals; we think you should receive your favorite wines whenever you want it. On top of that, you also receive 10% off each additional order and on all other accessories."
+          }
+        },
+        "f3270039-32d1-4e1e-917f-4017eef52775": {
+          "type": "block",
+          "settings": {
+            "title": "Insider Tips",
+            "text": "Knowledge is key. We are happy to spend our valuable time education \nyou if you have questions or want to scoop on the behind-the-scenes."
+          }
+        },
+        "36df3907-5021-4e4f-b1ff-8a2baa3f0597": {
+          "type": "block",
+          "settings": {
+            "title": "On the house",
+            "text": "Receive one bottle of Mr on the house when you visit our restaurant customer, Nobu, at any of the US locations ( except Caesar Palace and Paris in Las Vegas ). Simply send us the receipt from your Nobu dinner and use the same credit card that you have saved on file for your wine club membership along with a screenshoot of a post on social media with you and Mr, tagging @SYLTBAR. We will credit the amount for one Mr bottle for your next wine club shipment."
+          }
+        },
+        "158f507c-cde9-4d96-8508-aa2c90f59607": {
+          "type": "block",
+          "settings": {
+            "title": "Winery visit",
+            "text": "We are always transparent in our wine production, which is why we welcome wine club members to discover our winery, San Simone, when you travel to Italy\/Friuli ( very close to Venice ). This visit will also include an authentic Italian lunch."
+          }
+        }
+      },
+      "block_order": [
+        "b14e9760-88f4-4974-92f0-b36b6ccf310d",
+        "125d6355-be6e-440e-b423-0a84f4eaeb7e",
+        "4259ebda-4963-4264-8caf-251ebb2b93ed",
+        "f3270039-32d1-4e1e-917f-4017eef52775",
+        "36df3907-5021-4e4f-b1ff-8a2baa3f0597",
+        "158f507c-cde9-4d96-8508-aa2c90f59607"
+      ],
+      "settings": {
+        "title": "",
+        "text": ""
+      }
     }
   },
   "order": [
     "main",
     "c0b33aed-d534-4b29-b540-f113dd6fefeb",
     "ce053750-86f6-4702-8c8a-b505cfa89371",
-    "16966109232c6d876d"
+    "16966109232c6d876d",
+    "907cbdae-63b1-4274-8c98-54b4d6f0947c"
   ]
 }
