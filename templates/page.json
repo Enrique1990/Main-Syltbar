@@ -45,7 +45,7 @@
           "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/bundles-widget\/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
             "product": "custom-wine-club",
-            "rb_theme_color": "#00C09E",
+            "rb_theme_color": "#00c09e",
             "rb_theme_text": "#ffffff",
             "rb_theme_other_text": "#283965",
             "rb_theme_bg": "#ffffff",
@@ -410,6 +410,30 @@
         "urltitle": "shop All",
         "show_secondary_image": true
       }
+    },
+    "16966192843c287e5f": {
+      "type": "apps",
+      "blocks": {
+        "d82d08e1-c631-49e0-99dd-39ccd1d7a9c8": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "take_questions": 10,
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "d82d08e1-c631-49e0-99dd-39ccd1d7a9c8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -424,6 +448,7 @@
     "16df4f05-9ccb-4a17-b989-093974616835",
     "09e05d45-a589-4c77-a176-3cdf1281ce08",
     "1ca0fb1c-0dcc-4b30-a701-2ed9ebf63c7b",
-    "ca15a112-cfc2-42d2-a93c-e2816c301a32"
+    "ca15a112-cfc2-42d2-a93c-e2816c301a32",
+    "16966192843c287e5f"
   ]
 }
