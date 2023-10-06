@@ -165,6 +165,43 @@
       ],
       "settings": {
       }
+    },
+    "d3d8b305-45e8-4adc-9952-c77fe48a6595": {
+      "type": "product-ingredients",
+      "blocks": {
+        "5532ac33-314e-470d-b970-e0cf52df08a9": {
+          "type": "item",
+          "settings": {
+            "ico": "shopify:\/\/shop_images\/Group_12555.png",
+            "title": "Sugar is your Enemy",
+            "text": "<p>The University of Miami Diabetes Research Institute tested sparkling wines and found SYLTBAR has the lowest sugar content.<\/p>"
+          }
+        },
+        "7837d615-edcf-4292-a1ae-2793e6408abc": {
+          "type": "item",
+          "settings": {
+            "ico": "shopify:\/\/shop_images\/leaf_icon_1.png",
+            "title": "Our Extra Effort",
+            "text": "<p>Despite the fact that we are not vegan, our wine is vegan. The majority of wines are not vegan or even vegetarian-friendly. <\/p>"
+          }
+        },
+        "6b78db5d-a9f6-4ed4-b901-7ee242326534": {
+          "type": "item",
+          "settings": {
+            "ico": "shopify:\/\/shop_images\/Group_12617.png",
+            "title": "Respect for Nature",
+            "text": "<p>The Green Project certification, found on each of our bottles, is a step above organic in respect of Mother Nature. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5532ac33-314e-470d-b970-e0cf52df08a9",
+        "7837d615-edcf-4292-a1ae-2793e6408abc",
+        "6b78db5d-a9f6-4ed4-b901-7ee242326534"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -173,6 +210,7 @@
     "ce053750-86f6-4702-8c8a-b505cfa89371",
     "16966109232c6d876d",
     "907cbdae-63b1-4274-8c98-54b4d6f0947c",
-    "3cb4e4bc-280e-4f71-9381-29ab5188dedf"
+    "3cb4e4bc-280e-4f71-9381-29ab5188dedf",
+    "d3d8b305-45e8-4adc-9952-c77fe48a6595"
   ]
 }
