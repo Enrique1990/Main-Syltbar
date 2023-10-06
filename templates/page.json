@@ -202,6 +202,205 @@
       "settings": {
         "title": ""
       }
+    },
+    "0e32cc5d-1235-424f-97f7-ea637cf7fc14": {
+      "type": "image-block",
+      "settings": {
+        "ico": "shopify:\/\/shop_images\/New_wine_club.jpg",
+        "parallax": false
+      }
+    },
+    "16df4f05-9ccb-4a17-b989-093974616835": {
+      "type": "product-sugar",
+      "disabled": true,
+      "settings": {
+        "ico": "shopify:\/\/shop_images\/Finally_Red.png",
+        "title": "",
+        "url": "",
+        "urltitle": "Read More"
+      }
+    },
+    "09e05d45-a589-4c77-a176-3cdf1281ce08": {
+      "type": "compare-sugar-1",
+      "blocks": {
+        "80eb2367-d96b-4df9-8e91-bc8b355237d5": {
+          "type": "bottle",
+          "settings": {
+            "name": "Syltbar",
+            "image": "shopify:\/\/shop_images\/red01.png",
+            "glucose": 166
+          }
+        },
+        "37248150-10a7-4d89-9ca5-c83221e38991": {
+          "type": "bottle",
+          "settings": {
+            "name": "Zardetto",
+            "image": "shopify:\/\/shop_images\/red02.png",
+            "glucose": 263
+          }
+        },
+        "83c98d56-33b4-412a-acbe-6e9d92ce076a": {
+          "type": "bottle",
+          "settings": {
+            "name": "Chandon",
+            "image": "shopify:\/\/shop_images\/red03.png",
+            "glucose": 375
+          }
+        },
+        "faf10c1a-76df-467e-af38-744c6b6cbac5": {
+          "type": "bottle",
+          "settings": {
+            "name": "Santa   Margherita",
+            "image": "shopify:\/\/shop_images\/red04.png",
+            "glucose": 381
+          }
+        },
+        "09d86380-3e6c-4bd7-a1e3-e5657c45a70d": {
+          "type": "bottle",
+          "settings": {
+            "name": "Veuve  Cliquot",
+            "image": "shopify:\/\/shop_images\/red05.png",
+            "glucose": 410
+          }
+        },
+        "393855e4-f9fc-41a1-87b0-9457c6bf623c": {
+          "type": "bottle",
+          "settings": {
+            "name": "Mionetto",
+            "image": "shopify:\/\/shop_images\/red06.png",
+            "glucose": 419
+          }
+        },
+        "792fc98b-6594-4379-bdbf-f178e82238e5": {
+          "type": "bottle",
+          "settings": {
+            "name": "Moet & Chandon",
+            "image": "shopify:\/\/shop_images\/red07.png",
+            "glucose": 426
+          }
+        },
+        "e9a07ee3-0314-4e4b-a322-d8d5d4127559": {
+          "type": "bottle",
+          "settings": {
+            "name": "La marca",
+            "image": "shopify:\/\/shop_images\/red08.png",
+            "glucose": 661
+          }
+        },
+        "a90330b5-8f26-4b48-b554-b24a8231e9fb": {
+          "type": "bottle",
+          "settings": {
+            "name": "Ruffino",
+            "image": "shopify:\/\/shop_images\/red09.png",
+            "glucose": 703
+          }
+        }
+      },
+      "block_order": [
+        "80eb2367-d96b-4df9-8e91-bc8b355237d5",
+        "37248150-10a7-4d89-9ca5-c83221e38991",
+        "83c98d56-33b4-412a-acbe-6e9d92ce076a",
+        "faf10c1a-76df-467e-af38-744c6b6cbac5",
+        "09d86380-3e6c-4bd7-a1e3-e5657c45a70d",
+        "393855e4-f9fc-41a1-87b0-9457c6bf623c",
+        "792fc98b-6594-4379-bdbf-f178e82238e5",
+        "e9a07ee3-0314-4e4b-a322-d8d5d4127559",
+        "a90330b5-8f26-4b48-b554-b24a8231e9fb"
+      ],
+      "settings": {
+        "title": "Sparkling  Wine Sugar Comparison"
+      }
+    },
+    "1ca0fb1c-0dcc-4b30-a701-2ed9ebf63c7b": {
+      "type": "compare-sugar-2",
+      "blocks": {
+        "113bc1f1-119a-4c54-a4b2-dd4e3b45f027": {
+          "type": "bottle",
+          "settings": {
+            "name": "Syltbar",
+            "image": "shopify:\/\/shop_images\/rose01.png",
+            "glucose": 186
+          }
+        },
+        "44cf2920-e0a1-47c5-a4b0-c17a6194c6d7": {
+          "type": "bottle",
+          "settings": {
+            "name": "Zonin",
+            "image": "shopify:\/\/shop_images\/rose02.png",
+            "glucose": 345
+          }
+        },
+        "3870c5d5-2d9b-48f1-af66-ba636f2130dd": {
+          "type": "bottle",
+          "settings": {
+            "name": "Graham Beck",
+            "image": "shopify:\/\/shop_images\/rose03.png",
+            "glucose": 398
+          }
+        },
+        "313c2d2f-2b7e-4d55-83a4-14787efb668c": {
+          "type": "bottle",
+          "settings": {
+            "name": "Chandon",
+            "image": "shopify:\/\/shop_images\/rose04.png",
+            "glucose": 491
+          }
+        },
+        "10cbfdaa-1700-4231-8ce8-8bcdfb4f8327": {
+          "type": "bottle",
+          "settings": {
+            "name": "VeuveCliquot",
+            "image": "shopify:\/\/shop_images\/rose05.png",
+            "glucose": 510
+          }
+        },
+        "ba7f3742-9d63-48f6-ad38-305116b36b11": {
+          "type": "bottle",
+          "settings": {
+            "name": "Mionetto",
+            "image": "shopify:\/\/shop_images\/rose06.png",
+            "glucose": 573
+          }
+        },
+        "e487dea6-a65c-4157-a813-940b7bf8d461": {
+          "type": "bottle",
+          "settings": {
+            "name": "Moet &Chandon",
+            "image": "shopify:\/\/shop_images\/rose07.png",
+            "glucose": 597
+          }
+        },
+        "8b68fa7c-e931-4f0c-99fc-42bf11994230": {
+          "type": "bottle",
+          "settings": {
+            "name": "Anna Rose",
+            "image": "shopify:\/\/shop_images\/rose08.png",
+            "glucose": 701
+          }
+        },
+        "f30e514c-37dc-4ace-b4cc-e1da75db2423": {
+          "type": "bottle",
+          "settings": {
+            "name": "Ruffino",
+            "image": "shopify:\/\/shop_images\/rose09.png",
+            "glucose": 702
+          }
+        }
+      },
+      "block_order": [
+        "113bc1f1-119a-4c54-a4b2-dd4e3b45f027",
+        "44cf2920-e0a1-47c5-a4b0-c17a6194c6d7",
+        "3870c5d5-2d9b-48f1-af66-ba636f2130dd",
+        "313c2d2f-2b7e-4d55-83a4-14787efb668c",
+        "10cbfdaa-1700-4231-8ce8-8bcdfb4f8327",
+        "ba7f3742-9d63-48f6-ad38-305116b36b11",
+        "e487dea6-a65c-4157-a813-940b7bf8d461",
+        "8b68fa7c-e931-4f0c-99fc-42bf11994230",
+        "f30e514c-37dc-4ace-b4cc-e1da75db2423"
+      ],
+      "settings": {
+        "title": "Sparkling Rose Wine Sugar Comparison"
+      }
     }
   },
   "order": [
@@ -211,6 +410,10 @@
     "16966109232c6d876d",
     "907cbdae-63b1-4274-8c98-54b4d6f0947c",
     "3cb4e4bc-280e-4f71-9381-29ab5188dedf",
-    "d3d8b305-45e8-4adc-9952-c77fe48a6595"
+    "d3d8b305-45e8-4adc-9952-c77fe48a6595",
+    "0e32cc5d-1235-424f-97f7-ea637cf7fc14",
+    "16df4f05-9ccb-4a17-b989-093974616835",
+    "09e05d45-a589-4c77-a176-3cdf1281ce08",
+    "1ca0fb1c-0dcc-4b30-a701-2ed9ebf63c7b"
   ]
 }
