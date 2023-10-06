@@ -39,6 +39,24 @@
         "sect_class": ""
       }
     },
+    "88f0bd43-3855-48b3-93ea-a7b80b420066": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "single-bottles",
+        "products_to_show": 6,
+        "card_format": "4",
+        "card_format_mob": "6",
+        "show_view_all": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_rating": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "bg_color": "",
+        "sect_class": ""
+      }
+    },
     "16966109232c6d876d": {
       "type": "apps",
       "blocks": {
@@ -441,6 +459,7 @@
     "main",
     "c0b33aed-d534-4b29-b540-f113dd6fefeb",
     "ce053750-86f6-4702-8c8a-b505cfa89371",
+    "88f0bd43-3855-48b3-93ea-a7b80b420066",
     "16966109232c6d876d",
     "907cbdae-63b1-4274-8c98-54b4d6f0947c",
     "3cb4e4bc-280e-4f71-9381-29ab5188dedf",
