@@ -19799,7 +19799,10 @@ select.rb-select {
 .rb-bundle-title {
   padding-top: 10%;
 }
-select.rb-select  span {
-
+#selling-plan-list span {
+  height: 40px; /* Change the height to your preferred value */
+  /* You may also need to adjust padding and line-height for proper alignment */
+  padding: 5px; /* Adjust padding as needed */
+  line-height: 30px; /* Adjust line-height as needed */
 }
   
