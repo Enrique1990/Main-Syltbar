@@ -19773,7 +19773,8 @@
     width: 60px;
   }   
 }
-@media screen and (min-width: 48em)
-.rb-app {
+@media screen and (min-width: 48em) {
+  .rb-app {
     --rb-item-width: calc(100% / 3) !important;
+}
 }
