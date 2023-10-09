@@ -19797,8 +19797,6 @@ select.rb-select {
   color: #ffffff !important;
 }
 select.rb-select  span {
-  padding-bottom: 2px;
-  margin-bottom: 2px;
-  color: red
+
 }
   
