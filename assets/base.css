@@ -19796,8 +19796,7 @@ select.rb-select {
   background-color: #A4915C !important;
   color: #ffffff !important;
 }
-.rb-bundle-title {
-  padding-top: 10%;
-}
-
+.rb-select[data-v-c0bcd8] {
+  color: blue
+} 
   
