@@ -19796,6 +19796,9 @@ select.rb-select {
   background-color: #A4915C !important;
   color: #ffffff !important;
 }
+.rb-bundle-title {
+  padding-top: 10%;
+}
 select.rb-select  span {
 
 }
