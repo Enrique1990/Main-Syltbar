@@ -58,6 +58,20 @@
         "sect_class": ""
       }
     },
+    "cdb7075e-0cfd-401e-94e7-f680d4e6b816": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".wine_container {padding-left: 15%; text-align: left;}",
+        ".wine_container h1 {font-size: 52px;}",
+        ".wine_container ul {font-size: 18px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"wine_container\">\n   <h1>Wine Club Advantages<\/h1>\n  <ul>\n   <li>Thank you for your interest in our Wine Club!<\/li>\n<br>\n<li>You are about to have 100% naturally produced wine shipped directly to you from our winery, on your own schedule.<\/li>\n<br>\n<li>Simply choose the variety, quantity, frequency of shipping (4, 6 or 8 weeks) with a 12 bottle minimum.<\/li>\n<br>\n<li>Important benefits (See Details Below):<\/li>\n<li>- Highest level of savings 10% off, including complimentary shipping<\/li>\n<li>-Inventory assurance<\/liv>\n<li>- Personal customer service <\/li>\n<li>- Winery visit in Friuli, Italy<\/li>\n<li>- Complimentary bottle of Mr at all US locations of Nobu Restaurant<\/li>\n<li>- Winery visit in Italy, Friuli <\/li>\n<br>\n<li>If you have questions, we are here for you 7 days a week. Contact us at\n\natyourservice@syltbar.com or call 754\/200-6086<\/li>\n\n<li><\/li>\n\n<\/ul\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16966109232c6d876d": {
       "type": "apps",
       "blocks": {
@@ -86,44 +100,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "228085c8-a918-4338-b389-f4bcbfd1ef84": {
-      "type": "rich-text",
-      "blocks": {
-        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Wine Club Subscription",
-            "heading_size": "h2"
-          }
-        },
-        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Thank you for your interest in our Wine Club!<\/p><p>You are about to have 100% naturally produced wine shipped directly to you from our winery, on your own schedule.<\/p><p>Simply choose the variety, quantity, frequency of shipping (4, 6 or 8 weeks) with a 12 bottle minimum.<\/p><p>Important benefits <a href=\"https:\/\/syltbar.com\/products\/syltbar-wine-club?selling_plan=389972023#seeDetailsBelow\">(See Details Below)<\/a>:<\/p><ul><li>Highest level of savings 10% off, including complimentary shipping<\/li><li>Inventory assurance <\/li><li>Personal customer service <\/li><li>Winery visit in Friuli, Italy<\/li><li>Complimentary bottle of Mr at all US locations of Nobu Restaurant<\/li><li>Winery visit in Italy, Friuli <\/li><\/ul><p>Looking for a <a href=\"https:\/\/syltbar.com\/products\/custom-wine-club\">Custom Wine Club?<\/a><\/p><p>If you have questions, we are here for you 7 days a week. Contact us at<\/p><p><a href=\"mailto:atyourservice@syltbar.com%20\">atyourservice@syltbar.com<\/a> or call <a href=\"tel:7542006086\">754\/200-6086<\/a><\/p>"
-          }
-        },
-        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-heading-1",
-        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-text-1",
-        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-button-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "bg_color": "",
-        "sect_class": ""
       }
     },
     "907cbdae-63b1-4274-8c98-54b4d6f0947c": {
@@ -535,8 +511,8 @@
     "c0b33aed-d534-4b29-b540-f113dd6fefeb",
     "ce053750-86f6-4702-8c8a-b505cfa89371",
     "88f0bd43-3855-48b3-93ea-a7b80b420066",
+    "cdb7075e-0cfd-401e-94e7-f680d4e6b816",
     "16966109232c6d876d",
-    "228085c8-a918-4338-b389-f4bcbfd1ef84",
     "907cbdae-63b1-4274-8c98-54b4d6f0947c",
     "3cb4e4bc-280e-4f71-9381-29ab5188dedf",
     "d3d8b305-45e8-4adc-9952-c77fe48a6595",
