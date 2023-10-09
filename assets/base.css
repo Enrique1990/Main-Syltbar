@@ -19800,9 +19800,8 @@ select.rb-select {
   padding-top: 10%;
 }
 #selling-plan-list span {
-  height: 40px; /* Change the height to your preferred value */
-  /* You may also need to adjust padding and line-height for proper alignment */
-  padding: 5px; /* Adjust padding as needed */
-  line-height: 30px; /* Adjust line-height as needed */
+  height: 40px !important;
+  padding: 5px !important;
+  line-height: 30px !important;
 }
   
