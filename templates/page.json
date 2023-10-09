@@ -490,6 +490,43 @@
         "urlbanner": "",
         "btnname": ""
       }
+    },
+    "228085c8-a918-4338-b389-f4bcbfd1ef84": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wine Club Subscription",
+            "heading_size": "h2"
+          }
+        },
+        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thank you for your interest in our Wine Club!<\/p><p>You are about to have 100% naturally produced wine shipped directly to you from our winery, on your own schedule.<\/p><p>Simply choose the variety, quantity, frequency of shipping (4, 6 or 8 weeks) with a 12 bottle minimum.<\/p><p>Important benefits <a href=\"https:\/\/syltbar.com\/products\/syltbar-wine-club?selling_plan=389972023#seeDetailsBelow\">(See Details Below)<\/a>:<\/p><ul><li>Highest level of savings 10% off, including complimentary shipping<\/li><li>Inventory assurance <\/li><li>Personal customer service <\/li><li>Winery visit in Friuli, Italy<\/li><li>Complimentary bottle of Mr at all US locations of Nobu Restaurant<\/li><li>Winery visit in Italy, Friuli <\/li><\/ul><p>Looking for a <a href=\"https:\/\/syltbar.com\/products\/custom-wine-club\">Custom Wine Club?<\/a><\/p><p>If you have questions, we are here for you 7 days a week. Contact us at<\/p><p><a href=\"mailto:atyourservice@syltbar.com%20\">atyourservice@syltbar.com<\/a> or call <a href=\"tel:7542006086\">754\/200-6086<\/a><\/p>"
+          }
+        },
+        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-heading-1",
+        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-text-1",
+        "template--14555803975735__228085c8-a918-4338-b389-f4bcbfd1ef84-button-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "bg_color": "",
+        "sect_class": ""
+      }
     }
   },
   "order": [
@@ -507,6 +544,7 @@
     "1ca0fb1c-0dcc-4b30-a701-2ed9ebf63c7b",
     "ca15a112-cfc2-42d2-a93c-e2816c301a32",
     "16966192843c287e5f",
-    "80c5c2a9-cb51-47de-971f-b6d52688d614"
+    "80c5c2a9-cb51-47de-971f-b6d52688d614",
+    "228085c8-a918-4338-b389-f4bcbfd1ef84"
   ]
 }
