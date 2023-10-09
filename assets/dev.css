@@ -519,7 +519,7 @@ blockquote {
   padding-top: 68px;
 }
 .pt110 {
-  padding-top: 68px;
+     padding-top: 30px;
 }
 .pt178 {
   padding-top: 178px;
@@ -5571,4 +5571,7 @@ details.cart-notes.deatils-slide-animation summary::-webkit-details-marker {
 .landing-mr-banner-reviews .stamped-main-badge,
 .landing-mr-banner-reviews .stamped-badge {
   cursor: inherit !important;
+}
+.content-for-layout {
+  padding-top: 3%;
 }
