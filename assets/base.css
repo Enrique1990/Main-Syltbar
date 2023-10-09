@@ -19796,7 +19796,7 @@ select.rb-select {
   background-color: #A4915C !important;
   color: #ffffff !important;
 }
-select  span {
+select.rb-select  span {
   padding-bottom: 2px;
   margin-bottom: 2px;
 }
