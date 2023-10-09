@@ -19802,10 +19802,10 @@ select.rb-select {
 select.rb-select option {
     font-family: FontAwesome;
     position: relative;
-  padding-bottom: 2px;
+  padding-bottom: 2px !important;
     z-index: 1;
     right: 5px;
     top: 6px;
-  min-height: 100px;
+  min-height: 100px !important;
 }
   
