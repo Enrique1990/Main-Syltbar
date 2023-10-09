@@ -19800,7 +19800,7 @@ select.rb-select {
   padding-top: 10%;
 }
 select.rb-select option {
-    /* font-family: FontAwesome; */
+    font-family: FontAwesome;
     position: relative;
   padding-bottom: 2px !important;
     z-index: 1;
