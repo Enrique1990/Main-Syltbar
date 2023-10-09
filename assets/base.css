@@ -19787,12 +19787,12 @@ select.rb-select {
 }   
 
 .rb-btn{
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     border: 1px solid var(--rb-btn-bg);
-    color: #A4915C;
+    color: #A4915C !importtant;
 }
 .rb-btn:hover {
-  background-color: #A4915C;
-  color: #ffffff;
+  background-color: #A4915C !importtant;
+  color: #ffffff !importtant;
 }
   
