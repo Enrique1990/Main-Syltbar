@@ -91,7 +91,7 @@
     "cdb7075e-0cfd-401e-94e7-f680d4e6b816": {
       "type": "custom-liquid",
       "custom_css": [
-        ".wine_container {padding-left: 15%; text-align: center;}",
+        ".wine_container {text-align: center;}",
         ".wine_container h1 {font-size: 52px;}",
         ".wine_container ul {font-size: 18px;}"
       ],
