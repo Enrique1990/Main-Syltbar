@@ -19799,7 +19799,9 @@ select.rb-select {
 .rb-bundle-title {
   padding-top: 10%;
 }
-select.rb-select option:before {
+select.rb-select option:before,
+select.rb-select option:after
+{
     font-family: FontAwesome;
     position: relative;
   padding-bottom: 2px !important;
