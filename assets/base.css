@@ -19778,3 +19778,10 @@
     --rb-item-width: calc(100% / 3) !important;
 }
 }
+select.rb-select {
+    max-height: 6vh;
+    height: 6vh;
+    padding-left: 1rem;
+    max-width: 11vw;
+  border: 1px solid #A4915C;
+}   
