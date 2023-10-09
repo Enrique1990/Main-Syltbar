@@ -19785,3 +19785,14 @@ select.rb-select {
     max-width: 11vw;
   /* border: 1px solid #A4915C !important; */
 }   
+
+.rb-btn{
+    background-color: #ffffff;
+    border: 1px solid var(--rb-btn-bg);
+    color: #A4915C;
+}
+.rb-btn:hover {
+  background-color: #A4915C;
+  color: #ffffff;
+}
+  
