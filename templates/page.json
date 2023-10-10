@@ -60,6 +60,7 @@
     },
     "cdb7075e-0cfd-401e-94e7-f680d4e6b816": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".wine_container {text-align: center; color: rgb(113 100 31);}",
         ".wine_container h1 {font-size: 52px;}",
