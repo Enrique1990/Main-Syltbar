@@ -5566,6 +5566,10 @@ details.cart-notes.deatils-slide-animation summary::-webkit-details-marker {
   .landing-blocks-image img {
     min-height: 400px;
   }
+  .contact_block_dann .h2 {
+    margin-top: -120px;
+    color: #fff;
+  }
 }
 
 .landing-mr-banner-reviews .stamped-main-badge,
