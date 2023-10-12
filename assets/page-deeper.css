@@ -97,4 +97,15 @@
   .page-deeper .page-deeper_title {
     font-size: 38px;
   }
+  .page-deeper__custom {
+    margin-top: 30px;
+  }
+  .page-deeper__custom .order-md-first{
+    position: static;
+  }
+  .page-deeper__custom h5.color_gold{
+    position: absolute;
+    font-size: 40px;
+    top: -68px;
+  }
 }
