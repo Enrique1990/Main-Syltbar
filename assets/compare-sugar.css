@@ -261,7 +261,7 @@ font-size: 38px;
     padding-bottom: 38px;
   }
 }
-#shopify-section-compare-sugar-banner {
+#shopify-section-compare-sugar-banner, #shopify-section-compare-sugar-footer {
   position: relative;
 }
 .container--abs {
