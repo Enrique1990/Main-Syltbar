@@ -290,7 +290,7 @@ font-size: 38px;
   }
   .page-heading--abs {
     position: absolute;
-    bottom: 60px;
+    bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 28px !important;
