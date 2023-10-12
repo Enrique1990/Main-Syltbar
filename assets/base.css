@@ -19773,31 +19773,3 @@
     width: 60px;
   }   
 }
-@media screen and (min-width: 48em) {
-  .rb-app {
-    --rb-item-width: calc(100% / 3) !important;
-}
-}
-select.rb-select {
-    max-height: 5vh;
-    height: 5vh;
-    padding-left: 1rem;
-  padding-right: 1rem;
-    max-width: 11vw;
-  border: 1px solid #A4915C !important;
-}   
-
-.rb-btn{
-    background-color: #ffffff !important;
-    border: 1px solid var(--rb-btn-bg);
-    color: #A4915C !important;
-}
-.rb-btn:hover {
-  background-color: #A4915C !important;
-  color: #ffffff !important;
-}
-.rb-select[data-v-c0bcd8] {
-  color: #6d6245
-} 
-
-  

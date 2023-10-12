@@ -261,3 +261,31 @@ font-size: 38px;
     padding-bottom: 38px;
   }
 }
+#shopify-section-compare-sugar-banner {
+  position: relative;
+}
+.container--abs {
+  position: absolute;
+  top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(0%);
+}
+.compare-sugar .container--abs .SectionHeader__Heading {
+      color: #a4915c;
+    font-size: 53px;
+  color: #fff;
+}
+.compare-sugar .container--abs .PageHeader {
+  margin: 0;
+}
+.compare-sugar .container--abs .page-subheading {
+  color: #fff;
+}
+@media(max-width:575px) {
+  .compare-sugar .container--abs .SectionHeader__Heading {
+     font-size: 38px;
+  }
+  .container--abs {
+      top: 75%;
+  }
+}

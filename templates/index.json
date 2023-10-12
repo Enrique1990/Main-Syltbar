@@ -6,8 +6,8 @@
         "0f28dc34-ce12-44bb-844a-533ebc895377": {
           "type": "item",
           "settings": {
-            "imagebanner": "shopify:\/\/shop_images\/3_9830ad99-37d5-458b-b62d-f168d45584b1.jpg",
-            "imagebanner_mobile": "shopify:\/\/shop_images\/2_e1c2a481-f7d9-4a5b-8ff2-4e8440aed557.jpg",
+            "imagebanner": "shopify:\/\/shop_images\/Homepage_2.jpg",
+            "imagebanner_mobile": "shopify:\/\/shop_images\/new_homepage_12oct_674e4728-02e0-453b-a035-31e5d14335af.jpg",
             "title": "SYLTBAR is",
             "smalltitle": "Your Happy Healthy Daily Juice",
             "urlbanner": "shopify:\/\/collections\/all-wines",
@@ -17,8 +17,8 @@
         "8f9d9137-dd68-44b8-9d3f-6fd5d23c350a": {
           "type": "item",
           "settings": {
-            "imagebanner": "shopify:\/\/shop_images\/Frame_4.jpg",
-            "imagebanner_mobile": "shopify:\/\/shop_images\/Frame_5.jpg",
+            "imagebanner": "shopify:\/\/shop_images\/leftleft.jpg",
+            "imagebanner_mobile": "shopify:\/\/shop_images\/Homepage_mobile_222.jpg",
             "title": "SYLTBAR is",
             "smalltitle": "Your Happy Healthy Daily Juice",
             "urlbanner": "shopify:\/\/collections\/sparkling-wines",
@@ -30,8 +30,7 @@
         "0f28dc34-ce12-44bb-844a-533ebc895377",
         "8f9d9137-dd68-44b8-9d3f-6fd5d23c350a"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "1663600753aaaad65d": {
       "type": "section-products-grid",
@@ -104,7 +103,7 @@
         "75a2f11a-bfbb-4433-8905-92abca1012d9"
       ],
       "settings": {
-        "imagebanner": "shopify:\/\/shop_images\/No_blur.jpg",
+        "imagebanner": "shopify:\/\/shop_images\/Rooted_in_Nature..jpg",
         "title": "Rooted in Nature",
         "subtitle": ""
       }
@@ -112,8 +111,8 @@
     "166349097357b3d356": {
       "type": "homepage-facts",
       "settings": {
-        "imagebanner": "shopify:\/\/shop_images\/Frame_17_2.jpg",
-        "imagebanner_mobile": "shopify:\/\/shop_images\/Frame_18.jpg",
+        "imagebanner": "shopify:\/\/shop_images\/Homepage_Facts_make.jpg",
+        "imagebanner_mobile": "shopify:\/\/shop_images\/Homepage_Facts_make_mobile.jpg",
         "title": "Facts Makes<br>a Difference",
         "urlbanner": "shopify:\/\/pages\/dive-deeper",
         "btnname": "dive-deeper"
@@ -165,8 +164,7 @@
         "39878795-c965-4d56-b9c0-741f3c6c9170",
         "d86a9664-9b40-495c-a588-c36b30b9df67"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "16642805731859424c": {
       "type": "section-products-grid2",

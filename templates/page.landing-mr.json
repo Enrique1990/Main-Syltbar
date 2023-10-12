@@ -3,8 +3,8 @@
     "52de9d57-5c78-4ce3-84d9-b6c63cfee766": {
       "type": "landing-mr-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/image.jpg",
-        "image_mob": "shopify:\/\/shop_images\/mobile.jpg",
+        "image": "shopify:\/\/shop_images\/Header_Desktop_Landing_page.jpg",
+        "image_mob": "shopify:\/\/shop_images\/last_version_for_homepage_2.jpg",
         "heading": "Be smarter and enjoy life with less calories, sugar and sulfites",
         "subheading": "Free Shipping on your first order!",
         "show_product_reviews": "mr-syltbar-premium-prosecco",
@@ -246,8 +246,7 @@
       "block_order": [
         "3d819568-5f40-448c-804d-6e8167693442"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "6a77dba6-5c8a-432c-ac4e-8d83d905ba8d": {
       "type": "landing-reviews",
