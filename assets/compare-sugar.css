@@ -294,7 +294,7 @@ font-size: 38px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 28px !important;
-    width: 100% !important;
+    width: calc(100% - 10px)!important;
     color: #fff !important;
   }
 }
