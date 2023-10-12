@@ -105,7 +105,7 @@
   }
   .page-deeper__custom h5.color_gold{
     position: absolute;
-    font-size: 40px;
+    font-size: 40px !important;
     top: -68px;
   }
 }
