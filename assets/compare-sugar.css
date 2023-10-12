@@ -288,4 +288,13 @@ font-size: 38px;
   .container--abs {
       top: 75%;
   }
+  .page-heading--abs {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    width: 100%;
+    color: #fff;
+  }
 }
