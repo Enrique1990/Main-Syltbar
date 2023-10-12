@@ -1,3 +1,6 @@
+.page-deeper__custom {
+  position: relative;
+}
 .page-deeper .page-deeper_title {
   font-weight: 300;
   font-size: 48px;
