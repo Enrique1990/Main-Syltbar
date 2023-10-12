@@ -246,7 +246,8 @@
       "block_order": [
         "3d819568-5f40-448c-804d-6e8167693442"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "6a77dba6-5c8a-432c-ac4e-8d83d905ba8d": {
       "type": "landing-reviews",

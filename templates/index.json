@@ -30,7 +30,8 @@
         "0f28dc34-ce12-44bb-844a-533ebc895377",
         "8f9d9137-dd68-44b8-9d3f-6fd5d23c350a"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "1663600753aaaad65d": {
       "type": "section-products-grid",
@@ -164,7 +165,8 @@
         "39878795-c965-4d56-b9c0-741f3c6c9170",
         "d86a9664-9b40-495c-a588-c36b30b9df67"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "16642805731859424c": {
       "type": "section-products-grid2",
