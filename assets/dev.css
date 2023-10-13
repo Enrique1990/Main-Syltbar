@@ -4100,6 +4100,7 @@ a.color_gold:focus {
 }
 #shopify-section-page-header-gift .button_arrow_border{
   border: 1px solid #1f1704 !important;
+  margin: auto;
 }
 #shopify-section-page-header-gift .button_arrow_border div{
   color: #1f1704 !important;
