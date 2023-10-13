@@ -4085,6 +4085,7 @@ a.color_gold:focus {
 }
 #shopify-section-page-header-gift {
   position: relative;
+  padding-bottom: 300px;
 }
 @media (max-width: 1200px) {
   .page_header {
