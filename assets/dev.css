@@ -4087,6 +4087,13 @@ a.color_gold:focus {
   position: relative;
   padding-bottom: 300px;
 }
+#shopify-section-page-header-gift .container {
+  position: absolute;
+  bottom: -300px;
+}
+#shopify-section-page-header-gift .container h1{
+  color: #1f1704 !important;
+}
 @media (max-width: 1200px) {
   .page_header {
     height: 500px;
