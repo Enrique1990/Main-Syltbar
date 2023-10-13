@@ -4083,6 +4083,9 @@ a.color_gold:focus {
   max-width: 310px;
   margin-left: auto;
 }
+#shopify-section-page-header-gift {
+  position: relative;
+}
 @media (max-width: 1200px) {
   .page_header {
     height: 500px;
@@ -5567,8 +5570,9 @@ details.cart-notes.deatils-slide-animation summary::-webkit-details-marker {
     min-height: 400px;
   }
   .contact_block_dann .h2 {
-    margin-top: -120px;
+    margin-top: -112px;
     color: #fff;
+    font-size: 23px;
   }
 }
 
