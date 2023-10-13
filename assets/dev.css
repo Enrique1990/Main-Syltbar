@@ -4161,7 +4161,11 @@ a.color_gold:focus {
     font-size: 40px !important;
   }
 }
-
+@media (max-width: 575px) {
+  #shopify-section-page-header-gift .page_header {
+    display: block;
+  }
+}
 .page_white_block .page_bg_block_text {
   padding-left: 50px;
   font-size: 16px;
