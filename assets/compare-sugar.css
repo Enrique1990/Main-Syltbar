@@ -266,7 +266,7 @@ font-size: 38px;
 }
 .container--abs {
   position: absolute;
-  top: 20%;
+  top: 5%;
     left: 50%;
     transform: translateX(-50%) translateY(0%);
 }
