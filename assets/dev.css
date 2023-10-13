@@ -4088,11 +4088,19 @@ a.color_gold:focus {
   padding-bottom: 300px;
 }
 #shopify-section-page-header-gift .container {
-  position: absolute;
-  bottom: -300px;
+    position: absolute;
+    bottom: -300px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #shopify-section-page-header-gift .container h1{
   color: #1f1704 !important;
+  font-size: 55px;
+}
+#shopify-section-page-header-gift .button_arrow_border{
+  color: #1f1704 !important;
+  border: 1px solid #1f1704 !important;
 }
 @media (max-width: 1200px) {
   .page_header {
