@@ -4099,8 +4099,10 @@ a.color_gold:focus {
   font-size: 55px !important;
 }
 #shopify-section-page-header-gift .button_arrow_border{
-  color: #1f1704 !important;
   border: 1px solid #1f1704 !important;
+}
+#shopify-section-page-header-gift .button_arrow_border div{
+  color: #1f1704 !important;
 }
 @media (max-width: 1200px) {
   .page_header {
