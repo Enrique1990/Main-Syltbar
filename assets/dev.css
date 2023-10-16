@@ -5299,6 +5299,9 @@ details.cart-notes.deatils-slide-animation summary::-webkit-details-marker {
   padding-top: 20px;
     padding-bottom: 20px;
 }
+.landing-icons.pb-0 {
+  padding-bottom: 0px;
+}
 .landing-icons.d-desktop {
   display: block;
 }
