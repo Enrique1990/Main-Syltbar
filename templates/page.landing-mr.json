@@ -149,22 +149,6 @@
         "title": "Sparkling  Wine Sugar Comparison"
       }
     },
-    "ff7ec29b-5d1d-44dc-bc72-a79571d82749": {
-      "type": "landing-image",
-      "blocks": {
-        "3d819568-5f40-448c-804d-6e8167693442": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Wines.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "3d819568-5f40-448c-804d-6e8167693442"
-      ],
-      "settings": {
-      }
-    },
     "f8c4fe8a-5a08-4e25-9e57-ccead33aa436": {
       "type": "compare-sugar-2",
       "blocks": {
@@ -254,6 +238,22 @@
       ],
       "settings": {
         "title": "Sparkling Rose Wine Sugar Comparison"
+      }
+    },
+    "ff7ec29b-5d1d-44dc-bc72-a79571d82749": {
+      "type": "landing-image",
+      "blocks": {
+        "3d819568-5f40-448c-804d-6e8167693442": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wines.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "3d819568-5f40-448c-804d-6e8167693442"
+      ],
+      "settings": {
       }
     },
     "13dcea1a-809f-48b2-983d-fc825a097498": {
@@ -488,8 +488,8 @@
     "d4a5fbbe-a4de-4dda-99a9-db41838ac144",
     "57e88e33-ca5d-44f7-838f-8f639e254e84",
     "b844a322-ffbf-4510-a1b9-0771cd27c78c",
-    "ff7ec29b-5d1d-44dc-bc72-a79571d82749",
     "f8c4fe8a-5a08-4e25-9e57-ccead33aa436",
+    "ff7ec29b-5d1d-44dc-bc72-a79571d82749",
     "13dcea1a-809f-48b2-983d-fc825a097498",
     "6a77dba6-5c8a-432c-ac4e-8d83d905ba8d",
     "f7451605-3ccc-411a-bd24-88822d20c777",
