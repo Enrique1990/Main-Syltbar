@@ -4179,15 +4179,12 @@ a.color_gold:focus {
   }
 }
 @media (max-width: 367px) {
-  #shopify-section-page-header-gift .container h1 {
-    font-size: 30px!important;
-    color: #a4915c !important;
-  }
+
     #shopify-section-page-header-gift {
-      padding-bottom: 240px;
+      padding-bottom: 280px;
   }
     #shopify-section-page-header-gift .container {
-      bottom: -200px;
+      bottom: -250px;
   }
 }
 .page_white_block .page_bg_block_text {
