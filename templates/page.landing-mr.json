@@ -12,6 +12,14 @@
         "button_link": "https:\/\/syltbar.com\/collections\/shop-all"
       }
     },
+    "d4a5fbbe-a4de-4dda-99a9-db41838ac144": {
+      "type": "landing-icons",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "logo": "shopify:\/\/shop_images\/logo.png"
+      }
+    },
     "57e88e33-ca5d-44f7-838f-8f639e254e84": {
       "type": "landing-icons",
       "blocks": {
@@ -442,6 +450,7 @@
   },
   "order": [
     "52de9d57-5c78-4ce3-84d9-b6c63cfee766",
+    "d4a5fbbe-a4de-4dda-99a9-db41838ac144",
     "57e88e33-ca5d-44f7-838f-8f639e254e84",
     "b844a322-ffbf-4510-a1b9-0771cd27c78c",
     "f8c4fe8a-5a08-4e25-9e57-ccead33aa436",
