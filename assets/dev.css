@@ -4169,6 +4169,7 @@ a.color_gold:focus {
 @media (max-width: 470px) {
   #shopify-section-page-header-gift .container h1 {
     font-size: 30px!important;
+    color: #a4915c;
   }
     #shopify-section-page-header-gift {
       padding-bottom: 280px;
