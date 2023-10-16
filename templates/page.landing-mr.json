@@ -272,11 +272,19 @@
             "icon": "shopify:\/\/shop_images\/icon_co2_99167a3d-6eaf-453c-a502-0d7e56e1db77.png",
             "title": "Full Transparency"
           }
+        },
+        "3c3da343-601e-4886-9334-745e4ee82da6": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon3_a280536e-efb0-4636-aa20-0899d434e632.png",
+            "title": "No Additives"
+          }
         }
       },
       "block_order": [
         "fa09ca1f-ec7f-4274-97f5-6cfcd21b8fe3",
-        "ce32d0c3-396a-4938-8a75-0843ccf4be96"
+        "ce32d0c3-396a-4938-8a75-0843ccf4be96",
+        "3c3da343-601e-4886-9334-745e4ee82da6"
       ],
       "settings": {
         "heading": "SYLTBAR has been lab-tested by The University of Miami Diabetes Research Institute",
