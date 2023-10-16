@@ -192,7 +192,8 @@
           },
           "45b7562c-1e48-4bfa-9ff1-c2dd96e0059e": {
             "type": "email_form",
-            "settings": {}
+            "settings": {
+            }
           }
         },
         "block_order": [
@@ -200,7 +201,8 @@
           "58f9b8da-ec04-4dab-84e4-6cda1cbe47a8",
           "45b7562c-1e48-4bfa-9ff1-c2dd96e0059e"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "page-header-ourstory": {
         "type": "page-header-ourstory",
@@ -232,7 +234,8 @@
       "page-header-gift": {
         "type": "page-header-gift",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Header_Desktop_Corporate_Gift_1.jpg",
+          "image": "shopify:\/\/shop_images\/Header_Desktop_Corporate_Gift22222.jpg",
+          "image_mob": "shopify:\/\/shop_images\/Homepage_mobile_223_gift.jpg",
           "heading": "The Time to Say Thank You!<br>Not Just for The Holiday Season",
           "button_label": "CONTACT US",
           "button_link": "shopify:\/\/pages\/contact-us"
@@ -1178,7 +1181,8 @@
         "block_order": [
           "9ea7ece5-8dad-48a7-8a31-f8a6238cbf7d"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "compare-sugar-banner": {
         "type": "compare-sugar-banner",
@@ -1197,17 +1201,21 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "10261849759452303822": {
         "type": "shopify:\/\/apps\/change-commerce\/blocks\/app-embed-block\/7b6c2cd4-8962-4dc6-975b-870e1f567789",
         "disabled": true,
-        "settings": {}
+        "settings": {
+        }
       },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
       },
       "10605408327587305396": {
         "type": "shopify:\/\/apps\/easygift-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",

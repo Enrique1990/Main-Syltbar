@@ -12,15 +12,18 @@
         },
         "e5483e20-cf7e-42f7-b7e7-880675a0c121": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "7efc6191-74dc-4c5f-afda-1f844cf28453": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "e4e2afc0-cde4-44db-a202-6a2142fd2c20": {
           "type": "rating",
-          "settings": {}
+          "settings": {
+          }
         },
         "9cd5ac9d-baef-445f-b432-e9ba55a579a9": {
           "type": "price",
@@ -58,7 +61,8 @@
         },
         "b374c7b2-fad6-434c-a8f7-f386ddb7cb07": {
           "type": "producttabs",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -73,7 +77,8 @@
         "953e54b9-51fb-4c11-a500-c291d8f27445",
         "b374c7b2-fad6-434c-a8f7-f386ddb7cb07"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "166434967263d439c5": {
       "type": "reviews",
@@ -112,7 +117,8 @@
         "099771cd-487f-4c98-b520-70fe4240aa59"
       ],
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
     },
     "16643511358a0a42c5": {
       "type": "product-ingredients",
@@ -362,7 +368,8 @@
     "99375763-22a1-41a3-a105-aea1bf8eb127": {
       "type": "review-app-section",
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
     },
     "166688689553eeeff7": {
       "type": "apps",
