@@ -240,6 +240,14 @@
         "title": "Sparkling Rose Wine Sugar Comparison"
       }
     },
+    "13dcea1a-809f-48b2-983d-fc825a097498": {
+      "type": "landing-icons",
+      "settings": {
+        "heading": "SYLTBAR has been lab-tested by The University of Miami Diabetes Research Institute",
+        "subheading": "Mr and Mrs are proven to have the lowest sugar content when compared to many other name brands. That's only 2 Smart Points for WW (Weight Watchers), and absolutely Keto-friendly.",
+        "class": ""
+      }
+    },
     "ff7ec29b-5d1d-44dc-bc72-a79571d82749": {
       "type": "landing-image",
       "blocks": {
@@ -445,14 +453,6 @@
         "title": "FAQ",
         "subtitle": ""
       }
-    },
-    "13dcea1a-809f-48b2-983d-fc825a097498": {
-      "type": "landing-icons",
-      "settings": {
-        "heading": "SYLTBAR has been lab-tested by The University of Miami Diabetes Research Institute",
-        "subheading": "Mr and Mrs are proven to have the lowest sugar content when compared to many other name brands. That's only 2 Smart Points for WW (Weight Watchers), and absolutely Keto-friendly.",
-        "class": ""
-      }
     }
   },
   "order": [
@@ -461,10 +461,10 @@
     "57e88e33-ca5d-44f7-838f-8f639e254e84",
     "b844a322-ffbf-4510-a1b9-0771cd27c78c",
     "f8c4fe8a-5a08-4e25-9e57-ccead33aa436",
+    "13dcea1a-809f-48b2-983d-fc825a097498",
     "ff7ec29b-5d1d-44dc-bc72-a79571d82749",
     "6a77dba6-5c8a-432c-ac4e-8d83d905ba8d",
     "f7451605-3ccc-411a-bd24-88822d20c777",
-    "967d364d-7366-41ad-b524-d20e7fd43fc4",
-    "13dcea1a-809f-48b2-983d-fc825a097498"
+    "967d364d-7366-41ad-b524-d20e7fd43fc4"
   ]
 }
