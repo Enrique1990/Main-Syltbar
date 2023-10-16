@@ -4284,7 +4284,11 @@ a.color_gold:focus {
     height: 400px;
   }
 }
-
+@media (max-width: 450px) {
+  .mb125{
+    margin-bottom: 125px !important;
+  }
+}
 .page_bg_block_items .our_standards_items .item {
   border-bottom: 1px solid #a4915c;
 }
@@ -5298,6 +5302,9 @@ details.cart-notes.deatils-slide-animation summary::-webkit-details-marker {
 .landing-icons.small-padding {
   padding-top: 20px;
     padding-bottom: 20px;
+}
+.landing-icons.pb-0 {
+  padding-bottom: 0px;
 }
 .landing-icons.d-desktop {
   display: block;
