@@ -18,7 +18,7 @@
         "heading": "",
         "subheading": "",
         "logo": "shopify:\/\/shop_images\/logo.png",
-        "class": "d-mobile"
+        "class": "d-mobile small-padding"
       }
     },
     "57e88e33-ca5d-44f7-838f-8f639e254e84": {
@@ -240,42 +240,6 @@
         "title": "Sparkling Rose Wine Sugar Comparison"
       }
     },
-    "19065274-4213-4f35-942c-d3f52169ce4b": {
-      "type": "landing-icons",
-      "blocks": {
-        "fa09ca1f-ec7f-4274-97f5-6cfcd21b8fe3": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/Group_12555_e46c53ff-328f-4d17-bedc-706132773433.png",
-            "title": "Less calories"
-          }
-        },
-        "ce32d0c3-396a-4938-8a75-0843ccf4be96": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/icon_co2_99167a3d-6eaf-453c-a502-0d7e56e1db77.png",
-            "title": "Full Transparency"
-          }
-        },
-        "3c3da343-601e-4886-9334-745e4ee82da6": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/icon3_a280536e-efb0-4636-aa20-0899d434e632.png",
-            "title": "No Additives"
-          }
-        }
-      },
-      "block_order": [
-        "fa09ca1f-ec7f-4274-97f5-6cfcd21b8fe3",
-        "ce32d0c3-396a-4938-8a75-0843ccf4be96",
-        "3c3da343-601e-4886-9334-745e4ee82da6"
-      ],
-      "settings": {
-        "heading": "SYLTBAR has been lab-tested by The University of Miami Diabetes Research Institute",
-        "subheading": "Mr and Mrs are proven to have the lowest sugar content when compared to many other name brands. That's only 2 Smart Points for WW (Weight Watchers), and absolutely Keto-friendly.",
-        "class": "d-mobile"
-      }
-    },
     "ff7ec29b-5d1d-44dc-bc72-a79571d82749": {
       "type": "landing-image",
       "blocks": {
@@ -489,7 +453,6 @@
     "57e88e33-ca5d-44f7-838f-8f639e254e84",
     "b844a322-ffbf-4510-a1b9-0771cd27c78c",
     "f8c4fe8a-5a08-4e25-9e57-ccead33aa436",
-    "19065274-4213-4f35-942c-d3f52169ce4b",
     "ff7ec29b-5d1d-44dc-bc72-a79571d82749",
     "6a77dba6-5c8a-432c-ac4e-8d83d905ba8d",
     "f7451605-3ccc-411a-bd24-88822d20c777",
