@@ -195,6 +195,11 @@ a.color_gold:hover, a.color_gold:focus {
     height: 400px;
   }
 }
+@media (max-width: 450px) {
+  .page_about_block_image .h1{
+    margin-bottom: 125px;
+  }
+}
 
 .page_bg_block_items .our_standards_items .item {
   border-bottom: 1px solid #a4915c;
