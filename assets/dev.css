@@ -4083,6 +4083,29 @@ a.color_gold:focus {
   max-width: 310px;
   margin-left: auto;
 }
+#shopify-section-page-header-gift {
+  position: relative;
+  padding-bottom: 350px;
+}
+#shopify-section-page-header-gift .container {
+    position: absolute;
+    bottom: -300px;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 0;
+}
+#shopify-section-page-header-gift .container h1{
+  color: #1f1704 !important;
+  font-size: 55px !important;
+}
+#shopify-section-page-header-gift .button_arrow_border{
+  border: 1px solid #1f1704 !important;
+  margin: auto;
+}
+#shopify-section-page-header-gift .button_arrow_border div{
+  color: #1f1704 !important;
+}
 @media (max-width: 1200px) {
   .page_header {
     height: 500px;
@@ -4128,8 +4151,32 @@ a.color_gold:focus {
   .page_bg_block .page_bg_block_text p {
     font-size: 14px;
   }
+  #shopify-section-page-header-gift {
+    padding-bottom: 320px;
+  }
+  #shopify-section-page-header-gift .container {
+    bottom: -270px;
+  }
+  #shopify-section-page-header-gift .container h1{
+    font-size: 40px !important;
+  }
 }
-
+@media (max-width: 575px) {
+  #shopify-section-page-header-gift .page_header {
+    display: block;
+  }
+}
+@media (max-width: 470px) {
+  #shopify-section-page-header-gift .container h1 {
+    font-size: 30px!important;
+  }
+    #shopify-section-page-header-gift {
+      padding-bottom: 280px;
+  }
+    #shopify-section-page-header-gift .container {
+      bottom: -250px;
+  }
+}
 .page_white_block .page_bg_block_text {
   padding-left: 50px;
   font-size: 16px;
@@ -5320,7 +5367,7 @@ details.cart-notes.deatils-slide-animation summary::-webkit-details-marker {
   }
   .landing-mr-banner-wrap h1 {
     max-width: 80%;
-    font-size: 46px;
+    font-size: 38px;
   }
 }
 
@@ -5565,6 +5612,11 @@ details.cart-notes.deatils-slide-animation summary::-webkit-details-marker {
   }
   .landing-blocks-image img {
     min-height: 400px;
+  }
+  .contact_block_dann .h2 {
+    margin-top: -112px;
+    color: #fff;
+    font-size: 23px;
   }
 }
 

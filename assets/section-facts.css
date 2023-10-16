@@ -29,6 +29,11 @@
     height: 400px;
   }
 }
+@media (max-width: 500px) {
+  .facts-wrapper .facts-wrapper__mob {
+    margin-top: 165px;
+  }
+}
 
 .parallax-container.parallax-container-mobile {
   display: none;
