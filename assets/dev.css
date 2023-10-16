@@ -5292,7 +5292,20 @@ details.cart-notes.deatils-slide-animation summary::-webkit-details-marker {
     font-size: 28px;
   }
 }
-
+.landing-icons.d-mobile {
+  display: none;
+}
+.landing-icons.d-desktop {
+  display: block;
+}
+@media (max-width: 475px) {
+  .landing-icons.d-mobile {
+    display: block;
+  }
+  .landing-icons.d-desktop {
+    display: none;
+  }
+}
 .landing-icons-heading {
   max-width: 1155px;
   font-family: CANELA-LIGHT, sans-serif;
