@@ -197,7 +197,7 @@ a.color_gold:hover, a.color_gold:focus {
 }
 @media (max-width: 450px) {
   .page_about_block_image .h1{
-    margin-bottom: 125px;
+    margin-bottom: 125px !important;
   }
 }
 
