@@ -242,6 +242,34 @@
     },
     "13dcea1a-809f-48b2-983d-fc825a097498": {
       "type": "landing-icons",
+      "blocks": {
+        "9e5b25f9-50f1-40d0-848e-2b1d001e51f3": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Group_12555_e46c53ff-328f-4d17-bedc-706132773433.png",
+            "title": "Less calories"
+          }
+        },
+        "ba012c21-f7ac-4022-9269-bbac3857228f": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon_co2_99167a3d-6eaf-453c-a502-0d7e56e1db77.png",
+            "title": "Full Transparency"
+          }
+        },
+        "d306dee6-96db-4995-894c-472f1bf1ff12": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/icon3_a280536e-efb0-4636-aa20-0899d434e632.png",
+            "title": "No Additives"
+          }
+        }
+      },
+      "block_order": [
+        "9e5b25f9-50f1-40d0-848e-2b1d001e51f3",
+        "ba012c21-f7ac-4022-9269-bbac3857228f",
+        "d306dee6-96db-4995-894c-472f1bf1ff12"
+      ],
       "settings": {
         "heading": "SYLTBAR has been lab-tested by The University of Miami Diabetes Research Institute",
         "subheading": "Mr and Mrs are proven to have the lowest sugar content when compared to many other name brands. That's only 2 Smart Points for WW (Weight Watchers), and absolutely Keto-friendly.",
