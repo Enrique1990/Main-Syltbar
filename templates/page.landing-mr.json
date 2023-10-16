@@ -17,7 +17,8 @@
       "settings": {
         "heading": "",
         "subheading": "",
-        "logo": "shopify:\/\/shop_images\/logo.png"
+        "logo": "shopify:\/\/shop_images\/logo.png",
+        "class": ""
       }
     },
     "57e88e33-ca5d-44f7-838f-8f639e254e84": {
@@ -27,24 +28,21 @@
           "type": "item",
           "settings": {
             "icon": "shopify:\/\/shop_images\/Group_12555_e46c53ff-328f-4d17-bedc-706132773433.png",
-            "title": "Less calories",
-            "subtitle": "Sugar is lab-tested by the University of Miami Diabetes Research Institute."
+            "title": "Less calories"
           }
         },
         "03392d72-326a-4a03-ad05-f2d26a07a8a6": {
           "type": "item",
           "settings": {
             "icon": "shopify:\/\/shop_images\/icon_co2_99167a3d-6eaf-453c-a502-0d7e56e1db77.png",
-            "title": "Full Transparency",
-            "subtitle": "Our bottles are sealed with their filling date on the back label."
+            "title": "Full Transparency"
           }
         },
         "f8285fae-e270-4b7c-aa92-49fe948390e1": {
           "type": "item",
           "settings": {
             "icon": "shopify:\/\/shop_images\/icon3_a280536e-efb0-4636-aa20-0899d434e632.png",
-            "title": "No Additives",
-            "subtitle": "We are a family-owned vineyard and certified by the green project."
+            "title": "No Additives"
           }
         }
       },
@@ -56,7 +54,8 @@
       "settings": {
         "heading": "SYLTBAR has been lab-tested by The University of Miami Diabetes Research Institute",
         "subheading": "Mr and Mrs are proven to have the lowest sugar content when compared to many other name brands. That's only 2 Smart Points for WW (Weight Watchers), and absolutely Keto-friendly.",
-        "logo": "shopify:\/\/shop_images\/logo.png"
+        "logo": "shopify:\/\/shop_images\/logo.png",
+        "class": "desktop"
       }
     },
     "b844a322-ffbf-4510-a1b9-0771cd27c78c": {
