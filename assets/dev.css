@@ -5295,6 +5295,10 @@ details.cart-notes.deatils-slide-animation summary::-webkit-details-marker {
 .landing-icons.d-mobile {
   display: none;
 }
+.landing-icons.small-padding {
+  padding-top: 20px;
+    padding-bottom: 20px;
+}
 .landing-icons.d-desktop {
   display: block;
 }
