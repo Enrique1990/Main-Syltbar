@@ -195,6 +195,11 @@ a.color_gold:hover, a.color_gold:focus {
     height: 400px;
   }
 }
+@media (max-width: 450px) {
+  .mb125{
+    margin-bottom: 125px !important;
+  }
+}
 
 
 .page_bg_block_items .our_standards_items .item {
