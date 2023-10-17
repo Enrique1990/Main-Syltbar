@@ -1,4 +1,4 @@
-<div class="landing-icons center p110">
+<div class="landing-icons center p110  {% if section.settings.class != blank %}{{section.settings.class}}{% endif %}">
     <div class="container">
         {% if section.settings.heading != blank %}
           <h2 class="landing-icons-heading pb16">{{ section.settings.heading }}
@@ -57,6 +57,11 @@
         "type": "image_picker",
         "id": "logo",
         "label": "Logo"
+      },
+      {
+        "type": "text",
+        "id": "class",
+        "label": "Custom Class"
       }
     ],
     "max_blocks": 3,
@@ -74,12 +79,8 @@
         "type": "text",
         "id": "title",
         "label": "Title"
-      },
-      {
-        "type": "text",
-        "id": "subtitle",
-        "label": "Subtitle"
       }
+      
      ]
      }
     ],

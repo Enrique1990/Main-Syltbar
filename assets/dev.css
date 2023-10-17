@@ -4169,7 +4169,17 @@ a.color_gold:focus {
 @media (max-width: 470px) {
   #shopify-section-page-header-gift .container h1 {
     font-size: 30px!important;
+    color: #a4915c !important;
   }
+    #shopify-section-page-header-gift {
+      padding-bottom: 240px;
+  }
+    #shopify-section-page-header-gift .container {
+      bottom: -210px;
+  }
+}
+@media (max-width: 370px) {
+
     #shopify-section-page-header-gift {
       padding-bottom: 280px;
   }
@@ -4274,7 +4284,11 @@ a.color_gold:focus {
     height: 400px;
   }
 }
-
+@media (max-width: 450px) {
+  .mb125{
+    margin-bottom: 125px !important;
+  }
+}
 .page_bg_block_items .our_standards_items .item {
   border-bottom: 1px solid #a4915c;
 }
@@ -5282,7 +5296,27 @@ details.cart-notes.deatils-slide-animation summary::-webkit-details-marker {
     font-size: 28px;
   }
 }
-
+.landing-icons.d-mobile {
+  display: none;
+}
+.landing-icons.small-padding {
+  padding-top: 20px;
+    padding-bottom: 20px;
+}
+.landing-icons.pb-0 {
+  padding-bottom: 0px;
+}
+.landing-icons.d-desktop {
+  display: block;
+}
+@media (max-width: 475px) {
+  .landing-icons.d-mobile {
+    display: block;
+  }
+  .landing-icons.d-desktop {
+    display: none;
+  }
+}
 .landing-icons-heading {
   max-width: 1155px;
   font-family: CANELA-LIGHT, sans-serif;
