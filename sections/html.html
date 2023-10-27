@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .wine_container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 100%;
+      height: auto;
+      text-align: center;
+      background-color: #dbd9d9;
+      display: flex;
+      flex-direction: column;
+    }
+    .wine_blocks_container {
+      display: flex;
+      flex-direction: row;
+      --rb-item-width: calc(100% / 4);
+      justify-content: space-around;
+    }
+    .wine_blocks_container p {
+      font-size: 20px;
+    }
+    .wine_blocks_container ul {
+      font-size: 18px;
+    }
+    .wine_block {
+      width: 10%;
+      border: 2px solid rgb(153, 134, 26);
+      padding: 3%;
+      border-radius: 5px;
+    }
+  </style>
+  <body>
+    <div class="wine_container">
+      <div class="wine_header_text_container">
+        <h1>Wine Club Advantages</h1>
+        <p>Thank you for your interest in our Wine Club!</p>
+      </div>
+      <div class="wine_blocks_container">
+        <div class="wine_block wine_block_1">
+          <p>
+            You are about to have 100% naturally produced wine shipped directly
+            to you from our winery, on your own schedule
+          </p>
+        </div>
+        <div class="wine_block wine_block_2">
+          <p>
+            Simply choose the variety, quantity, frequency of shipping (4, 6 or
+            8 weeks) with a 12 bottle minimum.
+          </p>
+        </div>
+        <div class="wine_block wine_block_list_3">
+          <ul>
+            Important benefits:
+
+            <li>
+              - Highest level of savings 10% off, including complimentary
+              shipping
+            </li>
+            <li>-Inventory assurance</li>
+            <li>- Personal customer service</li>
+            <li>- Winery visit in Friuli, Italy</li>
+            <li>
+              - Complimentary bottle of Mr at all US locations of Nobu
+              Restaurant
+            </li>
+            <li>- Winery visit in Italy, Friuli</li>
+          </ul>
+        </div>
+        <div class="wine_block wine_block_4">
+          <p>
+            If you have questions, we are here for you 7 days a week. Contact us
+            at atyourservice@syltbar.com or call 754/200-6086
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
