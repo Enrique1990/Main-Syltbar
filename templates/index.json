@@ -103,6 +103,9 @@
         "17765ec8-c426-4afe-818a-229de90488c5",
         "75a2f11a-bfbb-4433-8905-92abca1012d9"
       ],
+      "custom_css": [
+        ".our_standards .our_standards_image img {object-fit: contain;}"
+      ],
       "settings": {
         "imagebanner": "shopify:\/\/shop_images\/bottle1.jpg",
         "title": "Rooted in Nature",
