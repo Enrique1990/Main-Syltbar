@@ -64,7 +64,7 @@
         "5e91a8f1-695c-4ffb-a75d-74320e4c44b1": {
           "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/bundles-widget\/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
-            "product": "custom-wine-club",
+            "product": "wine-club-subscription",
             "rb_theme_color": "#a4915c",
             "rb_theme_text": "#ffffff",
             "rb_theme_other_text": "#283965",
