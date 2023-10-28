@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product-second",
+      "type": "main-product",
       "blocks": {
         "1c4fcd48-4a1c-495f-9e99-4a7a7452a23a": {
           "type": "text",
@@ -75,6 +75,66 @@
       ],
       "settings": {}
     },
+    "b4e5097c-3e03-4ba2-848b-96edf14ebffb": {
+      "type": "text-image",
+      "blocks": {
+        "7b1e90d0-fee3-4e24-b1b6-1b7cf4d8b0e9": {
+          "type": "block",
+          "settings": {
+            "title": "Inventory assurance",
+            "text": "We guarantee delivery with your subscription, because we produce 100% natural to avoid additives and that is why you don’t find our Brand everywhere. We produce only in small batches to assure our standard. "
+          }
+        },
+        "ce25c285-1086-4d73-a407-fc88ff73ba5c": {
+          "type": "block",
+          "settings": {
+            "title": "Personal customer service",
+            "text": "Get personalized customer service from our team, Yanelis Redero, Giselle Arana\nand Louise Hudson, who really care about you and you know you're talking to a real person."
+          }
+        },
+        "0fd2e9d5-f37a-48ca-9a3b-f47c0a6ef90a": {
+          "type": "block",
+          "settings": {
+            "title": "Member pricing",
+            "text": "Receive the highest amount of savings with 10% off and complimentary shipping. We never offer deals; we think you should receive your favorite wines whenever you want it. On top of that, you also receive 10% off each additional order and on all other accessories."
+          }
+        },
+        "7fd7a8bc-540b-4ea2-a552-5b7d61a02a40": {
+          "type": "block",
+          "settings": {
+            "title": "Insider Tips",
+            "text": "Knowledge is key. We are happy to spend our valuable time education \nyou if you have questions or want to scoop on the behind-the-scenes."
+          }
+        },
+        "e99a129b-07c2-405f-abb7-0cc13a19cf28": {
+          "type": "block",
+          "settings": {
+            "title": "On the house",
+            "text": "Receive one bottle of Mr on the house when you visit our restaurant customer, Nobu, at any of the US locations ( except Caesar Palace and Paris in Las Vegas ). Simply send us the receipt from your Nobu dinner and use the same credit card that you have saved on file for your wine club membership along with a screenshoot of a post on social media with you and Mr, tagging @SYLTBAR. We will credit the amount for one Mr bottle for your next wine club shipment."
+          }
+        },
+        "804b78f9-55b2-44b7-9006-a27b17873597": {
+          "type": "block",
+          "settings": {
+            "title": "Winery visit",
+            "text": "We are always transparent in our wine production, which is why we welcome wine club members to discover our winery, San Simone, when you travel to Italy/Friuli ( very close to Venice ). This visit will also include an authentic Italian lunch."
+          }
+        }
+      },
+      "block_order": [
+        "7b1e90d0-fee3-4e24-b1b6-1b7cf4d8b0e9",
+        "ce25c285-1086-4d73-a407-fc88ff73ba5c",
+        "0fd2e9d5-f37a-48ca-9a3b-f47c0a6ef90a",
+        "7fd7a8bc-540b-4ea2-a552-5b7d61a02a40",
+        "e99a129b-07c2-405f-abb7-0cc13a19cf28",
+        "804b78f9-55b2-44b7-9006-a27b17873597"
+      ],
+      "settings": {
+        "title": "Our Membership advantages (Aside from 10% off and complimentary shipping)",
+        "img": "shopify://shop_images/Wine_Club_Subscription_page_b1.jpg",
+        "text": ""
+      }
+    },
     "166434967263d439c5": {
       "type": "reviews",
       "blocks": {
@@ -111,7 +171,6 @@
         "6c8d8dc4-94e0-4911-9fd8-acc1cbc21c69",
         "099771cd-487f-4c98-b520-70fe4240aa59"
       ],
-      "disabled": true,
       "settings": {}
     },
     "16643511358a0a42c5": {
@@ -399,6 +458,7 @@
   },
   "order": [
     "main",
+    "b4e5097c-3e03-4ba2-848b-96edf14ebffb",
     "166434967263d439c5",
     "16643511358a0a42c5",
     "16643572272737dfbe",

@@ -652,22 +652,22 @@
 
 {% schema %}
 {
-  "name": "t:sections.main-product.name",
+  "name": "t:sections.main-product-second.name",
   "tag": "section",
-  "class": "section main-product",
+  "class": "section main-product-second",
   "blocks": [
     {
       "type": "@app"
     },
     {
       "type": "text",
-      "name": "t:sections.main-product.blocks.text.name",
+      "name": "t:sections.main-product-second.blocks.text.name",
       "settings": [
         {
           "type": "text",
           "id": "text",
           "default": "Text block",
-          "label": "t:sections.main-product.blocks.text.settings.text.label"
+          "label": "t:sections.main-product-second.blocks.text.settings.text.label"
         },
         {
           "type": "select",
@@ -675,60 +675,60 @@
           "options": [
             {
               "value": "body",
-              "label": "t:sections.main-product.blocks.text.settings.text_style.options__1.label"
+              "label": "t:sections.main-product-second.blocks.text.settings.text_style.options__1.label"
             },
             {
               "value": "subtitle",
-              "label": "t:sections.main-product.blocks.text.settings.text_style.options__2.label"
+              "label": "t:sections.main-product-second.blocks.text.settings.text_style.options__2.label"
             },
             {
               "value": "uppercase",
-              "label": "t:sections.main-product.blocks.text.settings.text_style.options__3.label"
+              "label": "t:sections.main-product-second.blocks.text.settings.text_style.options__3.label"
             }
           ],
           "default": "body",
-          "label": "t:sections.main-product.blocks.text.settings.text_style.label"
+          "label": "t:sections.main-product-second.blocks.text.settings.text_style.label"
         }
       ]
     },
     {
       "type": "badgen_new",
-      "name": "t:sections.main-product.blocks.badget_new.name",
+      "name": "t:sections.main-product-second.blocks.badget_new.name",
       "limit": 1
     },
     {
       "type": "title",
-      "name": "t:sections.main-product.blocks.title.name",
+      "name": "t:sections.main-product-second.blocks.title.name",
       "limit": 1
     },
     {
       "type": "price",
-      "name": "t:sections.main-product.blocks.price.name",
+      "name": "t:sections.main-product-second.blocks.price.name",
       "limit": 1,
       "settings": [
         {
           "type": "checkbox",
           "id": "old_price_hide",
-          "label": "t:sections.main-product.blocks.price.settings.old_price_hide.label",
+          "label": "t:sections.main-product-second.blocks.price.settings.old_price_hide.label",
           "default": true
         },
         {
           "type": "checkbox",
           "id": "sale_price_hide",
-          "label": "t:sections.main-product.blocks.price.settings.sale_price_hide.label",
+          "label": "t:sections.main-product-second.blocks.price.settings.sale_price_hide.label",
           "default": true
         },
         {
           "type": "checkbox",
           "id": "use_variant",
-          "label": "t:sections.main-product.blocks.price.settings.use_variant.label",
+          "label": "t:sections.main-product-second.blocks.price.settings.use_variant.label",
           "default": true
         }
       ]
     },
     {
       "type": "variant_picker",
-      "name": "t:sections.main-product.blocks.variant_picker.name",
+      "name": "t:sections.main-product-second.blocks.variant_picker.name",
       "limit": 1,
       "settings": [
         {
@@ -737,29 +737,29 @@
           "options": [
             {
               "value": "dropdown",
-              "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.options__1.label"
+              "label": "t:sections.main-product-second.blocks.variant_picker.settings.picker_type.options__1.label"
             },
             {
               "value": "button",
-              "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.options__2.label"
+              "label": "t:sections.main-product-second.blocks.variant_picker.settings.picker_type.options__2.label"
             }
           ],
           "default": "button",
-          "label": "t:sections.main-product.blocks.variant_picker.settings.picker_type.label"
+          "label": "t:sections.main-product-second.blocks.variant_picker.settings.picker_type.label"
         }
       ]
     },
     {
       "type": "buy_buttons",
-      "name": "t:sections.main-product.blocks.buy_buttons.name",
+      "name": "t:sections.main-product-second.blocks.buy_buttons.name",
       "limit": 1,
       "settings": [
         {
           "type": "checkbox",
           "id": "show_dynamic_checkout",
           "default": true,
-          "label": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.label",
-          "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
+          "label": "t:sections.main-product-second.blocks.buy_buttons.settings.show_dynamic_checkout.label",
+          "info": "t:sections.main-product-second.blocks.buy_buttons.settings.show_dynamic_checkout.info"
         },
         {
           "type": "text",
@@ -777,52 +777,52 @@
     },
     {
       "type": "description",
-      "name": "t:sections.main-product.blocks.description.name",
+      "name": "t:sections.main-product-second.blocks.description.name",
       "limit": 1
     },
     {
       "type": "custom_liquid",
-      "name": "t:sections.main-product.blocks.custom_liquid.name",
+      "name": "t:sections.main-product-second.blocks.custom_liquid.name",
       "settings": [
         {
           "type": "liquid",
           "id": "custom_liquid",
-          "label": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.label",
-          "info": "t:sections.main-product.blocks.custom_liquid.settings.custom_liquid.info"
+          "label": "t:sections.main-product-second.blocks.custom_liquid.settings.custom_liquid.label",
+          "info": "t:sections.main-product-second.blocks.custom_liquid.settings.custom_liquid.info"
         }
       ]
     },
     {
       "type": "rating",
-      "name": "t:sections.main-product.blocks.rating.name",
+      "name": "t:sections.main-product-second.blocks.rating.name",
       "limit": 1,
       "settings": [
         {
           "type": "paragraph",
-          "content": "t:sections.main-product.blocks.rating.settings.paragraph.content"
+          "content": "t:sections.main-product-second.blocks.rating.settings.paragraph.content"
         }
       ]
     },
     {
       "type": "collapsible_tab",
-      "name": "t:sections.main-product.blocks.collapsible_tab.name",
+      "name": "t:sections.main-product-second.blocks.collapsible_tab.name",
       "settings": [
         {
           "id": "tabname",
           "type": "text",
-          "label": "t:sections.main-product.blocks.collapsible_tab.settings.tabname.label",
+          "label": "t:sections.main-product-second.blocks.collapsible_tab.settings.tabname.label",
           "default": "Description"
         },
         {
           "id": "tabopened",
           "type": "checkbox",
-          "label": "t:sections.main-product.blocks.collapsible_tab.settings.tabopened.label",
+          "label": "t:sections.main-product-second.blocks.collapsible_tab.settings.tabopened.label",
           "default": false
         },
         {
           "id": "tabtext",
           "type": "liquid",
-          "label": "t:sections.main-product.blocks.collapsible_tab.settings.tabtext.label",
+          "label": "t:sections.main-product-second.blocks.collapsible_tab.settings.tabtext.label",
           "default": "{{ product.description }}"
         }
       ]
