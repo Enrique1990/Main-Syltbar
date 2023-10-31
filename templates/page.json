@@ -73,7 +73,7 @@
             "rb_spacing_width": 1220,
             "rb_spacing_margins": "10px",
             "rb_buttons_size": "24px",
-            "rb_buttons_corners": "4",
+            "rb_buttons_corners": "0",
             "rb_builder_items_per_row_ns": 3,
             "rb_builder_items_per_row": "1",
             "rb_builder_aspect_ratio": "100%",
