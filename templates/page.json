@@ -86,7 +86,7 @@
       ],
       "custom_css": [
         ".rb-select {height: 5vh; width: 120%; padding-left: 7%; padding-right: 7%; border: 1px solid #a4915c;}",
-        ".rb-btn {background-color: white; color: #a4915c;}",
+        ".rb-btn {background-color: white; color: #a4915c; transition: background-color 0.50s,color .50s,opacity .50s;}",
         ".rb-btn:hover {background-color: #a4915c; color: white;}"
       ],
       "settings": {
