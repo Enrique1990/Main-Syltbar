@@ -70,6 +70,9 @@
         "953e54b9-51fb-4c11-a500-c291d8f27445",
         "b374c7b2-fad6-434c-a8f7-f386ddb7cb07"
       ],
+      "custom_css": [
+        ".rc-widget {display: none !important;}"
+      ],
       "settings": {
       }
     },
