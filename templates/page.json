@@ -79,10 +79,20 @@
             "rb_builder_aspect_ratio": "100%",
             "rb_builder_radius": "4"
           }
+        },
+        "7a06b162-8504-46a0-bc58-87c6a8abe39d": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": false,
+            "sku_tagtype": "handle",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
         }
       },
       "block_order": [
-        "5e91a8f1-695c-4ffb-a75d-74320e4c44b1"
+        "5e91a8f1-695c-4ffb-a75d-74320e4c44b1",
+        "7a06b162-8504-46a0-bc58-87c6a8abe39d"
       ],
       "custom_css": [
         ".rb-select {height: 5vh; padding-left: 7%; padding-right: 7%; border: 1px solid #a4915c; font-size: 19px;}",
