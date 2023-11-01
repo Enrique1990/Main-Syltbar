@@ -325,20 +325,18 @@
                           <div class="select">
                             <select
                               id="Option-{{ section.id }}-{{ forloop.index0 }}"
-                              class="select__select "
-                              name="options[{{ option.name | escape }}]"
+                              class="select__select"
+                              name="options[{{ option.name | escape }}"
                               form="{{ product_form_id }}"
                             >
                               {%- for value in option.values -%}
                                 <option
                                   value="{{ value | escape }}"
                                   class="option-variant"
-                                  {% if option.selected_value == value %}
+                                  {%- if option.selected_value == value -%}
                                     data-id="{{ product.selected_variant.id }}"
-                                  {% endif %}
-                                  {% if option.selected_value == value %}
                                     selected="selected"
-                                  {% endif %}
+                                  {%- endif -%}
                                 >
                                   {{ value }}
                                 </option>
