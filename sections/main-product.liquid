@@ -320,6 +320,7 @@
                       data-url="{{ product.url }}"
                       {{ block.shopify_attributes }}
                     >
+                      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
                       {%- for option in product.options_with_values -%}
                         <div class="product-form__input mb16 product-form__input--dropdown">
                           <div class="select">
@@ -333,10 +334,6 @@
                                 <option
                                   value="{{ value | escape }}"
                                   class="option-variant"
-                                  {%- if option.selected_value == value -%}
-                                    data-id="{{ product.selected_variant.id }}"
-                                    selected="selected"
-                                  {%- endif -%}
                                 >
                                   {{ value }}
                                 </option>
@@ -345,6 +342,21 @@
                           </div>
                         </div>
                       {%- endfor -%}
+
+                      <script>
+                        // Add a change event handler to the select elements
+                        $('select.select__select').on('change', function () {
+                          var selectedValue = $(this).val(); // Get the selected value
+                          var dataId = $(this).find('option:selected').data('id'); // Get data-id attribute
+
+                          // You can now use selectedValue and dataId as needed
+                          console.log('Selected Value: ' + selectedValue);
+                          console.log('Data ID: ' + dataId);
+
+                          // Perform any other actions based on the selected value and data-id
+                        });
+                      </script>
+
                       <script type="application/json" id="selectjson">
                         {{ product.variants | json }}
                       </script>
