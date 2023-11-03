@@ -1241,7 +1241,7 @@
       ".page_bg_block_text h2 {margin-top: 0px !important; margin-bottom: -5px !important;}",
       ".pages-icon-ins svg {width: 380px; height: auto;}",
       "@media (max-width: 576px) {.pages-icon-ins svg {width: 300px; } .page_bg_block_text h2 {text-align: center; }}",
-      ".rb-modal-info {padding-left: 6%; color: black; text-align: center; }",
+      ".rb-modal-info {padding-top: 8%; padding-left: 6%; color: black; text-align: center;}",
       ".rb-modal-info p {font-size: 1.1rem;}",
       ".rb-modal-info a {color: #a4915c;}",
       ".rb-modal-info a:hover {color: #bfa96b;}"
