@@ -1242,8 +1242,8 @@
       ".pages-icon-ins svg {width: 380px; height: auto;}",
       "@media (max-width: 576px) {.pages-icon-ins svg {width: 300px; } .page_bg_block_text h2 {text-align: center; }}",
       ".tpb5 {padding-left: 6%; color: black; text-align: center; font-size: 1.1rem;}",
-      ".tpb5 a {color: #bfa96b;}",
-      ".tpb5 a:hover {color: #a4915c;}"
+      ".tpb5 a {color: #a4915c;}",
+      ".tpb5 a:hover {color: #bfa96b;}"
     ]
   }
 }
