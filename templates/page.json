@@ -97,7 +97,8 @@
       "custom_css": [
         ".rb-select {height: 5vh; padding-left: 7%; padding-right: 7%; border: 1px solid #a4915c; font-size: 19px;}",
         ".rb-btn {background-color: white; color: #a4915c; transition: background-color 0.5s, color 0.5s, opacity 0.5s;}",
-        ".rb-btn:hover {background-color: #a4915c; color: white;}"
+        ".rb-btn:hover {background-color: #a4915c; color: white;}",
+        ".rb-modal-info {padding-left: 65px;}"
       ],
       "settings": {
         "include_margins": true
