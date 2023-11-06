@@ -697,7 +697,7 @@ variant-selects .select__select {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding: 10px 20px 10px 0;
   border-bottom: 1px solid var(--grey10);
   -webkit-box-pack: justify;
