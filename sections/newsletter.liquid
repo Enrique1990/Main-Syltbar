@@ -25,26 +25,26 @@
                  </div> 
                  <div class="newsletter-icons_wrap-ins">
                    {% if block.settings.icon2 != blank %}
-                     <div class="newsletter-icons_wrap-ins_icon">
+                     <a href="{{ block.settings.icon_link2 }}" class="newsletter-icons_wrap-ins_icon">
                        <img src="{{ block.settings.icon2 | img_url: "medium" }}">
-                     </div>  
+                     </a>  
                    {% endif %}
                    {% if block.settings.icon_subheading2 != blank %}
-                     <div class="newsletter-icons_wrap-ins_subheading">
+                     <a href="{{ block.settings.icon_link2 }}" class="newsletter-icons_wrap-ins_subheading">
                        {{ block.settings.icon_subheading2 }}
-                     </div>  
+                     </a>  
                    {% endif %}
                  </div>  
                  <div class="newsletter-icons_wrap-ins">
                    {% if block.settings.icon3 != blank %}
-                     <div class="newsletter-icons_wrap-ins_icon">
+                     <a href="{{ block.settings.icon_link3 }}" class="newsletter-icons_wrap-ins_icon">
                        <img src="{{ block.settings.icon3 | img_url: "medium" }}">
-                     </div>  
+                     </a>  
                    {% endif %}
                    {% if block.settings.icon_subheading3 != blank %}
-                     <div class="newsletter-icons_wrap-ins_subheading">
+                     <a href="{{ block.settings.icon_link3 }}" class="newsletter-icons_wrap-ins_subheading">
                        {{ block.settings.icon_subheading3 }}
-                     </div>  
+                     </a>  
                    {% endif %}
                  </div>  
                </div>
