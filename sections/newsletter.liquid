@@ -13,9 +13,9 @@
                <div class="newsletter-icons_wrap">
                  <div class="newsletter-icons_wrap-ins">
                    {% if block.settings.icon != blank %}
-                     <div class="newsletter-icons_wrap-ins_icon">
+                     <a href="{{ block.settings.icon_link }}" class="newsletter-icons_wrap-ins_icon">
                        <img src="{{ block.settings.icon | img_url: "medium" }}">
-                     </div>  
+                     </a>  
                    {% endif %}
                    {% if block.settings.icon_subheading != blank %}
                      <div class="newsletter-icons_wrap-ins_subheading">
@@ -146,6 +146,11 @@
           "label": "Subheading"
         },
         {
+          "type": "url",
+          "id": "icon_link",
+          "label": "Icon Link"
+        },
+        {
           "type": "image_picker",
           "id": "icon2", 
           "label": "Icon"
@@ -156,6 +161,11 @@
           "label": "Subheading"
         },
         {
+          "type": "url",
+          "id": "icon_link2",
+          "label": "Icon Link"
+        },
+        {
           "type": "image_picker",
           "id": "icon3", 
           "label": "Icon"
@@ -164,6 +174,11 @@
           "type": "text",
           "id": "icon_subheading3",
           "label": "Subheading"
+        },
+        {
+          "type": "url",
+          "id": "icon_link3",
+          "label": "Icon Link"
         }
       ]
     },
