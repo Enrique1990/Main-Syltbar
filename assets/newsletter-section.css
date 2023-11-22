@@ -16,6 +16,7 @@
 }
 
 .newsletter .newsletter-icons_wrap-ins_subheading {
+  display: block;
   font-size: 20px;
 }
 
