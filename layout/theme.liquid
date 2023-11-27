@@ -132,7 +132,9 @@
   
 
   
-  </head>
+  
+ {% render 'multiship' %} 
+</head>
 
   
   <body class="{% if settings.sticky_header == true %}stickyheader-ok{% endif %}{% if request.page_type == 'page' %} page page-{{page.id}}{% endif %}{% if request.page_type == 'collection' %} collection collection-{{collection.id}}{% endif %}{% if template.name == 'index' %} homepage{% endif %}{% if template == 'page.dive-deeper' %} homepage{% endif %}{% if request.page_type == 'product' %} product product-{{product.id}}{% endif %}">
