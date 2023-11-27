@@ -19773,3 +19773,7 @@
     width: 60px;
   }   
 }
+
+._rc_bundle {
+  display: none
+}
