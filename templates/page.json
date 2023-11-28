@@ -95,7 +95,7 @@
         "7a06b162-8504-46a0-bc58-87c6a8abe39d"
       ],
       "custom_css": [
-        ".rb-select {height: 5vh; padding-left: 7%; padding-right: 7%; border: 1px solid #a4915c; font-size: 19px;}",
+        ".rb-select {height: 5vh; padding-left: 7%; padding-right: 7%; border: 1px solid #a4915c; font-size: 1.2rem;}",
         ".rb-btn {background-color: white; color: #a4915c; transition: background-color 0.5s, color 0.5s, opacity 0.5s;}",
         ".rb-btn:hover {background-color: #a4915c; color: white;}",
         ".mt0 {padding-left: 65px; color: black;}",
