@@ -6,10 +6,10 @@
         "0f28dc34-ce12-44bb-844a-533ebc895377": {
           "type": "item",
           "settings": {
-            "imagebanner": "shopify:\/\/shop_images\/Homepage_2.jpg",
-            "imagebanner_mobile": "shopify:\/\/shop_images\/new_homepage_12oct_674e4728-02e0-453b-a035-31e5d14335af.jpg",
-            "title": "SYLTBAR is",
-            "smalltitle": "Your Happy Healthy Daily Juice",
+            "imagebanner": "shopify:\/\/shop_images\/thumbnail_Syltbar_09-23-23_323.jpg",
+            "imagebanner_mobile": "shopify:\/\/shop_images\/thumbnail_Syltbar_09-23-23_323_4d4c287a-df92-440b-977b-5a89ecadcbf2.jpg",
+            "title": "",
+            "smalltitle": "",
             "urlbanner": "shopify:\/\/collections\/all-wines",
             "btnname": "shop now"
           }
@@ -17,8 +17,8 @@
         "8f9d9137-dd68-44b8-9d3f-6fd5d23c350a": {
           "type": "item",
           "settings": {
-            "imagebanner": "shopify:\/\/shop_images\/leftleft.jpg",
-            "imagebanner_mobile": "shopify:\/\/shop_images\/Homepage_mobile_222.jpg",
+            "imagebanner": "shopify:\/\/shop_images\/Homepage_2.jpg",
+            "imagebanner_mobile": "shopify:\/\/shop_images\/new_homepage_12oct_674e4728-02e0-453b-a035-31e5d14335af.jpg",
             "title": "SYLTBAR is",
             "smalltitle": "Your Happy Healthy Daily Juice",
             "urlbanner": "shopify:\/\/collections\/sparkling-wines",
