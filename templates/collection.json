@@ -14,7 +14,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 24,
+        "products_per_page": 21,
         "enable_sorting": false,
         "filter_off": true,
         "show_secondary_image": true,
