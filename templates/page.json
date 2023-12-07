@@ -99,7 +99,8 @@
         ".rb-btn {background-color: white; color: #a4915c; transition: background-color 0.5s, color 0.5s, opacity 0.5s;}",
         ".rb-btn:hover {background-color: #a4915c; color: white;}",
         ".mt0 {padding-left: 65px; color: black;}",
-        ".mb0 {font-size: 1.2rem;}"
+        ".mb0 {font-size: 1.2rem;}",
+        ".rb-sticky-content[data-v-7053f9] {min-height: 66px;}"
       ],
       "settings": {
         "include_margins": true
