@@ -101,7 +101,7 @@
         ".mt0 {padding-left: 65px; color: black;}",
         ".mb0 {font-size: 1.2rem;}",
         ".rb-sticky-content[data-v-7053f9] {min-height: 54px; padding-left: 17px; padding-right: 17px;}",
-        ".rb-form .rb-btn {padding-top: 1px; padding-bottom: 1px;}"
+        ".rb-form .rb-btn {padding-top: 0.5px; padding-bottom: 0.5px;}"
       ],
       "settings": {
         "include_margins": true
