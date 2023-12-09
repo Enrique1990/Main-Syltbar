@@ -100,8 +100,7 @@
         ".rb-btn:hover {background-color: #a4915c; color: white;}",
         ".mt0 {padding-left: 65px; color: black;}",
         ".mb0 {font-size: 1.2rem;}",
-        ".rb-sticky-content[data-v-7053f9] {min-height: 54px; padding-left: 17px; padding-right: 17px;}",
-        ".rb-form button {height: 35px; padding-top: 2px; padding-bottom: 2px;}"
+        ".rb-sticky-content[data-v-7053f9] {min-height: 54px; padding-left: 17px; padding-right: 17px;}"
       ],
       "settings": {
         "include_margins": true
