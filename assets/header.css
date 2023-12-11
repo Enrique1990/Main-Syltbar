@@ -397,6 +397,7 @@ body.homepage {
 }
 .announcement-bar .item a {
   color: #ffffff;
+  text-decoration: none;
 }
 .announcement-bar .item a:hover {
   text-decoration: underline;
