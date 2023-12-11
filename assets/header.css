@@ -399,7 +399,7 @@ body.homepage {
   color: #ffffff;
 }
 .announcement-bar .item a:hover, .announcement-bar .item a:focus {
-  color: #a4915c;
+  text-decoration: underline;
 }
 @media (max-width: 767px) {
   .announcement-bar .item {
