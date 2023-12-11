@@ -399,12 +399,12 @@ body.homepage {
   color: #ffffff;
   text-decoration: none;
 }
-.announcement-bar .item a:hover {
+/* .announcement-bar .item a:hover {
   text-decoration: underline important!;
-}
-/* .announcement-bar .item a:hover, .announcement-bar .item a:focus {
-  text-decoration: underline;
 } */
+.announcement-bar .item a:hover, .announcement-bar .item a:focus {
+  color: #a4915c
+}
 @media (max-width: 767px) {
   .announcement-bar .item {
     font-size: 12px;
