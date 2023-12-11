@@ -398,9 +398,12 @@ body.homepage {
 .announcement-bar .item a {
   color: #ffffff;
 }
-.announcement-bar .item a:hover, .announcement-bar .item a:focus {
+.announcement-bar .item a:hover {
   text-decoration: underline;
 }
+/* .announcement-bar .item a:hover, .announcement-bar .item a:focus {
+  text-decoration: underline;
+} */
 @media (max-width: 767px) {
   .announcement-bar .item {
     font-size: 12px;
