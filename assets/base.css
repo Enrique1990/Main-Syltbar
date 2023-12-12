@@ -19773,7 +19773,7 @@
     width: 60px;
   }   
 }
-/* .item_block {
+.item_block {
   text-align: center;
   width: 100%;
   display: flex;
@@ -19839,4 +19839,4 @@
   .container1 {
     margin-top: 0.5em; /* Adjust margin for better spacing on small screens */
   }
-} */
+}
