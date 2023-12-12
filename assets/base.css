@@ -19797,7 +19797,8 @@
 .otro {
   width: 18px;
   margin-top: 41%; /* Center vertically */
-  padding-left: 118%;
+ margin-left: 21px;
+  margin-top: 23%;
   transform: translate(-50%, -50%); /* Center horizontally */
 }
 .attentive {
