@@ -19793,7 +19793,9 @@
   margin-top: 1.1em;
   margin-bottom: 0.4em;
 }
-
+.otro_link {
+  height: 100%;
+}
 .otro {
     width: 16px;
     margin-left: 54%;
