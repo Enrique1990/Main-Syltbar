@@ -85,6 +85,12 @@
               "announcementbar": "Season Celebration: order by Dec 13 West Coast and Dec 15 East Coast for guaranteed delivery by Dec 24"
             }
           },
+          "91860400-f8d6-46e5-9421-92052fce0277": {
+            "type": "bar",
+            "settings": {
+              "announcementbar": ""
+            }
+          },
           "74ea7f07-34c8-43b6-b6fa-998771c67b5c": {
             "type": "bar",
             "settings": {
@@ -107,6 +113,7 @@
         "block_order": [
           "03497716-79ed-4142-bacd-e9e1ae8abc0d",
           "a54f23ca-6dab-41f5-9b6b-06a2dcfdc1d1",
+          "91860400-f8d6-46e5-9421-92052fce0277",
           "74ea7f07-34c8-43b6-b6fa-998771c67b5c",
           "da8542b7-fa7d-4eab-a053-90c86411fdcc",
           "54ad8314-7a09-4d28-950e-277af7a20f99"
