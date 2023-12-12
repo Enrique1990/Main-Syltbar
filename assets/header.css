@@ -366,7 +366,7 @@ body.homepage {
 /****************************************************************************************/
 /*********Header**********/
 .announcement-bar {
-  padding: 0px 10px;
+  padding: 0px 0px;
   background-color: #2e2e2f;
 }
 .announcement-bar .announcement-bar-slider {
