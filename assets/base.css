@@ -19830,6 +19830,7 @@
   font-size: 0.6rem;
 }
   .otro_link {
-    width: 1%;
+    display: none;
+    width: 2%;
   }
 }
