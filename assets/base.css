@@ -19826,7 +19826,7 @@
 /* Add this media query at the end of your existing CSS */
 @media (max-width: 600px) {
 .attentive {
-  width: 94%;
+  width: 96%;
   font-size: 0.6rem;
 }
   .otro_link {
