@@ -19797,9 +19797,9 @@
   height: 100%;
 }
 .otro {
-    width: 16px;
-    margin-left: 54%;
-    margin-top: 48%;
+     width: 16px;
+    margin-left: 60%;
+    margin-top: 50%;
   transform: translate(-50%, -50%); /* Center horizontally */
 }
 .attentive {
