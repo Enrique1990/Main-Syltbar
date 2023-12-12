@@ -19823,3 +19823,20 @@
 .attentive {
   transition: color 0.3s, text-decoration 0.3s, transform 0.3s;
 }
+/* Add this media query at the end of your existing CSS */
+@media (max-width: 600px) {
+  .item_block {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .otro {
+    width: 100%; /* Full width on small screens */
+    margin-top: 0; /* Remove top margin on small screens */
+    padding-left: 0; /* Remove left padding on small screens */
+    transform: none; /* Remove transform on small screens */
+  }
+
+  .container1 {
+    margin-top: 0.5em; /* Adjust margin for better spacing on small screens */
+  }
+}
