@@ -19826,9 +19826,9 @@
 /* Add this media query at the end of your existing CSS */
 @media (max-width: 600px) {
 .attentive {
-  width: 100%;
+  width: 90%;
 }
   .otro {
-    width: 20%;
+    width: 10%;
   }
 }
