@@ -74,7 +74,6 @@
         "blocks": {
           "03497716-79ed-4142-bacd-e9e1ae8abc0d": {
             "type": "bar",
-            "disabled": true,
             "settings": {
               "announcementbar": ""
             }
