@@ -19827,6 +19827,7 @@
 @media (max-width: 600px) {
 .attentive {
   width: 96%;
+  font-size: 0.6rem;
 }
   .otro_link {
     width: 4%;
