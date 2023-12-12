@@ -19829,8 +19829,11 @@
   width: 96%;
   font-size: 0.6rem;
 }
+  .otro {
+    width:12px;
+  }
   .otro_link {
-    display: none;
+    /* display: none; */
     width: 2%;
   }
 }
