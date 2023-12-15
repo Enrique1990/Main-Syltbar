@@ -116,7 +116,7 @@
       "type": "homepage-facts",
       "custom_css": [
         ".container {margin-right: 48px !important;}",
-        ".facts-wrapper__mob {top: 12%;}"
+        ".facts-wrapper__mob {top: 10%;}"
       ],
       "settings": {
         "imagebanner": "shopify:\/\/shop_images\/syltbar_group_picture2.jpg",
