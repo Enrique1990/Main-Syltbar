@@ -115,8 +115,7 @@
     "166349097357b3d356": {
       "type": "homepage-facts",
       "custom_css": [
-        ".container {margin-right: 48px !important;}",
-        ".facts-wrapper__mob {top: 8%;}"
+
       ],
       "settings": {
         "imagebanner": "shopify:\/\/shop_images\/Homepage_Facts_make.jpg",
