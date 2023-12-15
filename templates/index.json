@@ -114,8 +114,12 @@
     },
     "166349097357b3d356": {
       "type": "homepage-facts",
+      "custom_css": [
+        ".container {margin-right: 48px !important;}",
+        ".facts-wrapper__mob {top: 12%;}"
+      ],
       "settings": {
-        "imagebanner": "shopify:\/\/shop_images\/Homepage_Facts_make.jpg",
+        "imagebanner": "shopify:\/\/shop_images\/syltbar_group_picture2.jpg",
         "imagebanner_mobile": "shopify:\/\/shop_images\/syltbar_front.jpg",
         "title": "Facts Makes<br>a Difference",
         "urlbanner": "shopify:\/\/pages\/dive-deeper",
