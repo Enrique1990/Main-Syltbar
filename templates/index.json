@@ -115,7 +115,8 @@
     "166349097357b3d356": {
       "type": "homepage-facts",
       "custom_css": [
-        ".container {margin-right: 6rem;}",
+        ".container {margin-right: 4rem;}",
+        ".facts-wrapper__mob {top: 14%;}",
         "@media (max-width: 768px) {.title {font-size: 2.5em !important; text-align: center; } .button_arrow_border {margin: auto !important; max-width: 264px; } .align-items-end {-webkit-box-align: start !important; align-items: flex-start !important; } .facts-wrapper .facts-wrapper__mob {margin-top: 0px !important; margin-right: 2em; }}"
       ],
       "settings": {
