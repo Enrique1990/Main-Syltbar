@@ -25,21 +25,25 @@
     <div class="container">
       <div class="page_image_full_block_text">
         {{ section.settings.text2 }}
-   <div class="page_image_full_block_tex-bttn2">
-         {% if section.settings.btnname2 != blank %}<a href="{{ section.settings.urlbanner2 }}" class="button_arrow_border button_arrow_border_white">{% include "button_arrow", title: section.settings.btnname2 %}</a>{% endif %} 
-     </div>
-   </div>
+        <div class="page_image_full_block_tex-bttn2">
+          {% if section.settings.btnname2 != blank %}
+            <a href="{{ section.settings.urlbanner2 }}" class="button_arrow_border button_arrow_border_white">
+              {% include "button_arrow", title: section.settings.btnname2 %}
+            </a>
+          {% endif %}
+        </div>
+      </div>
     </div>
     {% if section.settings.image2 != blank %}
       <img src="{{ section.settings.image2 | img_url: "master" }}" class="desctop">
     {% endif %}
-    {% assign image_mob = section.settings.image2 %}
-    {% if section.settings.image2_mob != blank %}
-      {% assign image_mob = section.settings.image2_mob %}
+    {% assign image_mob2 = section.settings.image2_mob %}
+    {% if image_mob2 != blank %}
+      <img src="{{ image_mob2 | img_url: "master" }}" class="mobile" style="position: relative; z-index: 1;">
     {% endif %}
-    <img src="{{ image_mob | img_url: "master" }}" class="mobile">
   </div>
 {% endif %}
+
 
 
 {% if section.settings.image3 != blank or section.settings.text3 != blank %}
