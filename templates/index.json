@@ -116,7 +116,7 @@
       "type": "homepage-facts",
       "settings": {
         "imagebanner": "shopify:\/\/shop_images\/Homepage_Facts_make.jpg",
-        "imagebanner_mobile": "shopify:\/\/shop_images\/Homepage_Facts_make_mobile.jpg",
+        "imagebanner_mobile": "shopify:\/\/shop_images\/syltbar_front.jpg",
         "title": "Facts Makes<br>a Difference",
         "urlbanner": "shopify:\/\/pages\/dive-deeper",
         "btnname": "dive-deeper"
