@@ -115,10 +115,11 @@
     "166349097357b3d356": {
       "type": "homepage-facts",
       "custom_css": [
-
+        ".container {margin-right: 6rem;}",
+        "@media (max-width: 768px) {.title {font-size: 2.5em !important; text-align: center; } .button_arrow_border {margin: auto !important; max-width: 264px; } .align-items-end {-webkit-box-align: start !important; align-items: flex-start !important; } .facts-wrapper .facts-wrapper__mob {margin-top: 0px !important; margin-right: 2rem; }}"
       ],
       "settings": {
-        "imagebanner": "shopify:\/\/shop_images\/Homepage_Facts_make.jpg",
+        "imagebanner": "shopify:\/\/shop_images\/syltbar_group_picture2.jpg",
         "imagebanner_mobile": "shopify:\/\/shop_images\/Homepage_Facts_make_mobile.jpg",
         "title": "Facts Makes<br>a Difference",
         "urlbanner": "shopify:\/\/pages\/dive-deeper",
