@@ -25,7 +25,7 @@
     <meta name="description" content="{{ 'gift_cards.issued.subtext' | t }}">
 
     {{ content_for_header }}
-     <!-- Main css -->
+    <!-- Main css -->
     <link rel="stylesheet" href="{{ 'base.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'dev.css' | asset_url }}">
     {% render 'cusrom-styles' %}
@@ -36,8 +36,8 @@
     {%- unless settings.type_header_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
- <!--Jquery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     {{ 'template-giftcard.css' | asset_url | stylesheet_tag }}
   </head>
 
@@ -65,7 +65,9 @@
           {%- assign gift_card_balance = gift_card.balance | money -%}
         {% endif %}
         {%- if gift_card.balance != gift_card.initial_value -%}
-          <p class="gift-card__label caption-large center">{{ 'gift_cards.issued.remaining_html' | t: balance: gift_card_balance }}</p>
+          <p class="gift-card__label caption-large center">
+            {{ 'gift_cards.issued.remaining_html' | t: balance: gift_card_balance }}
+          </p>
         {%- endif -%}
       </div>
     </header>
@@ -73,11 +75,25 @@
     <main class="gift-card">
       <div class="container center">
         <div class="gift-card__image-wrapper">
-          {% if settings.gift-card-img != blank %}
-          <img src="{{ settings.gift-card-img | img_url : 'master' }}" alt="{{ settings.gift-card-img.alt }}" class="gift-card__image" height="{{ 570 | divided_by: 1.5 }}" width="570" loading="lazy">
-            {% else %}
-            <img src="{{ 'gift-card/card.svg' | shopify_asset_url }}" alt="" class="gift-card__image" height="{{ 570 | divided_by: 1.5 }}" width="570" loading="lazy">
-            {% endif %}
+          {% if settings['gift-card-img'] != blank %}
+            <img
+              src="{{ settings.gift-card-img | img_url : 'master' }}"
+              alt="{{ settings.gift-card-img.alt }}"
+              class="gift-card__image"
+              height="{{ 570 | divided_by: 1.5 }}"
+              width="570"
+              loading="lazy"
+            >
+          {% else %}
+            <img
+              src="{{ 'gift-card/card.svg' | shopify_asset_url }}"
+              alt=""
+              class="gift-card__image"
+              height="{{ 570 | divided_by: 1.5 }}"
+              width="570"
+              loading="lazy"
+            >
+          {% endif %}
         </div>
         <div class="gift-card__qr-code m26" data-identifier="{{ gift_card.qr_identifier }}"></div>
         <div class="gift-card__information">
@@ -93,13 +109,20 @@
               <button class="link gift-card__copy-link btn_link">{{ 'gift_cards.issued.copy_code' | t }}</button>
               <span class="gift-card__copy-success form__message" role="status"></span>
               <template>
-                {%- render 'icon-success' -%}{{ 'gift_cards.issued.copy_code_success' | t }}
+                {%- render 'icon-success' -%}
+                {{ 'gift_cards.issued.copy_code_success' | t }}
               </template>
             </div>
           </div>
           {%- if gift_card.pass_url -%}
             <a href="{{ gift_card.pass_url }}" class="gift_card__apple-wallet">
-              <img src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}" width="120" height="40" alt="{{ 'gift_cards.issued.add_to_apple_wallet' | t }}" loading="lazy">
+              <img
+                src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}"
+                width="120"
+                height="40"
+                alt="{{ 'gift_cards.issued.add_to_apple_wallet' | t }}"
+                loading="lazy"
+              >
             </a>
           {%- endif -%}
           <div class="gift-card__buttons no-print">
@@ -110,8 +133,8 @@
               rel="noopener"
               aria-describedby="a11y-new-window-message"
             >
-              {{ 'gift_cards.issued.shop_link' | t }}
-            </a><br>
+              {{ 'gift_cards.issued.shop_link' | t }} </a
+            ><br>
             <button
               class="button button--secondary btn_link mt16"
               onclick="window.print();"
@@ -154,4 +177,16 @@
       }
     });
   });
+        // Add JavaScript logic for handling physical delivery form submission
+        document.getElementById('physicalDeliveryForm').addEventListener('submit', function(event) {
+          event.preventDefault();
+
+          // Collect and process the shipping details
+          var shippingName = document.getElementById('shippingName').value;
+          var shippingAddress = document.getElementById('shippingAddress').value;
+
+          // Add logic to handle the physical delivery details as needed
+          console.log('Shipping Name:', shippingName);
+          console.log('Shipping Address:', shippingAddress);
+        });
 </script>
