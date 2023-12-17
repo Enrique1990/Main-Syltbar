@@ -19867,7 +19867,8 @@ html {
   border-bottom: 2px solid gray;
 }
 .physical_card {
-  padding-top: 6%;
+ padding-bottom: 9%;
+    border-bottom: 2px solid gray;
 }
 .btn2 {
   max-width: 267px;
