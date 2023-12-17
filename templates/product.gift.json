@@ -12,15 +12,18 @@
         },
         "e5483e20-cf7e-42f7-b7e7-880675a0c121": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "7efc6191-74dc-4c5f-afda-1f844cf28453": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "e4e2afc0-cde4-44db-a202-6a2142fd2c20": {
           "type": "rating",
-          "settings": {}
+          "settings": {
+          }
         },
         "9cd5ac9d-baef-445f-b432-e9ba55a579a9": {
           "type": "price",
@@ -47,12 +50,13 @@
         "953e54b9-51fb-4c11-a500-c291d8f27445": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<ul class=\"shipping_orders\">\n                  <li><i class=\"fa fa-truck\"></i>\n                  {%- if product.tags contains 'Free_shipping_no_12_btls' -%}\n                    Free shipping\n                    {% else %}\n                    Free ground shipping with 12+ bottles\n                  {%- endif -%} \n                  <li><i class=\"fa fa-clock\"></i>Orders before 10AM EST ship same business day.\n                  </ul>"
+            "custom_liquid": "<ul class=\"shipping_orders\">\n                  <li><i class=\"fa fa-truck\"><\/i>\n                  {%- if product.tags contains 'Free_shipping_no_12_btls' -%}\n                    Free shipping\n                    {% else %}\n                    Free ground shipping with 12+ bottles\n                  {%- endif -%} \n                  <li><i class=\"fa fa-clock\"><\/i>Orders before 10AM EST ship same business day.\n                  <\/ul>"
           }
         },
         "b374c7b2-fad6-434c-a8f7-f386ddb7cb07": {
           "type": "producttabs",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -66,8 +70,11 @@
         "953e54b9-51fb-4c11-a500-c291d8f27445",
         "b374c7b2-fad6-434c-a8f7-f386ddb7cb07"
       ],
-      "custom_css": [".rc-widget {display: none !important;}"],
-      "settings": {}
+      "custom_css": [
+        ".rc-widget {display: none !important;}"
+      ],
+      "settings": {
+      }
     },
     "b4e5097c-3e03-4ba2-848b-96edf14ebffb": {
       "type": "text-image",
@@ -111,7 +118,7 @@
           "type": "block",
           "settings": {
             "title": "Winery visit",
-            "text": "We are always transparent in our wine production, which is why we welcome wine club members to discover our winery, San Simone, when you travel to Italy/Friuli ( very close to Venice ). This visit will also include an authentic Italian lunch."
+            "text": "We are always transparent in our wine production, which is why we welcome wine club members to discover our winery, San Simone, when you travel to Italy\/Friuli ( very close to Venice ). This visit will also include an authentic Italian lunch."
           }
         }
       },
@@ -125,7 +132,7 @@
       ],
       "settings": {
         "title": "Our Membership advantages (Aside from 10% off and complimentary shipping)",
-        "img": "shopify://shop_images/Wine_Club_Subscription_page_b1.jpg",
+        "img": "shopify:\/\/shop_images\/Wine_Club_Subscription_page_b1.jpg",
         "text": ""
       }
     },
@@ -137,7 +144,7 @@
           "settings": {
             "star": "5",
             "title": "{{ product.metafields.custom.review_1_title.value }}",
-            "text": "<p>I order this wine by the case. It's absolutely delicious - crisp, not too sweet. I have a bottle in my fridge at all times. I's just a plus that this is lower calories and less sugar than all other Prosecco's!{{ product.metafields.custom.review_1_text | metafield_tag }}</p>",
+            "text": "<p>I order this wine by the case. It's absolutely delicious - crisp, not too sweet. I have a bottle in my fridge at all times. I's just a plus that this is lower calories and less sugar than all other Prosecco's!{{ product.metafields.custom.review_1_text | metafield_tag }}<\/p>",
             "name": "{{ product.metafields.custom.review_1_name.value }}"
           }
         },
@@ -146,7 +153,7 @@
           "settings": {
             "star": "5",
             "title": "{{ product.metafields.custom.review_2_title.value }}",
-            "text": "<p>{{ product.metafields.custom.review_2_text | metafield_tag }}</p>",
+            "text": "<p>{{ product.metafields.custom.review_2_text | metafield_tag }}<\/p>",
             "name": "{{ product.metafields.custom.review_2_name.value }}"
           }
         },
@@ -155,7 +162,7 @@
           "settings": {
             "star": "5",
             "title": "{{ product.metafields.custom.review_3_title.value }}",
-            "text": "<p>{{ product.metafields.custom.review_3_text | metafield_tag }}</p>",
+            "text": "<p>{{ product.metafields.custom.review_3_text | metafield_tag }}<\/p>",
             "name": "{{ product.metafields.custom.review_3_name.value }}"
           }
         }
@@ -165,7 +172,9 @@
         "6c8d8dc4-94e0-4911-9fd8-acc1cbc21c69",
         "099771cd-487f-4c98-b520-70fe4240aa59"
       ],
-      "settings": {}
+      "disabled": true,
+      "settings": {
+      }
     },
     "16643511358a0a42c5": {
       "type": "product-ingredients",
@@ -173,25 +182,25 @@
         "a467a33c-0ae1-414b-a32f-ce1ffd076d4a": {
           "type": "item",
           "settings": {
-            "ico": "shopify://shop_images/280.png",
+            "ico": "shopify:\/\/shop_images\/280.png",
             "title": "Sugar is your Enemy",
-            "text": "<p>The University of Miami Diabetes Research Institute tested sparkling wines and found SYLTBAR has the lowest sugar content.</p>"
+            "text": "<p>The University of Miami Diabetes Research Institute tested sparkling wines and found SYLTBAR has the lowest sugar content.<\/p>"
           }
         },
         "9286c261-4a50-4cd4-a7ba-5fbad8d4e537": {
           "type": "item",
           "settings": {
-            "ico": "shopify://shop_images/leaf_icon_1.png",
+            "ico": "shopify:\/\/shop_images\/leaf_icon_1.png",
             "title": "Our Extra Effort",
-            "text": "<p>Despite the fact that we are not vegan, our wine is vegan. The majority of wines are not vegan or even vegetarian-friendly. </p>"
+            "text": "<p>Despite the fact that we are not vegan, our wine is vegan. The majority of wines are not vegan or even vegetarian-friendly. <\/p>"
           }
         },
         "141b11b1-b641-4468-b3fb-2d1bc7d5bd38": {
           "type": "item",
           "settings": {
-            "ico": "shopify://shop_images/hands_icon_1.png",
+            "ico": "shopify:\/\/shop_images\/hands_icon_1.png",
             "title": "Respect for Nature",
-            "text": "<p>The Green Project certification, found on each of our bottles, is a step above organic in respect of Mother Nature. </p>"
+            "text": "<p>The Green Project certification, found on each of our bottles, is a step above organic in respect of Mother Nature. <\/p>"
           }
         }
       },
@@ -207,7 +216,7 @@
     "16643572272737dfbe": {
       "type": "image-block",
       "settings": {
-        "ico": "shopify://shop_images/New_wine_club.jpg",
+        "ico": "shopify:\/\/shop_images\/New_wine_club.jpg",
         "parallax": true
       }
     },
@@ -215,9 +224,9 @@
       "type": "product-sugar",
       "disabled": true,
       "settings": {
-        "ico": "shopify://shop_images/Finally_Red.png",
+        "ico": "shopify:\/\/shop_images\/Finally_Red.png",
         "title": "Sparkling Wine Sugar Comprasion",
-        "url": "shopify://pages/compare-syltbar",
+        "url": "shopify:\/\/pages\/compare-syltbar",
         "urltitle": "Read More"
       }
     },
@@ -228,7 +237,7 @@
           "type": "bottle",
           "settings": {
             "name": "Syltbar",
-            "image": "shopify://shop_images/red01.png",
+            "image": "shopify:\/\/shop_images\/red01.png",
             "glucose": 166
           }
         },
@@ -236,7 +245,7 @@
           "type": "bottle",
           "settings": {
             "name": "Zardetto",
-            "image": "shopify://shop_images/red02.png",
+            "image": "shopify:\/\/shop_images\/red02.png",
             "glucose": 263
           }
         },
@@ -244,7 +253,7 @@
           "type": "bottle",
           "settings": {
             "name": "Chandon",
-            "image": "shopify://shop_images/red03.png",
+            "image": "shopify:\/\/shop_images\/red03.png",
             "glucose": 375
           }
         },
@@ -252,7 +261,7 @@
           "type": "bottle",
           "settings": {
             "name": "Santa  <br> Margherita",
-            "image": "shopify://shop_images/red04.png",
+            "image": "shopify:\/\/shop_images\/red04.png",
             "glucose": 381
           }
         },
@@ -260,7 +269,7 @@
           "type": "bottle",
           "settings": {
             "name": "Veuve <br> Cliquot",
-            "image": "shopify://shop_images/red05.png",
+            "image": "shopify:\/\/shop_images\/red05.png",
             "glucose": 410
           }
         },
@@ -268,7 +277,7 @@
           "type": "bottle",
           "settings": {
             "name": "Mionetto",
-            "image": "shopify://shop_images/red06.png",
+            "image": "shopify:\/\/shop_images\/red06.png",
             "glucose": 419
           }
         },
@@ -276,7 +285,7 @@
           "type": "bottle",
           "settings": {
             "name": "Moet & Chandon",
-            "image": "shopify://shop_images/red07.png",
+            "image": "shopify:\/\/shop_images\/red07.png",
             "glucose": 426
           }
         },
@@ -284,7 +293,7 @@
           "type": "bottle",
           "settings": {
             "name": "La marca",
-            "image": "shopify://shop_images/red08.png",
+            "image": "shopify:\/\/shop_images\/red08.png",
             "glucose": 661
           }
         },
@@ -292,7 +301,7 @@
           "type": "bottle",
           "settings": {
             "name": "Ruffino",
-            "image": "shopify://shop_images/red09.png",
+            "image": "shopify:\/\/shop_images\/red09.png",
             "glucose": 703
           }
         }
@@ -319,7 +328,7 @@
           "type": "bottle",
           "settings": {
             "name": "Syltbar",
-            "image": "shopify://shop_images/rose01.png",
+            "image": "shopify:\/\/shop_images\/rose01.png",
             "glucose": 186
           }
         },
@@ -327,7 +336,7 @@
           "type": "bottle",
           "settings": {
             "name": "Zonin",
-            "image": "shopify://shop_images/rose02.png",
+            "image": "shopify:\/\/shop_images\/rose02.png",
             "glucose": 345
           }
         },
@@ -335,7 +344,7 @@
           "type": "bottle",
           "settings": {
             "name": "Graham <br>Beck",
-            "image": "shopify://shop_images/rose03.png",
+            "image": "shopify:\/\/shop_images\/rose03.png",
             "glucose": 398
           }
         },
@@ -343,7 +352,7 @@
           "type": "bottle",
           "settings": {
             "name": "Chandon",
-            "image": "shopify://shop_images/rose04.png",
+            "image": "shopify:\/\/shop_images\/rose04.png",
             "glucose": 491
           }
         },
@@ -351,7 +360,7 @@
           "type": "bottle",
           "settings": {
             "name": "Veuve<br>Cliquot",
-            "image": "shopify://shop_images/rose05.png",
+            "image": "shopify:\/\/shop_images\/rose05.png",
             "glucose": 510
           }
         },
@@ -359,7 +368,7 @@
           "type": "bottle",
           "settings": {
             "name": "Mionetto",
-            "image": "shopify://shop_images/rose06.png",
+            "image": "shopify:\/\/shop_images\/rose06.png",
             "glucose": 573
           }
         },
@@ -367,7 +376,7 @@
           "type": "bottle",
           "settings": {
             "name": "Moet &<br>Chandon",
-            "image": "shopify://shop_images/rose07.png",
+            "image": "shopify:\/\/shop_images\/rose07.png",
             "glucose": 597
           }
         },
@@ -375,7 +384,7 @@
           "type": "bottle",
           "settings": {
             "name": "Anna Rose",
-            "image": "shopify://shop_images/rose08.png",
+            "image": "shopify:\/\/shop_images\/rose08.png",
             "glucose": 701
           }
         },
@@ -383,7 +392,7 @@
           "type": "bottle",
           "settings": {
             "name": "Ruffino",
-            "image": "shopify://shop_images/rose09.png",
+            "image": "shopify:\/\/shop_images\/rose09.png",
             "glucose": 702
           }
         }
@@ -407,7 +416,7 @@
       "type": "product-recommendations",
       "settings": {
         "heading": "All Essentials",
-        "url": "shopify://collections/shop-all",
+        "url": "shopify:\/\/collections\/shop-all",
         "urltitle": "shop All",
         "show_secondary_image": true
       }
@@ -415,13 +424,14 @@
     "99375763-22a1-41a3-a105-aea1bf8eb127": {
       "type": "review-app-section",
       "disabled": true,
-      "settings": {}
+      "settings": {
+      }
     },
     "166688689553eeeff7": {
       "type": "apps",
       "blocks": {
         "6cc7df41-9c23-4feb-b8c5-898be30e3db8": {
-          "type": "shopify://apps/stamped-product-reviews-ugc/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "take_questions": 10,
             "animation": true,
@@ -434,7 +444,9 @@
           }
         }
       },
-      "block_order": ["6cc7df41-9c23-4feb-b8c5-898be30e3db8"],
+      "block_order": [
+        "6cc7df41-9c23-4feb-b8c5-898be30e3db8"
+      ],
       "settings": {
         "include_margins": true
       }
