@@ -19859,7 +19859,7 @@ html {
   font-size: 20px;
 }
 .p681 {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 68px;
 }
 .digital_card {
@@ -19879,7 +19879,7 @@ html {
 }
 .btn_container {
   margin-top: 4%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
