@@ -216,11 +216,11 @@
         "title": "Nothing Added, Nothing Removed ..."
       }
     },
-    "16643572272737dfbe": {
+    "dd68a6d1-321d-4e0b-81ff-b8e66a15325c": {
       "type": "image-block",
       "settings": {
-        "ico": "shopify:\/\/shop_images\/New_wine_club.jpg",
-        "parallax": true
+        "ico": "shopify:\/\/shop_images\/syltbar_group_picture2.jpg",
+        "parallax": false
       }
     },
     "1664359701d3165bd5": {
@@ -470,7 +470,7 @@
     "b4e5097c-3e03-4ba2-848b-96edf14ebffb",
     "166434967263d439c5",
     "16643511358a0a42c5",
-    "16643572272737dfbe",
+    "dd68a6d1-321d-4e0b-81ff-b8e66a15325c",
     "1664359701d3165bd5",
     "ffb6095e-bfa3-4401-8d6b-d647a6ec96f6",
     "322d693c-4aa0-4389-ab6a-e0aeea738354",
