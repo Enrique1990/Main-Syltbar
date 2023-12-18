@@ -220,7 +220,7 @@
       "type": "image-block",
       "settings": {
         "ico": "shopify:\/\/shop_images\/syltbar_group_picture2.jpg",
-        "parallax": false
+        "parallax": true
       }
     },
     "1664359701d3165bd5": {
