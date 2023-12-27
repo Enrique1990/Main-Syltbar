@@ -19827,7 +19827,7 @@ html {
 /* Add this media query at the end of your existing CSS */
 @media (max-width: 600px) {
   .attentive {
-    width: 92%;
+    width: 87%;
     font-size: 0.7rem;
   }
   .otro {
