@@ -19832,6 +19832,7 @@ html {
   }
   .otro {
     width: 12px;
+    padding-left: 100%;
   }
   .otro_link {
     /* display: none; */
