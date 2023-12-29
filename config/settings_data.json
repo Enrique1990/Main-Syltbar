@@ -59,7 +59,7 @@
     "breadcrumb_enabled": true,
     "color_swatchers_name_1": "Marble Blue",
     "color_swatchers_1": "#0f5873",
-    "show_cart_drawer": true,
+    "show_cart_drawer": false,
     "free_shipping_count": 12,
     "checkout_logo_image": "shopify:\/\/shop_images\/Syltbar_Logo_250px.png",
     "checkout_accent_color": "#a19264",
@@ -1250,6 +1250,12 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
+        }
+      },
+      "6065014864672580889": {
+        "type": "shopify:\/\/apps\/slide-cart-by-amp\/blocks\/app-embed\/0a410b8d-7dc4-4f2d-b4e8-c12d34fd2255",
+        "disabled": false,
+        "settings": {
         }
       }
     }
