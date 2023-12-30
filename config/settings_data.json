@@ -1252,16 +1252,11 @@
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
       },
-      "6065014864672580889": {
-        "type": "shopify:\/\/apps\/slide-cart-by-amp\/blocks\/app-embed\/0a410b8d-7dc4-4f2d-b4e8-c12d34fd2255",
+      "18228966181090706294": {
+        "type": "shopify:\/\/apps\/selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
         "disabled": false,
         "settings": {
-        }
-      },
-      "585288358657334602": {
-        "type": "shopify:\/\/apps\/cartly-slide-cart-drawer\/blocks\/app-embed\/156e4744-d777-4afa-8826-5d2f440b3936",
-        "disabled": false,
-        "settings": {
+          "storefrontAccessToken": "18344191a3601331211b7d97a88361ef"
         }
       }
     }
