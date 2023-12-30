@@ -1257,6 +1257,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "585288358657334602": {
+        "type": "shopify:\/\/apps\/cartly-slide-cart-drawer\/blocks\/app-embed\/156e4744-d777-4afa-8826-5d2f440b3936",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
