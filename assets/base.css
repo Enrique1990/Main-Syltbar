@@ -19884,3 +19884,6 @@ padding-top: 6%;
   display: flex;
   justify-content: center;
 }
+.lb-upsell-ppa-card-layout {
+    max-width: 459px !important;
+}
