@@ -30,6 +30,9 @@
         "0f28dc34-ce12-44bb-844a-533ebc895377",
         "8f9d9137-dd68-44b8-9d3f-6fd5d23c350a"
       ],
+      "custom_css": [
+        ".pb68 {padding-bottom: 36px !important;}"
+      ],
       "settings": {
       }
     },
