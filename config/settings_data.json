@@ -189,7 +189,7 @@
             "type": "icons",
             "settings": {
               "icons_heading": "Nothing Added, Nothing Removed...",
-              "icon": "shopify:\/\/shop_images\/Group_12555.png",
+              "icon": "shopify:\/\/shop_images\/Group_13251.png",
               "icon_subheading": "Sugar is Your Enemy",
               "icon_link": "\/pages\/compare-syltbar",
               "icon2": "shopify:\/\/shop_images\/Group_12616.png",
@@ -1250,13 +1250,6 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
-        }
-      },
-      "18228966181090706294": {
-        "type": "shopify:\/\/apps\/selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-        "disabled": false,
-        "settings": {
-          "storefrontAccessToken": "18344191a3601331211b7d97a88361ef"
         }
       }
     }
