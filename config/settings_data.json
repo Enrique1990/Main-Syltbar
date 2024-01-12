@@ -1248,7 +1248,7 @@
       },
       "15079184273603081885": {
         "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app_embed\/4125375e-37c8-4137-949d-c4e1a3aac572",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
