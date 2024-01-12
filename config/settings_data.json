@@ -1221,12 +1221,6 @@
 
     ],
     "blocks": {
-      "10261849759452303822": {
-        "type": "shopify:\/\/apps\/change-commerce\/blocks\/app-embed-block\/7b6c2cd4-8962-4dc6-975b-870e1f567789",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
@@ -1250,6 +1244,12 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
+        }
+      },
+      "15079184273603081885": {
+        "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app_embed\/4125375e-37c8-4137-949d-c4e1a3aac572",
+        "disabled": false,
+        "settings": {
         }
       }
     }
