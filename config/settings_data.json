@@ -1246,15 +1246,9 @@
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
       },
-      "15079184273603081885": {
-        "type": "shopify:\/\/apps\/essential-shipping-bar\/blocks\/app_embed\/4125375e-37c8-4137-949d-c4e1a3aac572",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "6237893613548423713": {
-        "type": "shopify:\/\/apps\/bundles-upsell-pickystory\/blocks\/main-widget-loader-script\/f54ff67e-3f69-4df2-845e-7476ce633252",
-        "disabled": true,
+      "1576166816369433312": {
+        "type": "shopify:\/\/apps\/quick-cart-upsell-slider\/blocks\/minicart\/4facbade-7c6b-492d-9364-7d994617fbac",
+        "disabled": false,
         "settings": {
         }
       }
