@@ -1248,7 +1248,7 @@
       },
       "1576166816369433312": {
         "type": "shopify:\/\/apps\/quick-cart-upsell-slider\/blocks\/minicart\/4facbade-7c6b-492d-9364-7d994617fbac",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
