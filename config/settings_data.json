@@ -1254,7 +1254,7 @@
       },
       "6237893613548423713": {
         "type": "shopify:\/\/apps\/bundles-upsell-pickystory\/blocks\/main-widget-loader-script\/f54ff67e-3f69-4df2-845e-7476ce633252",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       }
