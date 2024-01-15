@@ -24,7 +24,7 @@
           autocomplete="email"
           {% if form.errors %}
             aria-invalid="true"
-            aria-describedby="RecoverEmail-email-error"
+            aria-describedby="{% if form.errors %}RecoverEmail{% else %}CustomerEmail{% endif %}"
             autofocus
           {% endif %}
     
