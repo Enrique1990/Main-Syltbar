@@ -1245,12 +1245,6 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
-      },
-      "1576166816369433312": {
-        "type": "shopify:\/\/apps\/quick-cart-upsell-slider\/blocks\/minicart\/4facbade-7c6b-492d-9364-7d994617fbac",
-        "disabled": true,
-        "settings": {
-        }
       }
     }
   },
