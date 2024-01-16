@@ -4,9 +4,7 @@
 {% endcomment %}
 
 <script type="text/javascript">
-  window._talkableq = [['init', {
-    site_id: '2021-syltbar-website' // REQUIRED - Replace with your Talkable Site ID
-  }]];
+  var _talkableq = _talkableq || [];
   {% if customer %}
     _talkableq.push(['authenticate_customer', {
       email:        '{{ customer.email }}',
