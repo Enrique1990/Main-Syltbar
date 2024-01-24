@@ -44,9 +44,19 @@
                           {%- when 'product_grid_banner' -%}
                           {% if collection.id == block.settings.banner_collection.id %}
                             <li class="grid__item grid__item-banner col-6 col-lg-4 mb42">
-                              <img src="{{ block.settings.banner_image | img_url: 'master' }}" alt="{{ block.settings.banner_image.alt }}">
+                              {% if block.settings.banner_image != blank %}
+                                <img src="{{ block.settings.banner_image | img_url: 'master' }}" alt="{{ block.settings.banner_image.alt }}">
+                              {% endif %}
                               <div class="grid__item-banner-text">
-
+                                {% if block.settings.banner_heading != blank %}
+                                  
+                                {% endif %}
+                                {% if block.settings.banner_subheading != blank %}
+                                  
+                                {% endif %}
+                                {% if block.settings.banner_button_text != blank %}
+                                  
+                                {% endif %}
                               </div>
                             </li>
                           {% endif %}
