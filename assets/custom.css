@@ -440,6 +440,13 @@ body.product .reviews-slider .swiper-wrapper {
   line-height: 1;
   color: #fff;
 }
+.grid__item-banner-text .h3,
+.grid__item-banner-text .h2,
+.grid__item-banner-text .button_arrow_border {
+  position: relative;
+  z-index: 2;
+}
+
 .grid__item-banner-text .h2 {
   margin: 0;
   font-size: calc(var(--h2-size) * 1.3);
