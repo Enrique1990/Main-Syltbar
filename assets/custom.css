@@ -405,8 +405,7 @@ body.product .reviews-slider .swiper-wrapper {
 }
 .grid__item.grid__item-banner:before {
   content: "";
-  background: linear-gradient(180deg, #D9D9D9 0%, rgba(159, 162, 170, 0.00) 100%);
-  mix-blend-mode: multiply;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   height: 418px;
   width: 100%;
   bottom: 0;
