@@ -429,6 +429,10 @@ body.product .reviews-slider .swiper-wrapper {
 }
 .grid__item.grid__item-banner .button_arrow_border div {
   font-size: 16px;
+  padding: 0;
+}
+.grid__item.grid__item-banner .button_arrow_border svg {
+  display: none;
 }
 .grid__item-banner-text .h3,
 .grid__item-banner-text .h2 {
