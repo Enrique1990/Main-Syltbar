@@ -406,6 +406,7 @@ body.product .reviews-slider .swiper-wrapper {
 }
 .grid__item.grid__item-banner {
   position: relative;
+  padding: 0;
 }
 .grid__item.grid__item-banner img {
   position: absolute;
