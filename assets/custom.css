@@ -425,6 +425,7 @@ body.product .reviews-slider .swiper-wrapper {
   bottom: 0;
   left: 0;
   z-index: 1;
+  position: absolute;
 }
 .grid__item-banner-text {
   color: #fff;
