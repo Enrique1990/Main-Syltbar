@@ -479,6 +479,7 @@ body.product .reviews-slider .swiper-wrapper {
   margin-top: 24px;
   margin-bottom: 0;
   text-align: center;
+  background: #fff;
 }
 @media (max-width: 768px) {
   .grid__item.grid__item-banner .button_arrow_border div {
