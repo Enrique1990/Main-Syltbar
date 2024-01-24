@@ -34,7 +34,6 @@
               <div class="collection">
                 <ul id="product-grid" data-id="{{ section.id }}" class="grid row">
                   {%- for product in collection.products -%}
-                    {{ forloop.index }}
                     {% if forloop.index == 5 %}
                       {% comment %}banner_collection{% endcomment %}
                       {% comment %}banner_image{% endcomment %}
