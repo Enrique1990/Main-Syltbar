@@ -35,10 +35,6 @@
                 <ul id="product-grid" data-id="{{ section.id }}" class="grid row">
                   {%- for product in collection.products -%}
                     {% if forloop.index == 5 %}
-                      {% comment %}banner_heading{% endcomment %}
-                      {% comment %}banner_subheading{% endcomment %}
-                      {% comment %}banner_button_text{% endcomment %}
-                      {% comment %}banner_button_link{% endcomment %}
                       {%- for block in section.blocks -%}
                         {%- case block.type -%}
                           {%- when 'product_grid_banner' -%}
@@ -49,14 +45,13 @@
                               {% endif %}
                               <div class="grid__item-banner-text">
                                 {% if block.settings.banner_heading != blank %}
-
+                                  <p class="h2">{{ banner_heading }}</p>
                                 {% endif %}
                                 {% if block.settings.banner_subheading != blank %}
-
+                                  <p class="h3">{{ block.settings.banner_subheading }}</p>
                                 {% endif %}
                                 {% if block.settings.banner_button_text != blank %}
-                                  <a href="{{ block.settings.banner_button_link }}" class="button_arrow_border">{% include "button_arrow", title: section.settings.button_label3 %}
-                                  </a>
+                                  <a href="{{ block.settings.banner_button_link }}" class="button_arrow_border">{% include "button_arrow", title: block.settings.banner_button_text %}</a>
                                 {% endif %}
                               </div>
                             </li>
