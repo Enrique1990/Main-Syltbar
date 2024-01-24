@@ -45,7 +45,7 @@
                         {%- case block.type -%}
                           {%- when 'product_grid_banner' -%}
                           {% if collection.id == block.settings.banner_collection.id %}
-                            <li class="grid__item col-6 col-lg-4 mb42" style='background: url('{{ block.settings.banner_image }}') cover center;">
+                            <li class="grid__item col-6 col-lg-4 mb42" style='background: url('{{ block.settings.banner_image | img_url: 'master' }}') cover center;">
                             </li>
                           {% endif %}
                         {% endcase %}
