@@ -414,10 +414,8 @@ body.product .reviews-slider .swiper-wrapper {
   position: absolute;
 }
 .grid__item.grid__item-banner {
-  padding: 0;
-}
-.grid__item.grid__item-banner-wrapper {
   position: relative;
+  padding: 0;
 }
 .grid__item.grid__item-banner img {
   position: absolute;
