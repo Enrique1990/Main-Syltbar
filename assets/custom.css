@@ -501,8 +501,11 @@ body.product .reviews-slider .swiper-wrapper {
     min-height: 46px;
     height: auto;
   }
+  .grid__item-banner-text {
+    padding: 35px 5px;
+  }
 }
-@media (min-width: 577px) {
+@media (min-width: 769px) {
   .grid__item-banner-text .h2 {
     font-size: calc(var(--h2-size) * 1.75)
   }
@@ -514,6 +517,9 @@ body.product .reviews-slider .swiper-wrapper {
   }
   .grid__item-banner-text .button_arrow_border {
     padding: 0 10px;
+  }
+  .grid__item-banner-text {
+    padding: 20px 5px;
   }
 }
 /*END COLLECTION BANNER*/
