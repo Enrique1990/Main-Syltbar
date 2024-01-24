@@ -471,6 +471,8 @@ body.product .reviews-slider .swiper-wrapper {
   }
   .grid__item-banner-text .button_arrow_border {
     padding: 0 20px;
+    min-height: 46px;
+    height: auto;
   }
 }
 @media (min-width: 577px) {
