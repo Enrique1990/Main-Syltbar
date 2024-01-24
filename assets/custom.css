@@ -457,7 +457,12 @@ body.product .reviews-slider .swiper-wrapper {
 }
 @media (max-width: 768px) {
   .grid__item.grid__item-banner .button_arrow_border div {
-    font-size: 16px;
+    font-size: 11px;
+  }
+}
+@media (max-width: 768px) {
+  .grid__item.grid__item-banner .button_arrow_border div {
+    font-size: 11px;
   }
 }
 /*END COLLECTION BANNER*/
