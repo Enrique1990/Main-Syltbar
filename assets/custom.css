@@ -477,6 +477,7 @@ body.product .reviews-slider .swiper-wrapper {
 }
 .grid__item-banner-text .button_arrow_border div {
   color: #1f1704;
+  transition: all .3s ease;
 }
 .grid__item-banner-text .button_arrow_border {
   margin-top: 24px;
