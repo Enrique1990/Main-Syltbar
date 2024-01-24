@@ -444,6 +444,8 @@ body.product .reviews-slider .swiper-wrapper {
 .grid__item-banner-text .h3 {
   margin-top: 15px;
   margin-bottom: 0;
+  max-width: 350px;
+  text-align: center;
 }
 .grid__item-banner-text .button_arrow_border {
   margin-top: 15px;
