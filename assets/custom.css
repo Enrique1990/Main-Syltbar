@@ -475,11 +475,20 @@ body.product .reviews-slider .swiper-wrapper {
   line-height: 140%;
   letter-spacing: 2px;
 }
+.grid__item-banner-text .button_arrow_border div {
+  color: #1f1704;
+}
 .grid__item-banner-text .button_arrow_border {
   margin-top: 24px;
   margin-bottom: 0;
   text-align: center;
   background: #fff;
+}
+.grid__item-banner-text .button_arrow_border:hover div {
+  color: #fff;
+}
+.grid__item-banner-text .button_arrow_border:hover {
+  background: transparent;
 }
 @media (max-width: 768px) {
   .grid__item.grid__item-banner .button_arrow_border div {
