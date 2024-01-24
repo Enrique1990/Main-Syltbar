@@ -406,5 +406,9 @@ body.product .reviews-slider .swiper-wrapper {
   height: 100%;
   object-fit: cover;
 }
+.grid__item-banner-text {
+  position: relative;
+  z-index: 1;
+}
 /*END COLLECTION BANNER*/
 /* END PASPARTOO */
