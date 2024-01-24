@@ -442,13 +442,13 @@ body.product .reviews-slider .swiper-wrapper {
   letter-spacing: 2px;
 }
 .grid__item-banner-text .h3 {
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 0;
   max-width: 350px;
   text-align: center;
 }
 .grid__item-banner-text .button_arrow_border {
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 /*END COLLECTION BANNER*/
