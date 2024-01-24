@@ -437,7 +437,8 @@ body.product .reviews-slider .swiper-wrapper {
 }
 .grid__item-banner-text .h3,
 .grid__item-banner-text .h2 {
-  line-height: 1
+  line-height: 1;
+  color: #fff;
 }
 .grid__item-banner-text .h2 {
   margin: 0;
