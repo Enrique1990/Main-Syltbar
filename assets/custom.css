@@ -394,7 +394,7 @@ body.product .reviews-slider .swiper-wrapper {
   height: auto!important;
 }
 /*COLLECTION BANNER*/
-.grid__item.grid__item-banner:before {
+.grid__item.grid__item-banner .overlay {
   content: "";
   z-index: 1;
   position: absolute;
