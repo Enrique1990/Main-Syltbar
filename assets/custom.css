@@ -451,13 +451,15 @@ body.product .reviews-slider .swiper-wrapper {
   margin: 0;
   max-width: 350px;
   text-align: center;
-  letter-spacing: 2px;
+  font-weight: 300;
+  line-height: 110%;
 }
 .grid__item-banner-text .h3 {
-  margin-top: 20px;
+  margin-top: 31px;
   margin-bottom: 0;
   max-width: 350px;
   text-align: center;
+  font-size: 20px;
 }
 .grid__item-banner-text .button_arrow_border {
   margin-top: 20px;
