@@ -522,6 +522,9 @@ body.product .reviews-slider .swiper-wrapper {
   .grid__item-banner-text {
     padding: 20px 5px;
   }
+  .grid__item.grid__item-banner .button_arrow_border div {
+    font-size: 14px;
+  }
 }
 /*END COLLECTION BANNER*/
 /* END PASPARTOO */
