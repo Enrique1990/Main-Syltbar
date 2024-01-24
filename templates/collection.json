@@ -18,10 +18,10 @@
           "type": "product_grid_banner",
           "settings": {
             "banner_collection": "sparkling-wines-1",
-            "banner_image": "shopify:\/\/shop_images\/collection_banner.jpg",
-            "banner_heading": "Join Bottle Service",
-            "banner_subheading": "Get 15% off every case and free shipping",
-            "banner_button_text": "Join us by subscribing now",
+            "banner_image": "shopify:\/\/shop_images\/subscription.png",
+            "banner_heading": "Join our Wine Club ",
+            "banner_subheading": "Enjoy 10% off, complimentary shipping, and great benefits!",
+            "banner_button_text": "Join us with your subscription",
             "banner_button_link": ""
           }
         }
