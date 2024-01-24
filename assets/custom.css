@@ -506,6 +506,9 @@ body.product .reviews-slider .swiper-wrapper {
   .grid__item-banner-text .h2 {
     font-size: calc(var(--h2-size) * 1.45);
   }
+  .grid__item-banner-text .h3 {
+    margin-top: 20px;
+  }
 }
 @media (min-width: 769px) {
   .grid__item-banner-text .h2 {
