@@ -430,6 +430,10 @@ body.product .reviews-slider .swiper-wrapper {
 .grid__item.grid__item-banner .button_arrow_border div {
   font-size: 16px;
 }
+.grid__item-banner-text .h3,
+.grid__item-banner-text .h2 {
+  line-height: 1
+}
 .grid__item-banner-text .h2 {
   margin: 0;
 }
