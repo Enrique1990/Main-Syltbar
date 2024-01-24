@@ -455,5 +455,8 @@ body.product .reviews-slider .swiper-wrapper {
   margin-top: 20px;
   margin-bottom: 0;
 }
+@media (max-width: 768px) {
+  
+}
 /*END COLLECTION BANNER*/
 /* END PASPARTOO */
