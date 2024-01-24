@@ -470,10 +470,11 @@ body.product .reviews-slider .swiper-wrapper {
   margin-bottom: 0;
   max-width: 350px;
   text-align: center;
-  font-size: 17px;
-  font-weight: 450;
+  font-size: 20px;
+  font-weight: 350;
   line-height: 140%;
   letter-spacing: 2px;
+  font-family: var(--h6-font-family);
 }
 .grid__item-banner-text .button_arrow_border div {
   color: #1f1704;
