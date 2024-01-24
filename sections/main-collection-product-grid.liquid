@@ -34,6 +34,32 @@
               <div class="collection">
                 <ul id="product-grid" data-id="{{ section.id }}" class="grid row">
                   {%- for product in collection.products -%}
+                    {% if forloop.index == 5 %}
+                      {%- for block in section.blocks -%}
+                        {%- case block.type -%}
+                          {%- when 'product_grid_banner' -%}
+                          {% if collection.id == block.settings.banner_collection.id %}
+                            <li class="grid__item grid__item-banner col-6 col-lg-4 mb42">
+                              {% if block.settings.banner_image != blank %}
+                                <img src="{{ block.settings.banner_image | img_url: 'master' }}" alt="{{ block.settings.banner_image.alt }}">
+                              {% endif %}
+                              <div class="grid__item-banner-text">
+                                <a href="{{ block.settings.banner_button_link }}" class="overlay" target="_blank"></a>
+                                {% if block.settings.banner_heading != blank %}
+                                  <a href="{{ block.settings.banner_button_link }}" class="h2" target="_blank">{{ block.settings.banner_heading }}</a>
+                                {% endif %}
+                                {% if block.settings.banner_subheading != blank %}
+                                  <a href="{{ block.settings.banner_button_link }}" class="h3" target="_blank">{{ block.settings.banner_subheading }}</a>
+                                {% endif %}
+                                {% if block.settings.banner_button_text != blank %}
+                                  <a href="{{ block.settings.banner_button_link }}" class="button_arrow_border  button_arrow_border_white" target="_blank">{% include "button_arrow", title: block.settings.banner_button_text %}</a>
+                                {% endif %}
+                              </div>
+                            </li>
+                          {% endif %}
+                        {% endcase %}
+                      {% endfor %}
+                    {% endif %}
                     <li class="grid__item col-6 col-lg-4 mb42">
                       {% render 'collection-card-product',
                         card_product: product,
@@ -98,6 +124,49 @@
         }
       ],
       "default": "top"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_grid_banner",
+      "name": "Product grid banner",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "collection",
+          "id": "banner_collection",
+          "label": "Collection",
+          "info": "Select the collection on which you want to display the banner"
+        },
+        {
+          "type": "image_picker",
+          "id": "banner_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "banner_heading",
+          "label": "Heading",
+          "default": "Join Bottle Service"
+        },
+        {
+          "type": "textarea",
+          "id": "banner_subheading",
+          "label": "Subheading",
+          "default": "Get 15% off every case and free shipping"
+        },
+        {
+          "type": "text",
+          "id": "banner_button_text",
+          "label": "Button text",
+          "default": "Join us by subscribing now"
+        },
+        {
+          "type": "url",
+          "id": "banner_button_link",
+          "label": "Button link"
+        }
+      ]
     }
   ]
 }
