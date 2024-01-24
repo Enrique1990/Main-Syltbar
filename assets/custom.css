@@ -427,8 +427,8 @@ body.product .reviews-slider .swiper-wrapper {
   height: 100%;
   width: 100%;
 }
-.button_arrow_border div {
-
+.grid__item.grid__item-banner .button_arrow_border div {
+  font-size: 16px;
 }
 /*END COLLECTION BANNER*/
 /* END PASPARTOO */
