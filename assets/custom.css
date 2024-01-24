@@ -506,10 +506,13 @@ body.product .reviews-slider .swiper-wrapper {
   .grid__item-banner-text {
     padding: 35px 5px;
   }
+  .grid__item-banner-text .h2 {
+    font-size: calc(var(--h2-size) * 1.45);
+  }
 }
 @media (min-width: 769px) {
   .grid__item-banner-text .h2 {
-    font-size: calc(var(--h2-size) * 1.75)
+    font-size: calc(var(--h2-size) * 1.75);
   }
 }
 @media (max-width: 576px) {
