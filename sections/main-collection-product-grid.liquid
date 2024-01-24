@@ -35,8 +35,6 @@
                 <ul id="product-grid" data-id="{{ section.id }}" class="grid row">
                   {%- for product in collection.products -%}
                     {% if forloop.index == 5 %}
-                      {% comment %}banner_collection{% endcomment %}
-                      {% comment %}banner_image{% endcomment %}
                       {% comment %}banner_heading{% endcomment %}
                       {% comment %}banner_subheading{% endcomment %}
                       {% comment %}banner_button_text{% endcomment %}
@@ -45,7 +43,11 @@
                         {%- case block.type -%}
                           {%- when 'product_grid_banner' -%}
                           {% if collection.id == block.settings.banner_collection.id %}
-                            <li class="grid__item col-6 col-lg-4 mb42" style='background: url({{ block.settings.banner_image | img_url: 'master' }}) cover center;">
+                            <li class="grid__item grid__item-banner col-6 col-lg-4 mb42">
+                              <img src="{{ block.settings.banner_image | img_url: 'master' }}" alt="{{ block.settings.banner_image.alt }}">
+                              <div class="grid__item-banner-text">
+
+                              </div>
                             </li>
                           {% endif %}
                         {% endcase %}
