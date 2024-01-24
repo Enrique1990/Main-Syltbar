@@ -431,6 +431,7 @@ body.product .reviews-slider .swiper-wrapper {
 .grid__item.grid__item-banner .button_arrow_border div {
   font-size: 16px;
   padding: 0;
+  text-transform: none;
 }
 .grid__item.grid__item-banner .button_arrow_border span {
   display: none;
