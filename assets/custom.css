@@ -495,7 +495,7 @@ body.product .reviews-slider .swiper-wrapper {
 .grid__item-banner-text .button_arrow_border:hover {
   background: transparent;
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px){
   
 }
 @media (max-width: 768px) {
