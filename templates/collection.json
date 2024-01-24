@@ -14,19 +14,20 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "product_grid_banner_NPLgRm": {
-          "type": "product-grid-banner",
+        "product_grid_banner_ReAK8B": {
+          "type": "product_grid_banner",
           "settings": {
             "banner_collection": "sparkling-wines-1",
             "banner_image": "shopify:\/\/shop_images\/collection_banner.jpg",
             "banner_heading": "Join Bottle Service",
             "banner_subheading": "Get 15% off every case and free shipping",
-            "banner_button_text": "Join Bottle Service"
+            "banner_button_text": "Join us by subscribing now",
+            "banner_button_link": ""
           }
         }
       },
       "block_order": [
-        "product_grid_banner_NPLgRm"
+        "product_grid_banner_ReAK8B"
       ],
       "settings": {
         "products_per_page": 24,
