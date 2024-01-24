@@ -34,6 +34,24 @@
               <div class="collection">
                 <ul id="product-grid" data-id="{{ section.id }}" class="grid row">
                   {%- for product in collection.products -%}
+                    {{ forloop.index }}
+                    {% if forloop.index == 5 %}
+                      {% comment %}banner_collection{% endcomment %}
+                      {% comment %}banner_image{% endcomment %}
+                      {% comment %}banner_heading{% endcomment %}
+                      {% comment %}banner_subheading{% endcomment %}
+                      {% comment %}banner_button_text{% endcomment %}
+                      {% comment %}banner_button_link{% endcomment %}
+                      {%- for block in section.blocks -%}
+                        {%- case block.type -%}
+                          {%- when 'product_grid_banner' -%}
+                            {{ collection.id }}
+                            {{ block.settings.banner_collection.id }}
+                          {% if collection.id == block.settings.banner_collection.id %}
+                          {% endif %}
+                        {% endcase %}
+                      {% endfor %}
+                    {% endif %}
                     <li class="grid__item col-6 col-lg-4 mb42">
                       {% render 'collection-card-product',
                         card_product: product,
@@ -102,7 +120,7 @@
   ],
   "blocks": [
     {
-      "type": "product-grid-banner",
+      "type": "product_grid_banner",
       "name": "Product grid banner",
       "limit": 1,
       "settings": [
@@ -133,7 +151,12 @@
           "type": "text",
           "id": "banner_button_text",
           "label": "Button text",
-          "default": "Join Bottle Service"
+          "default": "Join us by subscribing now"
+        },
+        {
+          "type": "url",
+          "id": "banner_button_link",
+          "label": "Button link"
         }
       ]
     }
