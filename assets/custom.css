@@ -495,6 +495,11 @@ body.product .reviews-slider .swiper-wrapper {
 .grid__item-banner-text .button_arrow_border:hover {
   background: transparent;
 }
+@media (min-width: 992px) and (max-width: 1200px){
+  .grid__item-banner-text .h2 {
+    font-size: calc(var(--h2-size) * 1.25)!important;
+  }
+}
 @media (max-width: 768px) {
   .grid__item-banner-text .button_arrow_border {
     padding: 0 20px;
@@ -505,7 +510,7 @@ body.product .reviews-slider .swiper-wrapper {
     padding: 35px 10px;
   }
   .grid__item-banner-text .h2 {
-    font-size: calc(var(--h2-size) * 1.45);
+    font-size: calc(var(--h2-size) * 1.25);
   }
   .grid__item-banner-text .h3 {
     margin-top: 20px;
