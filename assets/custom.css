@@ -478,13 +478,13 @@ body.product .reviews-slider .swiper-wrapper {
 .grid__item-banner-text .button_arrow_border div {
   color: #1f1704;
   transition: all .3s ease;
+  letter-spacing: .8px;
 }
 .grid__item-banner-text .button_arrow_border {
   margin-top: 24px;
   margin-bottom: 0;
   text-align: center;
   background: #fff;
-  letter-spacing: 0.8px;
 }
 .grid__item-banner-text .button_arrow_border:hover div {
   color: #fff;
