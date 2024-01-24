@@ -484,6 +484,7 @@ body.product .reviews-slider .swiper-wrapper {
   margin-bottom: 0;
   text-align: center;
   background: #fff;
+  letter-spacing: 0.8px;
 }
 .grid__item-banner-text .button_arrow_border:hover div {
   color: #fff;
