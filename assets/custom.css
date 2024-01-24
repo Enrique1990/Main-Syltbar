@@ -496,7 +496,9 @@ body.product .reviews-slider .swiper-wrapper {
   background: transparent;
 }
 @media (min-width: 992px) and (max-width: 1200px){
-  
+  .grid__item-banner-text .h2 {
+    font-size: calc(var(--h2-size) * 1.25);
+  }
 }
 @media (max-width: 768px) {
   .grid__item-banner-text .button_arrow_border {
