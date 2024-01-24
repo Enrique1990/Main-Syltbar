@@ -467,12 +467,17 @@ body.product .reviews-slider .swiper-wrapper {
 @media (max-width: 768px) {
   .grid__item.grid__item-banner .button_arrow_border div {
     font-size: 13px;
+  }
+  .grid__item-banner-text .button_arrow_border {
     padding: 0 20px;
   }
 }
 @media (max-width: 576px) {
   .grid__item.grid__item-banner .button_arrow_border div {
     font-size: 13px;
+
+  }
+  .grid__item-banner-text .button_arrow_border {
     padding: 0 10px;
   }
 }
