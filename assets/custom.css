@@ -450,6 +450,7 @@ body.product .reviews-slider .swiper-wrapper {
 .grid__item-banner-text .h2 {
   line-height: 1;
   color: #fff;
+  margin-bottom: 0;
 }
 .grid__item-banner-text .h3,
 .grid__item-banner-text .h2,
@@ -474,6 +475,7 @@ body.product .reviews-slider .swiper-wrapper {
   letter-spacing: -0.2px;
   max-width: 350px;
   font-family: var(--h6-font-family);
+  margin-top: 31px;
 }
 .grid__item-banner-text .button_arrow_border div {
   color: #1f1704;
