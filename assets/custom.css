@@ -436,6 +436,7 @@ body.product .reviews-slider .swiper-wrapper {
 }
 .grid__item-banner-text .h2 {
   margin: 0;
+  font-size: calc(var(--h2-size) * 1.3);
 }
 .grid__item-banner-text .h3 {
   margin-top: 15px;
