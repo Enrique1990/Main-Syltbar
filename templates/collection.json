@@ -14,7 +14,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "product_grid_banner_ReAK8B": {
+        "product_grid_banner_bUWmJk": {
           "type": "product_grid_banner",
           "settings": {
             "banner_collection": "sparkling-wines-1",
@@ -27,7 +27,7 @@
         }
       },
       "block_order": [
-        "product_grid_banner_ReAK8B"
+        "product_grid_banner_bUWmJk"
       ],
       "settings": {
         "products_per_page": 24,
