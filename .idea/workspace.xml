@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92df29e1-436e-4924-bcd5-414050ea1f68" name="Changes" comment="NOT ROBOT | added collection banner" />
+    <list default="true" id="92df29e1-436e-4924-bcd5-414050ea1f68" name="Changes" comment="NOT ROBOT | added collection banner">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev-dachev" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,12 +30,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1706182145" />
+                    <option name="branchName" value="dev-dachev" />
+                    <option name="lastUsedInstant" value="1706255298" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="dev-dachev" />
-                    <option name="lastUsedInstant" value="1706021830" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1706182277" />
                   </RecentBranch>
                 </list>
               </option>
@@ -54,7 +56,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/SHOPIFY/Main-Syltbar",
+    "git-widget-placeholder": "dev-dachev",
+    "last_opened_file_path": "E:/SHOPIFY/nood",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +78,7 @@
       <workItem from="1706080447764" duration="10968000" />
       <workItem from="1706169679797" duration="8000" />
       <workItem from="1706182140016" duration="20000" />
+      <workItem from="1706255089542" duration="218000" />
     </task>
     <task id="LOCAL-00001" summary="NOT ROBOT | added collection banner">
       <option name="closed" value="true" />
