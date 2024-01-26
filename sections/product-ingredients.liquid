@@ -8,7 +8,11 @@
         <div class="item col-lg-4 pt42">
           <div class="item_wrapper center">
             {% if block.settings.ico != blank %}
-                <div class="ico"><img src="{{ block.settings.ico | img_url: "master" }}"></div>
+                <div class="ico">
+                  <a href="{{ block.settings.url }}">
+                    <img src="{{ block.settings.ico | img_url: "master" }}">
+                  </a>
+                </div>
             {% endif %}
             {% if block.settings.title != blank %}
             <div class="h2">{{ block.settings.title }}</div>
@@ -56,7 +60,12 @@
         "type": "richtext",
         "id": "text", 
         "label": "Text"
-      }
+      },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Link"
+        }
       ]
     } 
   ],
