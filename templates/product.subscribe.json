@@ -187,7 +187,8 @@
           "settings": {
             "ico": "shopify:\/\/shop_images\/280.png",
             "title": "Low on Sugar",
-            "text": "<p>The University of Miami Diabetes Research Institute tested sparkling wines and found SYLTBAR has the lowest sugar content.<\/p>"
+            "text": "<p>The University of Miami Diabetes Research Institute tested sparkling wines and found SYLTBAR has the lowest sugar content.<\/p>",
+            "url": "shopify:\/\/pages\/compare-syltbar"
           }
         },
         "9286c261-4a50-4cd4-a7ba-5fbad8d4e537": {
@@ -195,7 +196,8 @@
           "settings": {
             "ico": "shopify:\/\/shop_images\/Group_13251.png",
             "title": "No Additives",
-            "text": "<p>Consistent quality thrives in our family-owned vineyard with zero added chemicals or preservatives. Purity is the recipe for our wine.<\/p>"
+            "text": "<p>Consistent quality thrives in our family-owned vineyard with zero added chemicals or preservatives. Purity is the recipe for our wine.<\/p>",
+            "url": "shopify:\/\/pages\/dive-deeper"
           }
         },
         "141b11b1-b641-4468-b3fb-2d1bc7d5bd38": {
@@ -203,7 +205,8 @@
           "settings": {
             "ico": "shopify:\/\/shop_images\/hands_icon_1.png",
             "title": "Respect for Nature",
-            "text": "<p>The Green Project certification, found on each of our bottles, is a step above organic in respect of Mother Nature. <\/p>"
+            "text": "<p>The Green Project certification, found on each of our bottles, is a step above organic in respect of Mother Nature. <\/p>",
+            "url": "shopify:\/\/pages\/compare-syltbar"
           }
         }
       },
