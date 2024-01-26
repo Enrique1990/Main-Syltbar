@@ -9,9 +9,13 @@
           <div class="item_wrapper center">
             {% if block.settings.ico != blank %}
                 <div class="ico">
+                  {% if block.settings.url != blank %}
                   <a href="{{ block.settings.url }}">
+                  {% endif %}
                     <img src="{{ block.settings.ico | img_url: "master" }}">
+                  {% if block.settings.url != blank %}
                   </a>
+                  {% endif %}
                 </div>
             {% endif %}
             {% if block.settings.title != blank %}
