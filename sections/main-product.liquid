@@ -119,7 +119,7 @@
                               when 'video'
                                 echo media | media_tag: image_size: '2048x', autoplay: true, loop: loop, controls: false, preload: 'none'
                               when 'model'
-                                echo media | media_tag: image_size: '2048x', toggleable: true
+                                echo media | media_tag: image_size: '2048x', toggleable: true, autoplay: true, loop: loop, controls: false, preload: 'none'
                             endcase
                           -%}
                         </template>
