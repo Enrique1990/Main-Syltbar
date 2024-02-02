@@ -10,7 +10,15 @@
     </div>
   {% when 'video' %}
     <div class="product-single__media" data-media-id="{{ media.id }}">
-      {{ media | video_tag: controls: false, autoplay: true, muted: true, class: 'w-full' }}
+      {{ media | video_tag: controls: false, autoplay: true, class: 'w-full' }}
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var video = document.getElementById('yourVideoId'); // Replace 'yourVideoId' with the actual ID of your video element
+          if (video) {
+            video.playbackRate = 1.5; // Adjust the playback speed as needed (1.0 is normal speed)
+          }
+        });
+      </script>
     </div>
   {% when 'model' %}
     <div class="product-single__media" style="padding-top: 100%" data-media-id="{{ media.id }}">
@@ -20,5 +28,5 @@
     <div class="product-single__media" style="padding-top: 100%;" data-media-id="{{ media.id }}">
       {{ media | media_tag }}
     </div>
-{% endcase %}
+  {% endcase %}
 </div>
