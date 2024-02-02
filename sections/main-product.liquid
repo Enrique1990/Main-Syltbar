@@ -99,10 +99,10 @@
                           >
                         </div>
 
-                        <button id="Deferred-Poster-Modal-{{ media.id }}" class="deferred-media__poster" type="button">
+                        <button id="Deferred-Poster-Modal-{{ media.id }}" class="deferred-media__poster" style="display: none" type="button">
                           {%- if media.media_type == 'model' -%}
                           {%- else -%}
-                            <div class="video-play-cion" style="display: none">{% render 'icon-play' %}</div>
+                            <div class="video-play-cion" >{% render 'icon-play' %}</div>
                           {%- endif -%}
                         </button>
 
