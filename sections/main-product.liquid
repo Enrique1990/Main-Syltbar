@@ -76,8 +76,8 @@
                             --paddding-top:{{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;
                           "
                         >
-                           <video width="973" height="{{ 650 | divided_by: media.preview_image.aspect_ratio | ceil }}" autoplay muted loop>
-    <source src="{{ media | video_url: 'auto' }}" type="video/mp4">
+                            <video width="973" height="{{ 650 | divided_by: media.preview_image.aspect_ratio | ceil }}" autoplay muted loop>
+    <source src="{{ media.preview_video_asset | asset_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
                           <!-- <img
