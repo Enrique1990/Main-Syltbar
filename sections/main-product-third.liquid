@@ -284,6 +284,24 @@
   });
 </script>
 
+<script>
+  // Wait for the document to be ready
+  $(document).ready(function() {
+    // Select all elements with class "deferred-media__poster"
+    var elements = $(".deferred-media__poster");
+
+    // Trigger the click event for each selected element
+    elements.each(function() {
+      $(this).get(0).click();
+    });
+
+    // If you want to play both videos simultaneously, you can trigger the play event directly on the video elements
+    $(".deferred-media__poster").siblings("video").each(function() {
+      this.play();
+      this.playbackRate = 1.1;
+    });
+  });
+</script>
 {% schema %}
 {
   "name": "t:sections.main-product-third.name",
