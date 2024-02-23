@@ -5,7 +5,7 @@
       </h1>
     {% endif %}
     <div class="row">
-      <div class="col-lg-3 col-md-4">
+      <div class="col-lg-6 col-md-4">
         <ul class="faq_titles">
           {% assign count = 1 %}
           {% for block in section.blocks %}
@@ -18,7 +18,7 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="col-lg-9 col-md-8">
+      <div class="col-lg-6 col-md-8">
         {% assign count = 1 %}
         {% for block in section.blocks %}
           {% case block.type %}
