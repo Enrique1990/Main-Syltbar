@@ -5,16 +5,21 @@
       "blocks": {
         "4793beb7-d525-4c58-be0a-e3d0ef9021e5": {
           "type": "subtotal",
-          "settings": {}
+          "settings": {
+          }
         },
         "dd2b4db4-c886-4236-a7ba-6b6c981433fe": {
           "type": "buttons",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
         "4793beb7-d525-4c58-be0a-e3d0ef9021e5",
         "dd2b4db4-c886-4236-a7ba-6b6c981433fe"
+      ],
+      "custom_css": [
+        ".btn {margin: 5px 0 10px auto;}"
       ],
       "settings": {
         "show_cart_note": true,
