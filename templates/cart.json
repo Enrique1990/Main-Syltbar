@@ -19,7 +19,7 @@
         "dd2b4db4-c886-4236-a7ba-6b6c981433fe"
       ],
       "custom_css": [
-        ".btn {margin: 3px 0 10px auto;}"
+        ".btn {margin: 1px 0 10px auto;}"
       ],
       "settings": {
         "show_cart_note": true,
