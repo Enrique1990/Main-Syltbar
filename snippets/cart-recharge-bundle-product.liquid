@@ -72,7 +72,7 @@
     </style>
     <tr class="cart-item rc_custom_css">
       <div class="carti">
-        <div style="width: 61%;">
+        <div style="width: 60%;">
          <td class="cart-item__media" role="cell" headers="CartDrawer-ColumnProductImage">
         <a href="{{ rc_bundle_product.url }}" class="cart-item__link" aria-hidden="true" tabindex="-1"></a>
         <img src="{{ rc_bundle_product.featured_image | image_url: width: 300 }}"  class="cart-item__image" alt="{{ rc_bundle_product.featured_image.alt | escape }}" loading="lazy" width="150" height="113">
@@ -231,10 +231,10 @@
         align-items: flex-start;
         padding: 20px 0;
       } 
-      /* .rc-bundle-image-wrapper {
+      .rc-bundle-image-wrapper {
         width: 150px;
         padding-right: 1rem;
-      } */
+      }
       .rc-bundle-image {
         max-width: 100%;
       }
