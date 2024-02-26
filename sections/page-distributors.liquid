@@ -114,30 +114,32 @@ font-size: 1.6rem;
     var faqTitles = document.querySelectorAll(".faq_titles .h5");
 
     colAuto1.addEventListener("click", function () {
-      // Toggle active class on col-md-auto1
-      colAuto1.classList.toggle("active");
+      // Add active class to col-md-auto1
+      colAuto1.classList.add("active");
+      colAuto1.style.color = "#a4915c"; // Set color to active color
+       colAuto1.style.color = "";
 
-      // Toggle color to #a4915c
-      colAuto1.style.color = colAuto1.classList.contains("active") ? "#a4915c" : "";
 
       // Remove active class from all other items and reset their colors
       faqTitles.forEach(function (item) {
         if (item !== colAuto1) {
           item.classList.remove("active");
-          item.style.color = ""; // Reset to default color
+          item.style.color = ""; // Reset other items' color
         }
       });
     });
 
     faqTitles.forEach(function (item) {
       item.addEventListener("click", function () {
-        // Remove active class from col-md-auto1 and reset its color
+        // Remove active class and reset color from col-md-auto1
         colAuto1.classList.remove("active");
-        colAuto1.style.color = ""; // Reset to default color
+        colAuto1.style.color = "";
 
-        // Toggle active class on the clicked item and change its color to #a4915c
-        item.classList.toggle("active");
-        item.style.color = item.classList.contains("active") ? "#a4915c" : "";
+        // Add active class and set color to the clicked item
+        item.classList.add("active");
+        item.style.color = "#a4915c";
+         item.style.color = "";
+
       });
     });
   });
