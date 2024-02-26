@@ -828,6 +828,12 @@
               "text": "<p><a href=\"http:\/\/imperialbeverage.com\/\" target=\"_blank\">www.imperialbeverage.com<\/a><\/p><p>3825 Emerald Dr.<br\/><a href=\"https:\/\/www.google.com\/maps\/place\/3825+Emerald+Dr,+Kalamazoo,+MI+49001,+USA\/@42.2548508,-85.5504508,17z\/data=!3m1!4b1!4m5!3m4!1s0x88179c45b5e132fb:0x964acaebb1e3eb1e!8m2!3d42.2548508!4d-85.5482621?hl=en\" target=\"_blank\" title=\"https:\/\/www.google.com\/maps\/place\/3825+Emerald+Dr,+Kalamazoo,+MI+49001,+USA\/@42.2548508,-85.5504508,17z\/data=!3m1!4b1!4m5!3m4!1s0x88179c45b5e132fb:0x964acaebb1e3eb1e!8m2!3d42.2548508!4d-85.5482621?hl=en\">Kalamazoo, MI 49001<br\/><\/a><a href=\"tel:269-382-4200\">(269) 382-4200<\/a><\/p>"
             }
           },
+          "header_H6gQc7": {
+            "type": "header",
+            "settings": {
+              "title": ""
+            }
+          },
           "8cb39152-2b30-45c1-b5c1-84a7b5c93c7e": {
             "type": "header",
             "disabled": true,
@@ -868,6 +874,7 @@
           "e595843d-bcc4-4258-9688-26e77f7fc207",
           "d1d8e9e7-80f2-4fb2-b6db-0af446874147",
           "311de2c0-2581-4694-be35-cf51683eed4d",
+          "header_H6gQc7",
           "8cb39152-2b30-45c1-b5c1-84a7b5c93c7e",
           "f2c08916-58ed-4b91-b975-5b7dff9f1ca5"
         ],
