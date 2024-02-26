@@ -108,3 +108,29 @@ font-size: 1.6rem;
   }]
 }
 {% endschema %}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var colAuto1 = document.querySelector(".col-md-auto1");
+    var faqTitles = document.querySelectorAll(".faq_titles .h5");
+
+    colAuto1.addEventListener("click", function () {
+      // Add active class to col-md-auto1
+      colAuto1.classList.add("active");
+
+      // Remove active class from all other items
+      faqTitles.forEach(function (item) {
+        item.classList.remove("active");
+      });
+    });
+
+    faqTitles.forEach(function (item) {
+      item.addEventListener("click", function () {
+        // Remove active class from col-md-auto1
+        colAuto1.classList.remove("active");
+
+        // Add active class to the clicked item
+        item.classList.add("active");
+      });
+    });
+  });
+</script>
