@@ -879,7 +879,9 @@
           "f2c08916-58ed-4b91-b975-5b7dff9f1ca5"
         ],
         "custom_css": [
-          ".item_text a {font-size: 1.1rem; text-decoration: none;}"
+          ".item_text a {font-size: 1.1rem; text-decoration: none;}",
+          ".pb68 {padding-bottom: 0 !important;}",
+          ".col-lg-3 {padding-top: 82px;}"
         ],
         "settings": {
           "title": "SYLTBAR Distributors"
