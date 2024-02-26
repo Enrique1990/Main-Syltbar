@@ -1,9 +1,24 @@
+<style>
+  .DH7 {
+font-size: 1.6rem;
+    font-weight: 590;
+    letter-spacing: 0.1rem;
+    /* text-decoration: underline; */
+  }
+  .col-md-auto1 {
+  top: 20px;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    /* padding-left: 15px;
+  }
+</style>
 
 <div class="page_faq p110">
   <div class="container">
-    {% if  section.settings.title != blank %}
-      <h1 class="pb68">{{ section.settings.title }}
-      </h1>
+    {% if section.settings.title != blank %}
+      <h1 class="pb68">{{ section.settings.title }}</h1>
     {% endif %}
     <div class="row">
       <div class="col-lg-3 col-md-4">
@@ -12,22 +27,32 @@
           {% for block in section.blocks %}
             {% case block.type %}
               {% when 'header' %}
-                <li id="item_li_{{ count }}" class="h5 caps {% if count == 1 %}active{% endif %}" onclick="show_faq_items({{ count }})">{{ block.settings.title }}
-                </li>
-                {% assign count = count | plus : 1 %}
+                {% if count == 7 %}
+                  
+                {% else %}
+                  <li id="item_li_{{ count }}" class="h5 caps" onclick="show_faq_items({{ count }})">{{ block.settings.title }}</li>
+                {% endif %}
+                {% assign count = count | plus: 1 %}
             {% endcase %}
           {% endfor %}
+          <div class="col-md-auto1">
+          <a href="https://syltbar.com/pages/prosecco-wine-rose-distributors#item_6" class="faq-link" onclick="show_faq_items(6)">
+            <h3 class="DH7 caps">BECOME A SYLTBAR DISTRIBUTOR</h3>
+          </a>
+        </div>
         </ul>
-        
       </div>
       <div class="col-lg-9 col-md-8">
         {% assign count = 1 %}
         {% for block in section.blocks %}
           {% case block.type %}
             {% when 'header' %}
-              <div id="item_{{ count }}" class="h3 color_gold {% if count > 1 %}pt68{% endif %} {% if count == 1 %}mt0{% endif %}">{{ block.settings.title }}
-              </div>
-              {% assign count = count | plus : 1 %}
+              {% if count == 7 %}
+                <div id="item_{{ count }}" class="h3 color_gold pt68">{{ block.settings.title }}</div>
+              {% else %}
+                <div id="item_{{ count }}" class="h3 color_gold pt68">{{ block.settings.title }}</div>
+              {% endif %}
+              {% assign count = count | plus: 1 %}
             {% when 'item' %}
               <div class="faq_block_item">
                 <div class="item_title caps h5 m0">
@@ -40,63 +65,46 @@
               </div>
           {% endcase %}
         {% endfor %}
+        <!-- <div class="col-md-auto1">
+          <a href="https://syltbar.com/pages/prosecco-wine-rose-distributors#item_6" class="faq-link" onclick="show_faq_items(6)">
+            <h3 class="DH7 caps">BECOME A SYLTBAR DISTRIBUTOR</h3>
+          </a>
+        </div> -->
       </div>
     </div>
   </div>
 </div>
 
 {% schema %}
-  {
-    "name": "Page",
-    "tag": "section",
-    "class": "section",
-    "settings": [
-
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Title"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "header",
-        "name": "Header",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Header"
-          }
-        ]
-      }, {
-        "type": "item",
-        "name": "Item",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Title"
-          }, {
-            "type": "richtext",
-            "id": "text",
-            "label": "Text"
-          }
-        ]
-      }
-    ]
-  }
+{
+  "name": "Page",
+  "tag": "section",
+  "class": "section",
+  "settings": [{
+    "type": "text",
+    "id": "title",
+    "label": "Title"
+  }],
+  "blocks": [{
+    "type": "header",
+    "name": "Header",
+    "settings": [{
+      "type": "text",
+      "id": "title",
+      "label": "Header"
+    }]
+  }, {
+    "type": "item",
+    "name": "Item",
+    "settings": [{
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }, {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    }]
+  }]
+}
 {% endschema %}
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('.faq-link').forEach(function (link) {
-      link.addEventListener('click', function (event) {
-        event.preventDefault();
-        var targetItemId = this.getAttribute('href').split('#')[1];
-        show_faq_items(targetItemId);
-        // Optionally, you can implement smooth scrolling here
-        document.getElementById(targetItemId).scrollIntoView({ behavior: 'smooth' });
-      });
-    });
-  });
-</script>
