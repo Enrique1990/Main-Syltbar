@@ -2903,7 +2903,7 @@ body.homepage {
 }
 @media (max-width: 1550px) {
   .headnav .menu-list {
-    margin: 0 -10px;
+    margin: 0 0px;
   }
 }
 
