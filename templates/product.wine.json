@@ -262,7 +262,7 @@
         "ed516f38-af4f-432c-a028-a203121b3fa3": {
           "type": "bottle",
           "settings": {
-            "name": "Santa  <br> Margherita",
+            "name": "Santa   Margherita",
             "image": "shopify:\/\/shop_images\/red04.png",
             "glucose": 381
           }
@@ -353,8 +353,8 @@
         "38a20402-e05b-45fa-99e4-147aed43fe57": {
           "type": "bottle",
           "settings": {
-            "name": "Chandon",
-            "image": "shopify:\/\/shop_images\/rose04.png",
+            "name": "mumm napa rose",
+            "image": "shopify:\/\/shop_images\/mum_napa_1.jpg",
             "glucose": 491
           }
         },
