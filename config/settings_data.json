@@ -60,6 +60,7 @@
     "color_swatchers_name_1": "Marble Blue",
     "color_swatchers_1": "#0f5873",
     "show_cart_drawer": true,
+    "agegate_switch": false,
     "free_shipping_count": 12,
     "checkout_logo_image": "shopify:\/\/shop_images\/Syltbar_Logo_250px.png",
     "checkout_accent_color": "#a19264",
