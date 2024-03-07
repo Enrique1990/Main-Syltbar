@@ -2854,7 +2854,7 @@ body.homepage {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  grid-template-columns: 2fr auto 1fr;
+  grid-template-columns: 3fr auto 2fr;
 }
 
 @media (max-width: 1200px) {
