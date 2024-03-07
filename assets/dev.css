@@ -2342,6 +2342,7 @@ button.swiper-pagination-bullet {
 }
 
 .gold_button {
+  margin-bottom: 10px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
