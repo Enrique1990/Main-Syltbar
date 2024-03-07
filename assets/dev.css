@@ -2914,10 +2914,11 @@ body.homepage {
 @media (max-width: 1550px) {
   .menu-list li {
     padding: 0 8px;
-    .menu-list li > a:first-child {
+
+  }
+      .menu-list li > a:first-child {
       font-size: 1rem;
     }
-  }
 }
 .menu-list li a {
   display: block;
