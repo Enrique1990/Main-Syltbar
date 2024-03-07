@@ -2913,7 +2913,7 @@ body.homepage {
 }
 @media (max-width: 1550px) {
   .menu-list li {
-    padding: 0 9px;
+    padding: 0 10px;
 
   }
       .menu-list li > a:first-child {
