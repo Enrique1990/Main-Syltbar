@@ -2857,7 +2857,7 @@ body.homepage {
   grid-template-columns: 2fr auto 2fr;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
   .headcustom-grid {
     display: -webkit-box;
     display: -webkit-flex;
