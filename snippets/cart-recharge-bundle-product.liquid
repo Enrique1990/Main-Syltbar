@@ -271,32 +271,3 @@
     </tr>
   {%- endif -%}
 {%- endunless -%}
-<!-- <script>
-function cngMiniCartQuantity1(event, change, lineItemKey, idItem, typeCart) {
-  // Find the quantity input element based on lineItemKey
-  var quantityInput = document.querySelector('[data-line-item-key="' + lineItemKey + '"] .quantity__input');
-
-  // Ensure the quantity input element is found
-  if (quantityInput) {
-    // Get the current quantity value
-    var currentQuantity = parseInt(quantityInput.value, 10);
-
-    // Update the quantity based on the change (1 for plus, -1 for minus)
-    var newQuantity = currentQuantity + change;
-
-    // Ensure the new quantity is at least 0
-    newQuantity = Math.max(newQuantity, 0);
-
-    // Update the quantity input value
-    quantityInput.value = newQuantity;
-
-    // Here, you may want to perform additional actions, such as updating the cart or making an AJAX request.
-    // Example: updateCart(lineItemKey, newQuantity);
-    console.log('Updated quantity for line item ' + lineItemKey + ' to ' + newQuantity);
-  }
-
-  // Prevent the default behavior of the anchor tag
-  event.preventDefault();
-}
-
-</script> -->
