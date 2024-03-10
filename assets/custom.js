@@ -461,21 +461,21 @@ scrollLinks.forEach(link => {
 });
 // END PASPARTOO CUSTOM
 
-window.RechargeBundle = {
-  onAddToCart: () => {
-    // Logic specific to updating the cart drawer for Recharge bundles
-    fetch('/cart?view=drawer&timestamp=' + Date.now(), {
-      method: 'GET',
-      headers: {
-        'X-Requested-With': 'XMLHttpRequest'
-      }
-    })
-    .then(response => response.text())
-    .then(html => {
-      jQuery('#block_sidebar_cart').html(html);
-      jQuery('#block_sidebar_cart').addClass('active');
-      jQuery('body').addClass('overflow-hidden');
-    })
-    .catch(error => console.error('Error in RechargeBundle.onAddToCart:', error));
-  }
-};
+// window.RechargeBundle = {
+//   onAddToCart: () => {
+//     // Logic specific to updating the cart drawer for Recharge bundles
+//     fetch('/cart?view=drawer&timestamp=' + Date.now(), {
+//       method: 'GET',
+//       headers: {
+//         'X-Requested-With': 'XMLHttpRequest'
+//       }
+//     })
+//     .then(response => response.text())
+//     .then(html => {
+//       jQuery('#block_sidebar_cart').html(html);
+//       jQuery('#block_sidebar_cart').addClass('active');
+//       jQuery('body').addClass('overflow-hidden');
+//     })
+//     .catch(error => console.error('Error in RechargeBundle.onAddToCart:', error));
+//   }
+// };
