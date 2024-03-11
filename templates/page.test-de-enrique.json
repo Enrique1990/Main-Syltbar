@@ -251,6 +251,7 @@
     },
     "0e32cc5d-1235-424f-97f7-ea637cf7fc14": {
       "type": "image-block",
+      "disabled": true,
       "settings": {
         "ico": "shopify:\/\/shop_images\/New_wine_club.jpg",
         "parallax": true
