@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "test_de_enrique",
-      "disabled": true,
       "settings": {
       }
     },
