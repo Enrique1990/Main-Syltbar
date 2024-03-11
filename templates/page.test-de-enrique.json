@@ -94,6 +94,7 @@
         "5e91a8f1-695c-4ffb-a75d-74320e4c44b1",
         "7a06b162-8504-46a0-bc58-87c6a8abe39d"
       ],
+      "disabled": true,
       "custom_css": [
         ".rb-select {height: 5vh; padding-left: 7%; padding-right: 7%; border: 1px solid #a4915c; font-size: 1.2rem;}",
         ".rb-btn {background-color: white; color: #a4915c; transition: background-color 0.5s, color 0.5s, opacity 0.5s;}",
@@ -160,6 +161,7 @@
         "36df3907-5021-4e4f-b1ff-8a2baa3f0597",
         "158f507c-cde9-4d96-8508-aa2c90f59607"
       ],
+      "disabled": true,
       "settings": {
         "title": "Our Membership advantages (Aside from 10% off and complimentary shipping)",
         "img": "shopify:\/\/shop_images\/Wine_Club_Subscription_page_b1.jpg",
@@ -202,6 +204,7 @@
         "ff195c48-006d-4fbd-9bb7-2f1775de2636",
         "40acc3b0-3bcd-4867-8d0d-04c769823f41"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -213,7 +216,8 @@
           "settings": {
             "ico": "shopify:\/\/shop_images\/Group_12555.png",
             "title": "Sugar is your Enemy",
-            "text": "<p>The University of Miami Diabetes Research Institute tested sparkling wines and found SYLTBAR has the lowest sugar content.<\/p>"
+            "text": "<p>The University of Miami Diabetes Research Institute tested sparkling wines and found SYLTBAR has the lowest sugar content.<\/p>",
+            "url": ""
           }
         },
         "7837d615-edcf-4292-a1ae-2793e6408abc": {
@@ -221,7 +225,8 @@
           "settings": {
             "ico": "shopify:\/\/shop_images\/leaf_icon_1.png",
             "title": "Our Extra Effort",
-            "text": "<p>Despite the fact that we are not vegan, our wine is vegan. The majority of wines are not vegan or even vegetarian-friendly. <\/p>"
+            "text": "<p>Despite the fact that we are not vegan, our wine is vegan. The majority of wines are not vegan or even vegetarian-friendly. <\/p>",
+            "url": ""
           }
         },
         "6b78db5d-a9f6-4ed4-b901-7ee242326534": {
@@ -229,7 +234,8 @@
           "settings": {
             "ico": "shopify:\/\/shop_images\/Group_12617.png",
             "title": "Respect for Nature",
-            "text": "<p>The Green Project certification, found on each of our bottles, is a step above organic in respect of Mother Nature. <\/p>"
+            "text": "<p>The Green Project certification, found on each of our bottles, is a step above organic in respect of Mother Nature. <\/p>",
+            "url": ""
           }
         }
       },
@@ -238,6 +244,7 @@
         "7837d615-edcf-4292-a1ae-2793e6408abc",
         "6b78db5d-a9f6-4ed4-b901-7ee242326534"
       ],
+      "disabled": true,
       "settings": {
         "title": ""
       }
@@ -346,6 +353,7 @@
         "e9a07ee3-0314-4e4b-a322-d8d5d4127559",
         "a90330b5-8f26-4b48-b554-b24a8231e9fb"
       ],
+      "disabled": true,
       "settings": {
         "title": "Sparkling  Wine Sugar Comparison"
       }
@@ -437,12 +445,14 @@
         "8b68fa7c-e931-4f0c-99fc-42bf11994230",
         "f30e514c-37dc-4ace-b4cc-e1da75db2423"
       ],
+      "disabled": true,
       "settings": {
         "title": "Sparkling Rose Wine Sugar Comparison"
       }
     },
     "ca15a112-cfc2-42d2-a93c-e2816c301a32": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "All Essentials",
         "url": "shopify:\/\/collections\/shop-all",
@@ -470,6 +480,7 @@
       "block_order": [
         "d82d08e1-c631-49e0-99dd-39ccd1d7a9c8"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
