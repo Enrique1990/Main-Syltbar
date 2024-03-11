@@ -358,7 +358,7 @@
     "165610346027b6f4e4": {
       "type": "product-recommendations",
       "custom_css": [
-        "body.product-40472473665591 {display: none;}"
+        "div[data-product-id=\"40472473665591\"] {display: none;}"
       ],
       "settings": {
         "heading": "All Essentials",
