@@ -1,1 +1,83 @@
-<h1>Esto es un test</h1>
+<style>
+  .reviews-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.review-row {
+  display: flex;
+}
+
+.review-block {
+  flex: 0 0 25%; /* Adjust the width for each review block */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.yellow-star {
+  color: yellow;
+}
+
+.gray-star {
+  color: gray;
+}
+
+</style>
+{% if reviews.size > 0 %}
+  <div class="reviews-grid">
+    {% for review in reviews %}
+      {% assign modulo_result = forloop.index0 | modulo: 4 %}
+      {% if modulo_result == 0 %}
+        <div class="review-row">
+      {% endif %}
+
+      <div class="review-block">
+        <h3>{{ review.customer_name }}</h3>
+        <p>{{ review.text }}</p>
+        <div class="star-rating">
+          {% for i in (1..5) %}
+            {% if i <= review.rating %}
+              <span class="yellow-star">&#9733;</span> <!-- Filled star -->
+            {% else %}
+              <span class="gray-star">&#9734;</span> <!-- Empty star -->
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      {% assign modulo_end = forloop.index | modulo: 4 %}
+      {% if modulo_end == 0 or forloop.last %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No reviews available.</p>
+{% endif %}
+<script>
+  const fetch = require('node-fetch');
+
+async function getStampedReviews() {
+  const url = 'https://syltbar.com/pages/test-de-enrique'; // Replace with the correct API endpoint
+  const apiKey = 'pubkey-59Ypczvf3v2kMzKS234ww376Cn7nrp'; // Replace with your API key
+
+  try {
+    const response = await fetch(url, {
+      headers: { 'Authorization': `ApiKey ${apiKey}` }
+    });
+
+    if (!response.ok) {
+      throw new Error(`Error: ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Error fetching Stamped.io reviews:', error);
+    return null;
+  }
+}
+
+// Example of passing data to a Liquid template (depends on your server setup)
+
+</script>
