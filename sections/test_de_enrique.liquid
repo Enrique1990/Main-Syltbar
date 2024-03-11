@@ -1,83 +1,131 @@
-<style>
-  .reviews-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container_card {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 20px; /* Adjust the gap between cards as needed */
+      }
 
-.review-row {
-  display: flex;
-}
+      .card {
+        background-color: #f9f9f9; /* Adjust background color as needed */
+        border: 1px solid #ccc; /* Adjust border as needed */
+        border-radius: 5px; /* Adjust border radius as needed */
+        padding: 15px; /* Adjust padding as needed */
+        box-sizing: border-box;
+      }
 
-.review-block {
-  flex: 0 0 25%; /* Adjust the width for each review block */
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.yellow-star {
-  color: yellow;
-}
-
-.gray-star {
-  color: gray;
-}
-
-</style>
-{% if reviews.size > 0 %}
-  <div class="reviews-grid">
-    {% for review in reviews %}
-      {% assign modulo_result = forloop.index0 | modulo: 4 %}
-      {% if modulo_result == 0 %}
-        <div class="review-row">
-      {% endif %}
-
-      <div class="review-block">
-        <h3>{{ review.customer_name }}</h3>
-        <p>{{ review.text }}</p>
-        <div class="star-rating">
-          {% for i in (1..5) %}
-            {% if i <= review.rating %}
-              <span class="yellow-star">&#9733;</span> <!-- Filled star -->
-            {% else %}
-              <span class="gray-star">&#9734;</span> <!-- Empty star -->
-            {% endif %}
-          {% endfor %}
+      .rating {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container_card">
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
         </div>
       </div>
-
-      {% assign modulo_end = forloop.index | modulo: 4 %}
-      {% if modulo_end == 0 or forloop.last %}
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
         </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-{% else %}
-  <p>No reviews available.</p>
-{% endif %}
-<script>
-  const fetch = require('node-fetch');
-
-async function getStampedReviews() {
-  const url = '189993'; // Replace with the correct API endpoint
-  const apiKey = 'pubkey-59Ypczvf3v2kMzKS234ww376Cn7nrp'; // Replace with your API key
-
-  try {
-    const response = await fetch(url, {
-      headers: { 'Authorization': `ApiKey ${apiKey}` }
-    });
-
-    if (!response.ok) {
-      throw new Error(`Error: ${response.statusText}`);
-    }
-
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error('Error fetching Stamped.io reviews:', error);
-    return null;
-  }
-}
-
-// Example of passing data to a Liquid template (depends on your server setup)
-
-</script>
+      </div>
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
+        </div>
+      </div>
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
+        </div>
+      </div>
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
+        </div>
+      </div>
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
+        </div>
+      </div>
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
+        </div>
+      </div>
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
+        </div>
+      </div>
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
+        </div>
+      </div>
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
+        </div>
+      </div>
+      <div class="card">
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="rating">
+          <h3>Nombre del usuario</h3>
+          <p class="stars">&#x2B50;&#x2B50;&#x2B50;&#x2B50;&#x2B50;</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
