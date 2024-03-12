@@ -362,7 +362,7 @@
       ],
       "settings": {
         "heading": "All Essentials",
-        "url": "shopify:\/\/collections\/shop-all",
+        "url": "shopify:\/\/collections\/all-products-excluding-route",
         "urltitle": "shop All",
         "show_secondary_image": true
       }
