@@ -29,6 +29,9 @@
       <div class="product-recommendations-slider swiper pt48">
         <div class="swiper-wrapper"> 
           {% for recommendation in recommendations.products %}
+            {%- if recommendation.handle == "routeins" -%}
+              {%- continue -%}
+            {%- endif -%}
           <div class="swiper-slide grid__item"> 
             {% render 'card-product',
             card_product: recommendation,
