@@ -58,11 +58,65 @@
         "sect_class": ""
       }
     },
+    "rich_text_wYPbUA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DbywbV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Effortlessly Order Your Preferred Wines at a 10% Discount",
+            "heading_size": "h2"
+          }
+        },
+        "text_4rmfMW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. Select your desired product(s) from our curated collection.<\/p><p>2. Choose either 12 bottles of one wine or mix and match your selection with a couple of wines.<\/p><p>3. Add your chosen wines to the cart with ease.<\/p><p>4. Should you desire more than 12 bottles, simply revisit your selections (refresh your page) and add to your cart accordingly. Please note, we offer quantities in multiples of 12, such as 12, 24, 36, and beyond.<br\/><\/p><p><strong>Have any questions or need assistance? Our dedicated team is ready to assist you. <\/strong><\/p><p><strong>Simply reach out, and we'll be delighted to help: <\/strong><a href=\"mailto:atyourservice@syltbar.com\" target=\"_blank\" title=\"mailto:atyourservice@syltbar.com\"><strong>atyourservice@syltbar.com<\/strong><\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DbywbV",
+        "text_4rmfMW"
+      ],
+      "custom_css": [
+        ".rich-text {padding-left: 50px; padding-right: 50px;}",
+        ".rich-text h2 {text-align: center;}",
+        "@media screen and (max-width: 992px) {.rich-text {padding-left: 10px; padding-right: 10px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "bg_color": "",
+        "sect_class": "rich-text"
+      }
+    },
     "16966109232c6d876d": {
       "type": "apps",
       "blocks": {
+        "recharge_subscriptions_bundles_widget_f6yhTM": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/bundles-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "customized-wine-club-subscription-24",
+            "rb_theme_color": "#00C09E",
+            "rb_theme_text": "#ffffff",
+            "rb_theme_other_text": "#283965",
+            "rb_theme_bg": "#ffffff",
+            "rb_text_size": "16px",
+            "rb_spacing_width": 1220,
+            "rb_spacing_margins": "15px",
+            "rb_buttons_size": "15px",
+            "rb_buttons_corners": "4",
+            "rb_builder_items_per_row_ns": 4,
+            "rb_builder_items_per_row": "1",
+            "rb_builder_aspect_ratio": "100%",
+            "rb_builder_radius": "4"
+          }
+        },
         "5e91a8f1-695c-4ffb-a75d-74320e4c44b1": {
           "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/bundles-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
           "settings": {
             "product": "wine-club-subscription",
             "rb_theme_color": "#a4915c",
@@ -91,6 +145,7 @@
         }
       },
       "block_order": [
+        "recharge_subscriptions_bundles_widget_f6yhTM",
         "5e91a8f1-695c-4ffb-a75d-74320e4c44b1",
         "7a06b162-8504-46a0-bc58-87c6a8abe39d"
       ],
@@ -213,7 +268,8 @@
           "settings": {
             "ico": "shopify:\/\/shop_images\/Group_12555.png",
             "title": "Sugar is your Enemy",
-            "text": "<p>The University of Miami Diabetes Research Institute tested sparkling wines and found SYLTBAR has the lowest sugar content.<\/p>"
+            "text": "<p>The University of Miami Diabetes Research Institute tested sparkling wines and found SYLTBAR has the lowest sugar content.<\/p>",
+            "url": ""
           }
         },
         "7837d615-edcf-4292-a1ae-2793e6408abc": {
@@ -221,7 +277,8 @@
           "settings": {
             "ico": "shopify:\/\/shop_images\/leaf_icon_1.png",
             "title": "Our Extra Effort",
-            "text": "<p>Despite the fact that we are not vegan, our wine is vegan. The majority of wines are not vegan or even vegetarian-friendly. <\/p>"
+            "text": "<p>Despite the fact that we are not vegan, our wine is vegan. The majority of wines are not vegan or even vegetarian-friendly. <\/p>",
+            "url": ""
           }
         },
         "6b78db5d-a9f6-4ed4-b901-7ee242326534": {
@@ -229,7 +286,8 @@
           "settings": {
             "ico": "shopify:\/\/shop_images\/Group_12617.png",
             "title": "Respect for Nature",
-            "text": "<p>The Green Project certification, found on each of our bottles, is a step above organic in respect of Mother Nature. <\/p>"
+            "text": "<p>The Green Project certification, found on each of our bottles, is a step above organic in respect of Mother Nature. <\/p>",
+            "url": ""
           }
         }
       },
@@ -515,6 +573,7 @@
     "c0b33aed-d534-4b29-b540-f113dd6fefeb",
     "ce053750-86f6-4702-8c8a-b505cfa89371",
     "88f0bd43-3855-48b3-93ea-a7b80b420066",
+    "rich_text_wYPbUA",
     "16966109232c6d876d",
     "907cbdae-63b1-4274-8c98-54b4d6f0947c",
     "3cb4e4bc-280e-4f71-9381-29ab5188dedf",
