@@ -99,9 +99,9 @@
           "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/bundles-widget\/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {
             "product": "customized-wine-club-subscription-24",
-            "rb_theme_color": "#00C09E",
+            "rb_theme_color": "#a4915c",
             "rb_theme_text": "#ffffff",
-            "rb_theme_other_text": "#283965",
+            "rb_theme_other_text": "#1f1704",
             "rb_theme_bg": "#ffffff",
             "rb_text_size": "16px",
             "rb_spacing_width": 1220,
