@@ -113,6 +113,9 @@
         <div class="cart-item__quantity-wrapper">
            <div class="cart-item__price-wrapper">
           <span class="price price--end">
+            <span class="price oldprice">
+              {{ rc_bundle_price | divided_by: 0.9 | money }}
+            </span>
             {{ rc_bundle_price | money }}
           </span>
        
