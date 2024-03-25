@@ -82,7 +82,7 @@
           "da8542b7-fa7d-4eab-a053-90c86411fdcc": {
             "type": "bar",
             "settings": {
-              "announcementbar": "Complimentary Shipping on 12+ bottles"
+              "announcementbar": "<a href=\"https:\/\/syltbar.com\/collections\/shop-all\">Complimentary Shipping on 12+ bottles<\/a>"
             }
           }
         },
