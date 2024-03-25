@@ -73,7 +73,7 @@
       "header": {
         "type": "header",
         "blocks": {
-          "a54f23ca-6dab-41f5-9b6b-06a2dcfdc1d1": {
+          "bar_XAYLCr": {
             "type": "bar",
             "settings": {
               "announcementbar": "Try our <a href=\"https:\/\/syltbar.com\/products\/syltbar-lead-box-complimentary-shipping\">Lead Box<\/a> and save $15, ships free"
@@ -87,7 +87,7 @@
           }
         },
         "block_order": [
-          "a54f23ca-6dab-41f5-9b6b-06a2dcfdc1d1",
+          "bar_XAYLCr",
           "da8542b7-fa7d-4eab-a053-90c86411fdcc"
         ],
         "settings": {
