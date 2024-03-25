@@ -58,7 +58,7 @@
       ],
       "custom_css": [
         ".pb68 {padding-bottom: 16px !important;}",
-        ".h1 {line-height: normal !important;margin-bottom:0;}",
+        ".h1 {line-height: normal !important; margin-bottom: 0;}",
         ".h2 {margin-top: 0; padding-top: 0;}"
       ],
       "settings": {
@@ -135,7 +135,7 @@
         "75a2f11a-bfbb-4433-8905-92abca1012d9"
       ],
       "custom_css": [
-        ".our_standards .our_standards_image img {object-fit: contain;}"
+        ".our_standards .our_standards_image img {object-fit: cover;}"
       ],
       "settings": {
         "imagebanner": "shopify:\/\/shop_images\/Syltbar_09-23-23_74.jpg",
