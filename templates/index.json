@@ -57,10 +57,10 @@
         "item_LqmkcP"
       ],
       "custom_css": [
-        ".pb68 {padding-bottom: 16px !important;}",
+        ".pb68 {padding-bottom: 16px}",
         ".h1 {line-height: normal !important; margin-bottom: 0;}",
         ".h2 {margin-top: 0; padding-top: 0;}",
-        "@media screen and (max-width: 576px) {.image-btn-wrapper__links {padding-top: 0px !important; }.info{padding-bottom: 5px}}"
+        "@media screen and (max-width: 576px) {.image-btn-wrapper__links {padding-top: 0px !important; } .info {padding-bottom: 5px; }}"
       ],
       "settings": {
       }
