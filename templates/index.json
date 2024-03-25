@@ -3,17 +3,6 @@
     "1651740722d3c539bb": {
       "type": "section-bannerimage",
       "blocks": {
-        "0f28dc34-ce12-44bb-844a-533ebc895377": {
-          "type": "item",
-          "settings": {
-            "imagebanner": "shopify:\/\/shop_images\/thumbnail_Syltbar09-12-22_160.jpg",
-            "imagebanner_mobile": "shopify:\/\/shop_images\/thumbnail_Syltbar09-12-22_160_copy_2.jpg",
-            "title": "SYLTBAR",
-            "smalltitle": "Your Happy Healthy Daily Juice",
-            "urlbanner": "shopify:\/\/collections\/all-wines",
-            "btnname": "shop now"
-          }
-        },
         "8f9d9137-dd68-44b8-9d3f-6fd5d23c350a": {
           "type": "item",
           "settings": {
@@ -24,11 +13,47 @@
             "urlbanner": "shopify:\/\/collections\/sparkling-wines",
             "btnname": "SHOP NOW"
           }
+        },
+        "0f28dc34-ce12-44bb-844a-533ebc895377": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "imagebanner": "shopify:\/\/shop_images\/thumbnail_Syltbar09-12-22_160.jpg",
+            "imagebanner_mobile": "shopify:\/\/shop_images\/thumbnail_Syltbar09-12-22_160_copy_2.jpg",
+            "title": "SYLTBAR",
+            "smalltitle": "Your Happy Healthy Daily Juice",
+            "urlbanner": "shopify:\/\/collections\/all-wines",
+            "btnname": "shop now"
+          }
+        },
+        "item_PQyebQ": {
+          "type": "item",
+          "settings": {
+            "imagebanner": "shopify:\/\/shop_images\/Syltbar_09-23-23_265_2875f303-2c33-41a1-a776-2c8f5e82f1a3.jpg",
+            "imagebanner_mobile": "shopify:\/\/shop_images\/Syltbar_09-23-23_265_2875f303-2c33-41a1-a776-2c8f5e82f1a3.jpg",
+            "title": "SYLTBAR",
+            "smalltitle": "Happy Healthy Daily Juice",
+            "urlbanner": "shopify:\/\/collections\/all-wines",
+            "btnname": "Shop now"
+          }
+        },
+        "item_LqmkcP": {
+          "type": "item",
+          "settings": {
+            "imagebanner": "shopify:\/\/shop_images\/Syltbar_09-23-23_74.jpg",
+            "imagebanner_mobile": "shopify:\/\/shop_images\/Syltbar_09-23-23_74.jpg",
+            "title": "SYLTBAR",
+            "smalltitle": "Happy Healthy Daily Juice",
+            "urlbanner": "shopify:\/\/collections\/all-wines",
+            "btnname": "Shop now"
+          }
         }
       },
       "block_order": [
+        "8f9d9137-dd68-44b8-9d3f-6fd5d23c350a",
         "0f28dc34-ce12-44bb-844a-533ebc895377",
-        "8f9d9137-dd68-44b8-9d3f-6fd5d23c350a"
+        "item_PQyebQ",
+        "item_LqmkcP"
       ],
       "custom_css": [
         ".pb68 {padding-bottom: 36px !important;}"
