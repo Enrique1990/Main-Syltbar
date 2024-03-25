@@ -39,6 +39,7 @@
         },
         "item_LqmkcP": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "imagebanner": "shopify:\/\/shop_images\/1_6c700a1e-47de-450c-88a0-9c7ffa7e7fef.png",
             "imagebanner_mobile": "shopify:\/\/shop_images\/Syltbar_09-23-23_74.jpg",
@@ -135,7 +136,7 @@
         ".our_standards .our_standards_image img {object-fit: contain;}"
       ],
       "settings": {
-        "imagebanner": "shopify:\/\/shop_images\/Syltbar_09-23-23_124-fotor-20231026213819.jpg",
+        "imagebanner": "shopify:\/\/shop_images\/Syltbar_09-23-23_74.jpg",
         "title": "Rooted in Nature",
         "subtitle": ""
       }
