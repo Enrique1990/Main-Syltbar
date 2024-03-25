@@ -58,7 +58,8 @@
       ],
       "custom_css": [
         ".pb68 {padding-bottom: 16px !important;}",
-        ".h1 {margin: 0px 0px !important;;}"
+        ".h1 {line-height: normal !important;}",
+        ".h2{margin-top: 0; padding-top: 0;}"
       ],
       "settings": {
       }
