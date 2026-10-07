@@ -174,12 +174,12 @@
               {%- when 'price' -%}
                 <div class="no-js-hidden mb16" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                   {%- if product.template_suffix == 'wine-club' -%}
-                    {%- render '_price-product-wine', product: product, use_variant: {{block.settings.use_variant}}, old_price:{{block.settings.old_price_hide}}, show_badges: {{block.settings.sale_price_hide}}, price_class: 'price--large' -%}
+                    {%- render '_price-product-wine', product: product, use_variant: block.settings.use_variant, old_price: block.settings.old_price_hide, show_badges: block.settings.sale_price_hide, price_class: 'price--large' -%}
                   {% else %}
                     {% if product.id == 6535952891959 %}
-                      {%- render '_price-product', product: product, use_variant: true, old_price:{{block.settings.old_price_hide}}, show_badges: {{block.settings.sale_price_hide}}, price_class: 'price--large' -%}
+                      {%- render '_price-product', product: product, use_variant: true, old_price: block.settings.old_price_hide, show_badges: block.settings.sale_price_hide, price_class: 'price--large' -%}
                     {% else %}
-                      {%- render '_price-product', product: product, use_variant: {{block.settings.use_variant}}, old_price:{{block.settings.old_price_hide}}, show_badges: {{block.settings.sale_price_hide}}, price_class: 'price--large' -%}
+                      {%- render '_price-product', product: product, use_variant: block.settings.use_variant, old_price: block.settings.old_price_hide, show_badges: block.settings.sale_price_hide, price_class: 'price--large' -%}
                     {% endif %}
                   {%- endif -%}
                 </div>
@@ -848,3 +848,30 @@
   "settings": []
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render '_price-product-wine', product: product, use_variant: {{block.settings.use_variant}},
+    old_price:{{block.settings.old_price_hide}}, show_badges: {{block.settings.sale_price_hide}},
+    price_class: 'price--large' -%}"
+  to: "{%- render '_price-product-wine', product: product, use_variant: block.settings.use_variant,
+    old_price: block.settings.old_price_hide, show_badges: block.settings.sale_price_hide,
+    price_class: 'price--large' -%}"
+  position: 9221..9432
+- from: "{%- render '_price-product', product: product, use_variant: true, old_price:{{block.settings.old_price_hide}},
+    show_badges: {{block.settings.sale_price_hide}}, price_class: 'price--large' -%}"
+  to: "{%- render '_price-product', product: product, use_variant: true, old_price:
+    block.settings.old_price_hide, show_badges: block.settings.sale_price_hide, price_class:
+    'price--large' -%}"
+  position: 9541..9725
+- from: "{%- render '_price-product', product: product, use_variant: {{block.settings.use_variant}},
+    old_price:{{block.settings.old_price_hide}}, show_badges: {{block.settings.sale_price_hide}},
+    price_class: 'price--large' -%}"
+  to: "{%- render '_price-product', product: product, use_variant: block.settings.use_variant,
+    old_price: block.settings.old_price_hide, show_badges: block.settings.sale_price_hide,
+    price_class: 'price--large' -%}"
+  position: 9779..9985
+{% endcomment %}

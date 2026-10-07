@@ -40,7 +40,7 @@
     
 {% # comment - Start Recharge bundle %}          
 {%- if rc_bundles contains item.properties._rc_bundle -%}
-  {% render 'cart-recharge-bundle-product' with { item: item, rc_displayed_bundles: rc_displayed_bundles, template: 'default' } %}
+  {% render 'cart-recharge-bundle-product', item: item, rc_displayed_bundles: rc_displayed_bundles, template: 'default' %}
   {%- assign rc_displayed_bundles = rc_displayed_bundles | append: ',' | append: item.properties._rc_bundle -%}
   {% continue %}
 {%- endif -%}
@@ -266,7 +266,7 @@
     
 {% # comment - Start Recharge bundle %}          
 {%- if rc_bundles contains item.properties._rc_bundle -%}
-  {% render 'cart-recharge-bundle-product' with { item: item, rc_displayed_bundles: rc_displayed_bundles, template: 'default' } %}
+  {% render 'cart-recharge-bundle-product', item: item, rc_displayed_bundles: rc_displayed_bundles, template: 'default' %}
   {%- assign rc_displayed_bundles = rc_displayed_bundles | append: ',' | append: item.properties._rc_bundle -%}
   {% continue %}
 {%- endif -%}
@@ -319,3 +319,20 @@
             </div>
         {% endif %}
 </form>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'cart-recharge-bundle-product' with { item: item, rc_displayed_bundles:
+    rc_displayed_bundles, template: 'default' } %}"
+  to: "{% render 'cart-recharge-bundle-product', item: item, rc_displayed_bundles:
+    rc_displayed_bundles, template: 'default' %}"
+  position: 1320..1440
+- from: "{% render 'cart-recharge-bundle-product' with { item: item, rc_displayed_bundles:
+    rc_displayed_bundles, template: 'default' } %}"
+  to: "{% render 'cart-recharge-bundle-product', item: item, rc_displayed_bundles:
+    rc_displayed_bundles, template: 'default' %}"
+  position: 16354..16474
+{% endcomment %}

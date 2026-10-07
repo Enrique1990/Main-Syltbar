@@ -32,7 +32,7 @@
     
 {% # comment - Start Recharge bundle %}          
 {%- if rc_bundles contains item.properties._rc_bundle -%}
-  {% render 'cart-recharge-bundle-product' with { item: item, rc_displayed_bundles: rc_displayed_bundles, template: 'default' } %}
+  {% render 'cart-recharge-bundle-product', item: item, rc_displayed_bundles: rc_displayed_bundles, template: 'default' %}
   {%- assign rc_displayed_bundles = rc_displayed_bundles | append: ',' | append: item.properties._rc_bundle -%}
   {% continue %}
 {%- endif -%}
@@ -72,4 +72,15 @@
   {%- if variant.id == rc_bundle_variant_id -%}
     {%- assign rc_bundle_variant = variant -%}
   {%- endif -%}
-{%- endfor -%}
+{%- endfor -%}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'cart-recharge-bundle-product' with { item: item, rc_displayed_bundles:
+    rc_displayed_bundles, template: 'default' } %}"
+  to: "{% render 'cart-recharge-bundle-product', item: item, rc_displayed_bundles:
+    rc_displayed_bundles, template: 'default' %}"
+  position: 1064..1184
+{%- endcomment -%}

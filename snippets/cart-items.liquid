@@ -29,7 +29,7 @@
 
   {% # comment - Start Recharge bundle %}          
   {%- if rc_bundles contains line_item.properties._rc_bundle -%}
-    {% render 'cart-recharge-bundle-product' with { item: line_item, rc_displayed_bundles: rc_displayed_bundles, template: 'drawer' } %}
+    {% render 'cart-recharge-bundle-product', item: line_item, rc_displayed_bundles: rc_displayed_bundles, template: 'drawer' %}
     {%- assign rc_displayed_bundles = rc_displayed_bundles | append: ',' | append: line_item.properties._rc_bundle -%}
     {% continue %}
   {%- endif -%}
@@ -136,4 +136,15 @@
        </div>
     {%- endif -%}
   {%- endfor -%}
-</div>
+</div>{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'cart-recharge-bundle-product' with { item: line_item, rc_displayed_bundles:
+    rc_displayed_bundles, template: 'drawer' } %}"
+  to: "{% render 'cart-recharge-bundle-product', item: line_item, rc_displayed_bundles:
+    rc_displayed_bundles, template: 'drawer' %}"
+  position: 984..1108
+{%- endcomment -%}

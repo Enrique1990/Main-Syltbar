@@ -203,17 +203,7 @@
                     {%- case item.object_type -%}
                       {%- when 'product' -%}
                         {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
-                        {% render 'card-product',
-                          card_product: item,
-                          show_secondary_image: section.settings.show_secondary_image,
-                          show_vendor: section.settings.show_vendor,
-                          show_rating: section.settings.show_rating,
-                         
-                          enable_badget_new: section.settings.enable_badget_new,
-                          enable_badget_sale: section.settings.enable_badget_sale,
-                          enable_colors: section.settings.enable_colors,
-                          old_price:{{section.settings.old_price_hide}}
-                        %}
+                        {% render 'card-product', card_product: item, show_secondary_image: section.settings.show_secondary_image, show_vendor: section.settings.show_vendor, show_rating: section.settings.show_rating, enable_badget_new: section.settings.enable_badget_new, enable_badget_sale: section.settings.enable_badget_sale, enable_colors: section.settings.enable_colors, old_price: section.settings.old_price_hide %}
                       {%- when 'article' -%}
                         {% render 'article-card',
                           article: item,
@@ -418,3 +408,24 @@
   ]
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render 'card-product',\n                          card_product: item,\n
+    \                         show_secondary_image: section.settings.show_secondary_image,\n
+    \                         show_vendor: section.settings.show_vendor,\n                          show_rating:
+    section.settings.show_rating,\n                         \n                          enable_badget_new:
+    section.settings.enable_badget_new,\n                          enable_badget_sale:
+    section.settings.enable_badget_sale,\n                          enable_colors:
+    section.settings.enable_colors,\n                          old_price:{{section.settings.old_price_hide}}\n
+    \                       %}"
+  to: "{% render 'card-product', card_product: item, show_secondary_image: section.settings.show_secondary_image,
+    show_vendor: section.settings.show_vendor, show_rating: section.settings.show_rating,
+    enable_badget_new: section.settings.enable_badget_new, enable_badget_sale: section.settings.enable_badget_sale,
+    enable_colors: section.settings.enable_colors, old_price: section.settings.old_price_hide
+    %}"
+  position: 10886..11283
+{% endcomment %}
